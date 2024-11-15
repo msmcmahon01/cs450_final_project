@@ -184,6 +184,7 @@ const int MS_PER_CYCLE = 10000;		// 10000 milliseconds = 10 seconds
 int		ActiveButton;			// current button that is down
 GLuint	AxesList;				// list to hold the axes
 int		AxesOn;					// != 0 means to draw the axes
+GLuint	SphereDL;
 GLuint	FieldList;				// object display list
 GLuint	FieldTex;
 int		DebugOn;				// != 0 means to print debugging info
@@ -312,10 +313,11 @@ TimeOfDaySeed( )
 //#include "osutorus.cpp"
 #include "bmptotexture.cpp"
 #include "loadobjfile.cpp"
-//#include "keytime.cpp"
+#include "keytime.cpp"
 //#include "glslprogram.cpp"
 //#include "vertexbufferobject.cpp"
 
+#include "dots.h"
 
 // main program:
 
@@ -501,6 +503,12 @@ Display( )
 
 	glTexEnvf( GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, /*GL_MODULATE*/ GL_REPLACE );
 	glCallList( FieldList );
+
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(A1x.GetValue(Time * 10), 0, A1z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
 
 	glDisable( GL_TEXTURE_2D );
 	glDisable( GL_LIGHTING );
@@ -841,6 +849,8 @@ InitGraphics( )
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 	glTexImage2D(GL_TEXTURE_2D, 0, 3, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, texture);
+
+	loadA1();
 }
 
 
@@ -858,6 +868,10 @@ InitLists( )
 	glutSetWindow( MainWindow );
 
 	// create the object:
+	SphereDL = glGenLists(1);
+	glNewList(SphereDL, GL_COMPILE);
+	OsuSphere(1., 20., 20.);
+	glEndList();
 
 #define XSIDE		160
 #define X0			(-XSIDE / 2.f)
@@ -877,12 +891,12 @@ InitLists( )
 		glBindTexture(GL_TEXTURE_2D, FieldTex);
 		glNormal3f(0.f, 1.f, 0.f);
 		glPushMatrix();
-		glTranslatef(-80, 0, -42);
+		glTranslatef(-160, 0, -84);
 		glBegin( GL_QUADS );
 			glVertex3f(0, 0, 0);
-			glVertex3f(160, 0, 0);
-			glVertex3f(160, 0, 84);
-			glVertex3f(0, 0, 84);
+			glVertex3f(320, 0, 0);
+			glVertex3f(320, 0, 168);
+			glVertex3f(0, 0, 168);
 		glEnd();
 		glPopMatrix();
 

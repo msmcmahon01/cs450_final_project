@@ -1,0 +1,40 @@
+Keytimes A1x, A1z;
+void loadA1() {
+	A1x.Init();
+	A1x.AddTimeValue(0.0f, 52f);
+	A1x.AddTimeValue(10.0f, 46.25f);
+	A1x.AddTimeValue(9.375f, 46.25f);
+	A1x.AddTimeValue(8.75f, 46.25f);
+	A1x.AddTimeValue(8.125f, 46.25f);
+	A1x.AddTimeValue(7.5f, 44.5f);
+	A1x.AddTimeValue(6.875f, 42.75f);
+	A1x.AddTimeValue(6.25f, 41f);
+	A1x.AddTimeValue(5.625f, 41f);
+	A1x.AddTimeValue(5.0f, 46f);
+	A1x.AddTimeValue(4.375f, 46f);
+	A1x.AddTimeValue(3.75f, 46f);
+	A1x.AddTimeValue(3.125f, 46f);
+	A1x.AddTimeValue(2.5f, 52f);
+	A1x.AddTimeValue(1.875f, 52f);
+	A1x.AddTimeValue(1.25f, 52f);
+	A1x.AddTimeValue(0.625f, 52f);
+
+	A1z.Init();
+	A1z.AddTimeValue(0.0f, 86f);
+	A1z.AddTimeValue(10.0f, 59.25f);
+	A1z.AddTimeValue(9.375f, 59.25f);
+	A1z.AddTimeValue(8.75f, 59.25f);
+	A1z.AddTimeValue(8.125f, 59.25f);
+	A1z.AddTimeValue(7.5f, 62.5f);
+	A1z.AddTimeValue(6.875f, 65.75f);
+	A1z.AddTimeValue(6.25f, 69f);
+	A1z.AddTimeValue(5.625f, 69f);
+	A1z.AddTimeValue(5.0f, 64f);
+	A1z.AddTimeValue(4.375f, 68f);
+	A1z.AddTimeValue(3.75f, 68f);
+	A1z.AddTimeValue(3.125f, 68f);
+	A1z.AddTimeValue(2.5f, 64f);
+	A1z.AddTimeValue(1.875f, 64f);
+	A1z.AddTimeValue(1.25f, 68f);
+	A1z.AddTimeValue(0.625f, 84f);
+}

@@ -5,6 +5,7 @@
 #include <ctype.h>
 #include <time.h>
 #include <iostream>
+//#include "dots.h"
 
 
 #ifndef F_PI
@@ -184,6 +185,7 @@ int		ActiveButton;			// current button that is down
 GLuint	AxesList;				// list to hold the axes
 int		AxesOn;					// != 0 means to draw the axes
 GLuint	FieldList;				// object display list
+GLuint	FieldTex;
 int		DebugOn;				// != 0 means to print debugging info
 int		DepthCueOn;				// != 0 means to use intensity depth cueing
 int		DepthBufferOn;			// != 0 means to use the z-buffer
@@ -310,7 +312,7 @@ TimeOfDaySeed( )
 //#include "osutorus.cpp"
 #include "bmptotexture.cpp"
 #include "loadobjfile.cpp"
-#include "keytime.cpp"
+//#include "keytime.cpp"
 //#include "glslprogram.cpp"
 //#include "vertexbufferobject.cpp"
 
@@ -437,13 +439,13 @@ Display( )
 
 	switch ( NowCameraPosition ) {
 	case 1:
-		gluLookAt(0.f, 2.f, 160.f,     0.f, 0.f, 0.f,     0.f, 1.f, 0.f);
+		gluLookAt(0.f, 16.f, 86.f,     0.f, 0.f, 0.f,     0.f, 1.f, 0.f);
 		break;
 	case 2:
-		gluLookAt(0.f, 275.f, 0.f,     0.f, 0.f, 0.f,     0.f, 0.f, 1.f);
+		gluLookAt(0.f, 150.f, 0.f,     0.f, 0.f, 0.f,     0.f, 0.f, 1.f);
 		break;
 	case 3:
-		gluLookAt(0.f, 200.f, 200.f,     0.f, 0.f, 0.f,     0.f, 1.f, 0.f);
+		gluLookAt(0.f, 100.f, 100.f,     0.f, 0.f, 0.f,     0.f, 1.f, 0.f);
 		break;
 	default:
 		gluLookAt( 0.f, 0.f, 3.f,     0.f, 0.f, 0.f,     0.f, 1.f, 0.f );
@@ -491,7 +493,18 @@ Display( )
 
 	// draw the box object by calling up its display list:
 
+	int lightx = 0, lighty = 10, lightz = 0;
+
+	glEnable( GL_TEXTURE_2D );
+	glEnable( GL_LIGHTING );
+	glEnable( GL_LIGHT0 );
+
+	glTexEnvf( GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, /*GL_MODULATE*/ GL_REPLACE );
 	glCallList( FieldList );
+
+	glDisable( GL_TEXTURE_2D );
+	glDisable( GL_LIGHTING );
+
 
 #ifdef DEMO_Z_FIGHTING
 	if( DepthFightingOn != 0 )
@@ -810,7 +823,24 @@ InitGraphics( )
 #endif
 
 	// all other setups go here, such as GLSLProgram and KeyTime setups:
+	int width, height;
+	char *file = (char*)"bmps/fbf.bmp";
+	unsigned char *texture = BmpToTexture( file, &width, &height );
+	if ( texture == NULL ) {
+		fprintf(stderr, "Cannot open texture '%s'\n", file);
+	}
+	else {
+		fprintf(stderr, "Opened '%s': width = %d ; height = %d\n", file, width, height);
+	}
 
+	glGenTextures(1, &FieldTex);
+	glBindTexture(GL_TEXTURE_2D, FieldTex);
+	glPixelStorei(GL_UNPACK_ALIGNMENT, 1);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, 3, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, texture);
 }
 
 
@@ -825,38 +855,45 @@ InitLists( )
 	if (DebugOn != 0)
 		fprintf(stderr, "Starting InitLists.\n");
 
-	//float nx = FIELDSIZEx;
-	//float ny = FIELDSIZEz;
-	//float nz = 0;
 	glutSetWindow( MainWindow );
 
 	// create the object:
 
-#define XSIDE		360
+#define XSIDE		160
 #define X0			(-XSIDE / 2.f)
-#define NX			360
+#define NX			80
 #define DX			(XSIDE/(float)(NX - 1))
 
 #define YHEIGHT		0.f
 
-#define ZSIDE		160
+#define ZSIDE		84
 #define Z0			(-ZSIDE / 2.f)
-#define NZ			160
+#define NZ			42
 #define DZ			(ZSIDE/(float)NZ)
 
 
 	FieldList = glGenLists( 1 );
 	glNewList( FieldList, GL_COMPILE );
-		SetMaterial(0.f, 1.f, 0.f, 0.f);
+		glBindTexture(GL_TEXTURE_2D, FieldTex);
 		glNormal3f(0.f, 1.f, 0.f);
-		for (int i = 0; i < NZ; ++i) {
-			glBegin( GL_QUAD_STRIP );
-			for (int j = 0; j < NX; ++j) {
-				glVertex3f(X0 + DX * (float)j, YHEIGHT, Z0 + DZ * (float)i);
-				glVertex3f(X0 + DX * (float)j, YHEIGHT, Z0 + DZ * (float)(i + 1));
-			}
-			glEnd();
-		}
+		glPushMatrix();
+		glTranslatef(-80, 0, -42);
+		glBegin( GL_QUADS );
+			glVertex3f(0, 0, 0);
+			glVertex3f(160, 0, 0);
+			glVertex3f(160, 0, 84);
+			glVertex3f(0, 0, 84);
+		glEnd();
+		glPopMatrix();
+
+		//for (int i = 0; i < NZ; ++i) {
+		//	glBegin( GL_QUAD_STRIP );
+		//	for (int j = 0; j < NX; ++j) {
+		//		glVertex3f(X0 + DX * (float)j, YHEIGHT, Z0 + DZ * (float)i);
+		//		glVertex3f(X0 + DX * (float)j, YHEIGHT, Z0 + DZ * (float)(i + 1));
+		//	}
+		//	glEnd();
+		//}
 	glEndList();
 
 

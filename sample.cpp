@@ -955,6 +955,21 @@ Keyboard( unsigned char c, int x, int y )
 			DoMainMenu( QUIT );	// will not return here
 			break;				// happy compiler
 
+		case '1':
+			NowCameraPosition = 0;
+			std::cout << "Switching Camera Position to Sideline View" << std::endl;
+			break;
+
+		case '2':
+			NowCameraPosition = 1;
+			std::cout << "Switching Camera Position to Birds-eye View" << std::endl;
+			break;
+
+		case '3':
+			NowCameraPosition = 2;
+			std::cout << "Switching Camera Position to Box View" << std::endl;
+			break;
+
 		default:
 			fprintf( stderr, "Don't know what to do with keyboard hit: '%c' (0x%0x)\n", c, c );
 	}

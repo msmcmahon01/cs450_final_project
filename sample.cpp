@@ -211,6 +211,7 @@ void	DoDepthMenu( int );
 void	DoDebugMenu( int );
 void	DoMainMenu( int );
 void	DoProjectMenu( int );
+void	DoCameraMenu( int );
 void	DoRasterString( float, float, float, char * );
 void	DoStrokeString( float, float, float, float, char * );
 float	ElapsedSeconds( );
@@ -434,18 +435,30 @@ Display( )
 
 	// set the eye position, look-at position, and up-vector:
 
-	gluLookAt( 0.f, 0.f, 3.f,     0.f, 0.f, 0.f,     0.f, 1.f, 0.f );
+	switch ( NowCameraPosition ) {
+	case 1:
+		gluLookAt(0.f, 2.f, 160.f,     0.f, 0.f, 0.f,     0.f, 1.f, 0.f);
+		break;
+	case 2:
+		gluLookAt(0.f, 275.f, 0.f,     0.f, 0.f, 0.f,     0.f, 0.f, 1.f);
+		break;
+	case 3:
+		gluLookAt(0.f, 200.f, 200.f,     0.f, 0.f, 0.f,     0.f, 1.f, 0.f);
+		break;
+	default:
+		gluLookAt( 0.f, 0.f, 3.f,     0.f, 0.f, 0.f,     0.f, 1.f, 0.f );
 
-	// rotate the scene:
+		// rotate the scene:
 
-	glRotatef( (GLfloat)Yrot, 0.f, 1.f, 0.f );
-	glRotatef( (GLfloat)Xrot, 1.f, 0.f, 0.f );
+		glRotatef( (GLfloat)Xrot, 1.f, 0.f, 0.f );
+		glRotatef( (GLfloat)Yrot, 0.f, 1.f, 0.f );
 
-	// uniformly scale the scene:
+		// uniformly scale the scene:
 
-	if( Scale < MINSCALE )
-		Scale = MINSCALE;
-	glScalef( (GLfloat)Scale, (GLfloat)Scale, (GLfloat)Scale );
+		if( Scale < MINSCALE )
+			Scale = MINSCALE;
+		glScalef( (GLfloat)Scale, (GLfloat)Scale, (GLfloat)Scale );
+	}
 
 	// set the fog parameters:
 
@@ -637,20 +650,20 @@ DoCameraMenu( int id ) {
 
 	std::cout << "Switching Camera Position to ";
 	switch ( id ) {
-	case 0:
+	case 1:
 		std::cout << "Sideline View" << std::endl;
 		break;
 
-	case 1:
+	case 2:
 		std::cout << "Birds-eye View" << std::endl;
 		break;
 
-	case 2:
+	case 3:
 		std::cout << "Box View" << std::endl;
 		break;
 
 	default:
-		std::cout << "CAMERA ERROR!" << std::endl;
+		std::cout << "Default" << std::endl;
 	}
 
 	glutSetWindow( MainWindow );
@@ -900,9 +913,10 @@ InitMenus( )
 	glutAddMenuEntry( "Perspective",   PERSP );
 
 	int cameramenu = glutCreateMenu( DoCameraMenu );
-	glutAddMenuEntry( "Sideline",		0 );
-	glutAddMenuEntry( "Birds-eye",		1 );
-	glutAddMenuEntry( "Box",			2 );
+	glutAddMenuEntry( "Sideline",		1 );
+	glutAddMenuEntry( "Birds-eye",		2 );
+	glutAddMenuEntry( "Box",			3 );
+	glutAddMenuEntry( "Default",		0 );
 
 	int mainmenu = glutCreateMenu( DoMainMenu );
 	glutAddSubMenu( "Axes",            axesmenu );
@@ -955,18 +969,23 @@ Keyboard( unsigned char c, int x, int y )
 			DoMainMenu( QUIT );	// will not return here
 			break;				// happy compiler
 
-		case '1':
+		case '0':
 			NowCameraPosition = 0;
+			std::cout << "Resetting Camera Position" << std::endl;
+			break;
+
+		case '1':
+			NowCameraPosition = 1;
 			std::cout << "Switching Camera Position to Sideline View" << std::endl;
 			break;
 
 		case '2':
-			NowCameraPosition = 1;
+			NowCameraPosition = 2;
 			std::cout << "Switching Camera Position to Birds-eye View" << std::endl;
 			break;
 
 		case '3':
-			NowCameraPosition = 2;
+			NowCameraPosition = 3;
 			std::cout << "Switching Camera Position to Box View" << std::endl;
 			break;
 

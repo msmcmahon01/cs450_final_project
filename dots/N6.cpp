@@ -1,0 +1,40 @@
+Keytimes N6x, N6z;
+void loadN6() {
+	N6x.Init();
+	N6x.AddTimeValue(0.0, );
+	N6x.AddTimeValue(10.0, );
+	N6x.AddTimeValue(9.375, );
+	N6x.AddTimeValue(8.75, );
+	N6x.AddTimeValue(8.125, );
+	N6x.AddTimeValue(7.5, );
+	N6x.AddTimeValue(6.875, );
+	N6x.AddTimeValue(6.25, );
+	N6x.AddTimeValue(5.625, );
+	N6x.AddTimeValue(5.0, );
+	N6x.AddTimeValue(4.375, );
+	N6x.AddTimeValue(3.75, );
+	N6x.AddTimeValue(3.125, );
+	N6x.AddTimeValue(2.5, );
+	N6x.AddTimeValue(1.875, );
+	N6x.AddTimeValue(1.25, );
+	N6x.AddTimeValue(0.625, );
+
+	N6z.Init();
+	N6z.AddTimeValue(0.0, );
+	N6z.AddTimeValue(10.0, );
+	N6z.AddTimeValue(9.375, );
+	N6z.AddTimeValue(8.75, );
+	N6z.AddTimeValue(8.125, );
+	N6z.AddTimeValue(7.5, );
+	N6z.AddTimeValue(6.875, );
+	N6z.AddTimeValue(6.25, );
+	N6z.AddTimeValue(5.625, );
+	N6z.AddTimeValue(5.0, );
+	N6z.AddTimeValue(4.375, );
+	N6z.AddTimeValue(3.75, );
+	N6z.AddTimeValue(3.125, );
+	N6z.AddTimeValue(2.5, );
+	N6z.AddTimeValue(1.875, );
+	N6z.AddTimeValue(1.25, );
+	N6z.AddTimeValue(0.625, );
+}

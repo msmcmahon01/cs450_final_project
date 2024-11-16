@@ -706,4 +706,5 @@ void loadNMatricies() {
 void loadMatricies() {
 	loadAMatricies();
 	loadDMatricies();
+	loadNMatricies();
 }

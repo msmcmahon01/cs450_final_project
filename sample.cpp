@@ -504,14 +504,10 @@ Display( )
 	glTexEnvf( GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, /*GL_MODULATE*/ GL_REPLACE );
 	glCallList( FieldList );
 
-	glPushMatrix();
-	glColor3f(0, 1, 0);
-	glTranslatef(A1x.GetValue(Time * 10), 0, A1z.GetValue(Time * 10));
-	glCallList(SphereDL);
-	glPopMatrix();
-
 	glDisable( GL_TEXTURE_2D );
 	glDisable( GL_LIGHTING );
+
+	loadMatricies();
 
 
 #ifdef DEMO_Z_FIGHTING
@@ -851,6 +847,35 @@ InitGraphics( )
 	glTexImage2D(GL_TEXTURE_2D, 0, 3, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, texture);
 
 	loadA1();
+	loadA2();
+	loadA3();
+	loadA4();
+	loadA5();
+	loadA6();
+	loadA7();
+	loadA8();
+	loadA9();
+	loadA10();
+	loadA11();
+	loadA12();
+	loadA13();
+	loadA14();
+	loadA15();
+
+
+	loadD1();
+	loadD2();
+	loadD3();
+	loadD4();
+	loadD5();
+	loadD6();
+
+	loadN1();
+	loadN2();
+	loadN3();
+	loadN4();
+	loadN5();
+	loadN6();
 }
 
 
@@ -891,12 +916,12 @@ InitLists( )
 		glBindTexture(GL_TEXTURE_2D, FieldTex);
 		glNormal3f(0.f, 1.f, 0.f);
 		glPushMatrix();
-		glTranslatef(-160, 0, -84);
+		glTranslatef(X0, 0, Z0);
 		glBegin( GL_QUADS );
 			glVertex3f(0, 0, 0);
-			glVertex3f(320, 0, 0);
-			glVertex3f(320, 0, 168);
-			glVertex3f(0, 0, 168);
+			glVertex3f(XSIDE, 0, 0);
+			glVertex3f(XSIDE, 0, ZSIDE);
+			glVertex3f(0, 0, ZSIDE);
 		glEnd();
 		glPopMatrix();
 

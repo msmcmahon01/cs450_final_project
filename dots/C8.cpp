@@ -1,0 +1,40 @@
+Keytimes C8x, C8z;
+void loadC8() {
+	C8x.Init();
+	C8x.AddTimeValue(0.0, );
+	C8x.AddTimeValue(10.0, );
+	C8x.AddTimeValue(9.375, );
+	C8x.AddTimeValue(8.75, );
+	C8x.AddTimeValue(8.125, );
+	C8x.AddTimeValue(7.5, );
+	C8x.AddTimeValue(6.875, );
+	C8x.AddTimeValue(6.25, );
+	C8x.AddTimeValue(5.625, );
+	C8x.AddTimeValue(5.0, );
+	C8x.AddTimeValue(4.375, );
+	C8x.AddTimeValue(3.75, );
+	C8x.AddTimeValue(3.125, );
+	C8x.AddTimeValue(2.5, );
+	C8x.AddTimeValue(1.875, );
+	C8x.AddTimeValue(1.25, );
+	C8x.AddTimeValue(0.625, );
+
+	C8z.Init();
+	C8z.AddTimeValue(0.0, );
+	C8z.AddTimeValue(10.0, );
+	C8z.AddTimeValue(9.375, );
+	C8z.AddTimeValue(8.75, );
+	C8z.AddTimeValue(8.125, );
+	C8z.AddTimeValue(7.5, );
+	C8z.AddTimeValue(6.875, );
+	C8z.AddTimeValue(6.25, );
+	C8z.AddTimeValue(5.625, );
+	C8z.AddTimeValue(5.0, );
+	C8z.AddTimeValue(4.375, );
+	C8z.AddTimeValue(3.75, );
+	C8z.AddTimeValue(3.125, );
+	C8z.AddTimeValue(2.5, );
+	C8z.AddTimeValue(1.875, );
+	C8z.AddTimeValue(1.25, );
+	C8z.AddTimeValue(0.625, );
+}

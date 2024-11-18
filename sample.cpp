@@ -199,6 +199,8 @@ float	Time;					// used for animation, this has a value between 0. and 1.
 int		Xmouse, Ymouse;			// mouse values
 float	Xrot, Yrot;				// rotation angles in degrees
 int		NowCameraPosition;
+bool	Freeze;
+float	TimeFrozen, TimeUnfrozen, TimeElapsed;
 
 
 // function prototypes:
@@ -1035,6 +1037,27 @@ Keyboard( unsigned char c, int x, int y )
 			std::cout << "Switching Camera Position to Box View" << std::endl;
 			break;
 
+		case 'f':
+		case 'F':
+			Freeze = !Freeze;
+			if ( Freeze ) {
+				glutIdleFunc( NULL );
+				TimeFrozen = Time - TimeElapsed;
+				if ( TimeFrozen < 0. )
+					TimeFrozen = TimeFrozen + 1.f;
+			}
+			else {
+				glutIdleFunc( Animate );
+				int ms = glutGet( GLUT_ELAPSED_TIME );
+				ms %= MS_PER_CYCLE;
+				Time = (float)ms / (float)MS_PER_CYCLE;
+				TimeUnfrozen = Time;
+				TimeElapsed = TimeUnfrozen - TimeFrozen;
+				if ( TimeElapsed < 0. )
+					TimeElapsed = TimeElapsed + 1.;
+			}
+			break;
+
 		default:
 			fprintf( stderr, "Don't know what to do with keyboard hit: '%c' (0x%0x)\n", c, c );
 	}
@@ -1158,6 +1181,7 @@ Reset( )
 	NowColor = YELLOW;
 	NowProjection = PERSP;
 	Xrot = Yrot = 0.;
+	TimeElapsed = 0.f;
 }
 
 

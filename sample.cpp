@@ -5,7 +5,6 @@
 #include <ctype.h>
 #include <time.h>
 #include <iostream>
-//#include "dots.h"
 
 
 #ifndef F_PI
@@ -145,7 +144,7 @@ char * ColorNames[ ] =
 // the color definitions:
 // this order must match the menu order
 
-const GLfloat Colors[ ][3] = 
+const GLfloat Colors[ ][3] =
 {
 	{ 1., 0., 0. },		// red
 	{ 1., 1., 0. },		// yellow
@@ -846,36 +845,7 @@ InitGraphics( )
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 	glTexImage2D(GL_TEXTURE_2D, 0, 3, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, texture);
 
-	loadA1();
-	loadA2();
-	loadA3();
-	loadA4();
-	loadA5();
-	loadA6();
-	loadA7();
-	loadA8();
-	loadA9();
-	loadA10();
-	loadA11();
-	loadA12();
-	loadA13();
-	loadA14();
-	loadA15();
-
-
-	loadD1();
-	loadD2();
-	loadD3();
-	loadD4();
-	loadD5();
-	loadD6();
-
-	loadN1();
-	loadN2();
-	loadN3();
-	loadN4();
-	loadN5();
-	loadN6();
+	loadDots();
 }
 
 
@@ -1086,7 +1056,7 @@ MouseButton( int button, int state, int x, int y )
 	if( DebugOn != 0 )
 		fprintf( stderr, "MouseButton: %d, %d, %d, %d\n", button, state, x, y );
 
-	
+
 	// get the proper button bit mask:
 
 	switch( button )
@@ -1281,7 +1251,7 @@ Axes( float length )
 			int j = xorder[i];
 			if( j < 0 )
 			{
-				
+
 				glEnd( );
 				glBegin( GL_LINE_STRIP );
 				j = -j;
@@ -1297,7 +1267,7 @@ Axes( float length )
 			int j = yorder[i];
 			if( j < 0 )
 			{
-				
+
 				glEnd( );
 				glBegin( GL_LINE_STRIP );
 				j = -j;
@@ -1313,7 +1283,7 @@ Axes( float length )
 			int j = zorder[i];
 			if( j < 0 )
 			{
-				
+
 				glEnd( );
 				glBegin( GL_LINE_STRIP );
 				j = -j;
@@ -1362,7 +1332,7 @@ HsvRgb( float hsv[3], float rgb[3] )
 	}
 
 	// get an rgb from the hue itself:
-	
+
 	float i = (float)floor( h );
 	float f = h - i;
 	float p = v * ( 1.f - s );
@@ -1375,23 +1345,23 @@ HsvRgb( float hsv[3], float rgb[3] )
 		case 0:
 			r = v;	g = t;	b = p;
 			break;
-	
+
 		case 1:
 			r = q;	g = v;	b = p;
 			break;
-	
+
 		case 2:
 			r = p;	g = v;	b = t;
 			break;
-	
+
 		case 3:
 			r = p;	g = q;	b = v;
 			break;
-	
+
 		case 4:
 			r = t;	g = p;	b = v;
 			break;
-	
+
 		case 5:
 			r = v;	g = p;	b = q;
 			break;

@@ -38,12 +38,12 @@
 #include "dots/C5.cpp"
 #include "dots/C6.cpp"
 #include "dots/C7.cpp"
-//#include "dots/C8.cpp"
-//#include "dots/C9.cpp"
-//#include "dots/C10.cpp"
-//#include "dots/C11.cpp"
-//#include "dots/C12.cpp"
-//#include "dots/C13.cpp"
+#include "dots/C8.cpp"
+#include "dots/C9.cpp"
+#include "dots/C10.cpp"
+#include "dots/C11.cpp"
+#include "dots/C12.cpp"
+#include "dots/C13.cpp"
 #include "dots/C14.cpp"
 #include "dots/C15.cpp"
 #include "dots/C16.cpp"
@@ -52,7 +52,7 @@
 #include "dots/C19.cpp"
 #include "dots/C20.cpp"
 #include "dots/C21.cpp"
-//#include "dots/C22.cpp"
+#include "dots/C22.cpp"
 //#include "dots/C23.cpp"
 //#include "dots/C24.cpp"
 //#include "dots/C25.cpp"
@@ -328,12 +328,12 @@ void loadAMatricies() {
 	glCallList(SphereDL);
 	glPopMatrix();
 	glPushMatrix();
-	glColor3f(0, 1, 0);
+	glColor3f(0, 1, 1);
 	glTranslatef(A10x.GetValue(Time * 10), 0, A10z.GetValue(Time * 10));
 	glCallList(SphereDL);
 	glPopMatrix();
 	glPushMatrix();
-	glColor3f(0, 1, 0);
+	glColor3f(0, 1, 1);
 	glTranslatef(A11x.GetValue(Time * 10), 0, A11z.GetValue(Time * 10));
 	glCallList(SphereDL);
 	glPopMatrix();
@@ -475,34 +475,34 @@ void loadCMatricies() {
 	glPopMatrix();
 	glPushMatrix();
 	glColor3f(0, 1, 0);
-	//glTranslatef(C8x.GetValue(Time * 10), 0, C8z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(C9x.GetValue(Time * 10), 0, C9z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(C10x.GetValue(Time * 10), 0, C10z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(C11x.GetValue(Time * 10), 0, C11z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(C12x.GetValue(Time * 10), 0, C12z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(C13x.GetValue(Time * 10), 0, C13z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
+	glTranslatef(C8x.GetValue(Time * 10), 0, C8z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(C9x.GetValue(Time * 10), 0, C9z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(C10x.GetValue(Time * 10), 0, C10z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(C11x.GetValue(Time * 10), 0, C11z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(C12x.GetValue(Time * 10), 0, C12z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(C13x.GetValue(Time * 10), 0, C13z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
 	glPushMatrix();
 	glColor3f(0, 1, 0);
 	glTranslatef(C14x.GetValue(Time * 10), 0, C14z.GetValue(Time * 10));
@@ -543,11 +543,11 @@ void loadCMatricies() {
 	glTranslatef(C21x.GetValue(Time * 10), 0, C21z.GetValue(Time * 10));
 	glCallList(SphereDL);
 	glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(C22x.GetValue(Time * 10), 0, C22z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(C22x.GetValue(Time * 10), 0, C22z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
 	//glPushMatrix();
 	//glColor3f(0, 1, 0);
 	//glTranslatef(C23x.GetValue(Time * 10), 0, C23z.GetValue(Time * 10));
@@ -874,12 +874,12 @@ void loadDots() {
 	loadC5();
 	loadC6();
 	loadC7();
-	//loadC8();
-	//loadC9();
-	//loadC10();
-	//loadC11();
-	//loadC12();
-	//loadC13();
+	loadC8();
+	loadC9();
+	loadC10();
+	loadC11();
+	loadC12();
+	loadC13();
 	loadC14();
 	loadC15();
 	loadC16();
@@ -888,7 +888,7 @@ void loadDots() {
 	loadC19();
 	loadC20();
 	loadC21();
-	//loadC22();
+	loadC22();
 	//loadC23();
 	//loadC24();
 	//loadC25();

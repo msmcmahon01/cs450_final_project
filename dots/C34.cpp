@@ -20,7 +20,7 @@ void loadC34() {
 	C34x.AddTimeValue(0.625, 33);
 
 	C34z.Init();
-	C34z.AddTimeValue(0.0, -48);
+	C34z.AddTimeValue(0.0, -47.75);
 	C34z.AddTimeValue(10.0, -13.5);
 	C34z.AddTimeValue(9.375, -13.5);
 	C34z.AddTimeValue(8.75, -13.5);

@@ -445,7 +445,7 @@ Display( )
 		gluLookAt(0.f, 16.f, 86.f,     0.f, 0.f, 0.f,     0.f, 1.f, 0.f);
 		break;
 	case 2:
-		gluLookAt(0.f, 150.f, 0.f,     0.f, 0.f, 0.f,     0.f, 0.f, 1.f);
+		gluLookAt(0.f, 125.f, 0.f,     0.f, 0.f, 0.f,     0.f, 0.f, -1.f);
 		break;
 	case 3:
 		gluLookAt(0.f, 100.f, 100.f,     0.f, 0.f, 0.f,     0.f, 1.f, 0.f);

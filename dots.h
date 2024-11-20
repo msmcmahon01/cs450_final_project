@@ -249,16 +249,16 @@
 //#include "dots/U16.cpp"
 //#include "dots/U17.cpp"
 // X
-//#include "dots/X1.cpp"
-//#include "dots/X2.cpp"
-//#include "dots/X3.cpp"
-//#include "dots/X4.cpp"
-//#include "dots/X5.cpp"
-//#include "dots/X6.cpp"
-//#include "dots/X7.cpp"
-//#include "dots/X8.cpp"
-//#include "dots/X9.cpp"
-//#include "dots/X10.cpp"
+#include "dots/X1.cpp"
+#include "dots/X2.cpp"
+#include "dots/X3.cpp"
+#include "dots/X4.cpp"
+#include "dots/X5.cpp"
+#include "dots/X6.cpp"
+#include "dots/X7.cpp"
+#include "dots/X8.cpp"
+#include "dots/X9.cpp"
+#include "dots/X10.cpp"
 //#include "dots/X11.cpp"
 //#include "dots/X12.cpp"
 //#include "dots/X13.cpp"
@@ -898,8 +898,108 @@ void loadSMatricies() {
 //void loadUMatricies() {
 //}
 
-//void loadXMatricies() {
-//}
+void loadXMatricies() {
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(X1x.GetValue(Time * 10), 0, X1z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(X2x.GetValue(Time * 10), 0, X2z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(X3x.GetValue(Time * 10), 0, X3z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(X4x.GetValue(Time * 10), 0, X4z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(X5x.GetValue(Time * 10), 0, X5z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(X6x.GetValue(Time * 10), 0, X6z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(X7x.GetValue(Time * 10), 0, X7z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(X8x.GetValue(Time * 10), 0, X8z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(X9x.GetValue(Time * 10), 0, X9z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(X10x.GetValue(Time * 10), 0, X10z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	//glPushMatrix();
+	//glColor3f(0, 1, 0);
+	//glTranslatef(X11x.GetValue(Time * 10), 0, X11z.GetValue(Time * 10));
+	//glCallList(SphereDL);
+	//glPopMatrix();
+	//glPushMatrix();
+	//glColor3f(0, 1, 0);
+	//glTranslatef(X12x.GetValue(Time * 10), 0, X12z.GetValue(Time * 10));
+	//glCallList(SphereDL);
+	//glPopMatrix();
+	//glPushMatrix();
+	//glColor3f(0, 1, 0);
+	//glTranslatef(X13x.GetValue(Time * 10), 0, X13z.GetValue(Time * 10));
+	//glCallList(SphereDL);
+	//glPopMatrix();
+	//glPushMatrix();
+	//glColor3f(0, 1, 0);
+	//glTranslatef(X14x.GetValue(Time * 10), 0, X14z.GetValue(Time * 10));
+	//glCallList(SphereDL);
+	//glPopMatrix();
+	//glPushMatrix();
+	//glColor3f(0, 1, 0);
+	//glTranslatef(X15x.GetValue(Time * 10), 0, X15z.GetValue(Time * 10));
+	//glCallList(SphereDL);
+	//glPopMatrix();
+	//glPushMatrix();
+	//glColor3f(0, 1, 0);
+	//glTranslatef(X16x.GetValue(Time * 10), 0, X16z.GetValue(Time * 10));
+	//glCallList(SphereDL);
+	//glPopMatrix();
+	//glPushMatrix();
+	//glColor3f(0, 1, 0);
+	//glTranslatef(X17x.GetValue(Time * 10), 0, X17z.GetValue(Time * 10));
+	//glCallList(SphereDL);
+	//glPopMatrix();
+	//glPushMatrix();
+	//glColor3f(0, 1, 0);
+	//glTranslatef(X18x.GetValue(Time * 10), 0, X18z.GetValue(Time * 10));
+	//glCallList(SphereDL);
+	//glPopMatrix();
+	//glPushMatrix();
+	//glColor3f(0, 1, 0);
+	//glTranslatef(X19x.GetValue(Time * 10), 0, X19z.GetValue(Time * 10));
+	//glCallList(SphereDL);
+	//glPopMatrix();
+	//glPushMatrix();
+	//glColor3f(0, 1, 0);
+	//glTranslatef(X20x.GetValue(Time * 10), 0, X20z.GetValue(Time * 10));
+	//glCallList(SphereDL);
+	//glPopMatrix();
+}
 
 void loadYMatricies() {
 	glPushMatrix();
@@ -963,6 +1063,7 @@ void loadMatricies() {
 	loadMMatricies();
 	loadNMatricies();
 	loadSMatricies();
+	loadXMatricies();
 	loadYMatricies();
 }
 
@@ -1094,6 +1195,27 @@ void loadDots() {
 	loadS6();
 	loadS7();
 	loadS8();
+
+	loadX1();
+	loadX2();
+	loadX3();
+	loadX4();
+	loadX5();
+	loadX6();
+	loadX7();
+	loadX8();
+	loadX9();
+	loadX10();
+	//loadX11();
+	//loadX12();
+	//loadX13();
+	//loadX14();
+	//loadX15();
+	//loadX16();
+	//loadX17();
+	//loadX18();
+	//loadX19();
+	//loadX20();
 
 	loadY1();
 	loadY2();

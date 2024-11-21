@@ -2,12 +2,12 @@ Keytimes M5x, M5z;
 void loadM5() {
 	M5x.Init();
 	M5x.AddTimeValue(0.0, 20);
-	M5x.AddTimeValue(10.0, 27.25);
-	M5x.AddTimeValue(9.375, 27.25);
-	M5x.AddTimeValue(8.75, 27.25);
-	M5x.AddTimeValue(8.125, 27.25);
-	M5x.AddTimeValue(7.5, 23.75);
-	M5x.AddTimeValue(6.875, 20.5);
+	M5x.AddTimeValue(10.0, 23.25);
+	M5x.AddTimeValue(9.375, 23.25);
+	M5x.AddTimeValue(8.75, 23.25);
+	M5x.AddTimeValue(8.125, 23.25);
+	M5x.AddTimeValue(7.5, 19.75);
+	M5x.AddTimeValue(6.875, 16.5);
 	M5x.AddTimeValue(6.25, 13);
 	M5x.AddTimeValue(5.625, 13);
 	M5x.AddTimeValue(5.0, 8);

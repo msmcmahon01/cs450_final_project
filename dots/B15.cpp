@@ -20,7 +20,7 @@ void loadB15() {
 	B15x.AddTimeValue(0.625, 6);
 
 	B15z.Init();
-	B15z.AddTimeValue(0.0, -48);
+	B15z.AddTimeValue(0.0, -48.25);
 	B15z.AddTimeValue(10.0, -13.25);
 	B15z.AddTimeValue(9.375, -13.25);
 	B15z.AddTimeValue(8.75, -13.25);

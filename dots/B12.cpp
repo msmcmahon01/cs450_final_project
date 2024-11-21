@@ -21,11 +21,11 @@ void loadB12() {
 
 	B12z.Init();
 	B12z.AddTimeValue(0.0, -42);
-	B12z.AddTimeValue(10.0, -6.25);
-	B12z.AddTimeValue(9.375, -6.25);
-	B12z.AddTimeValue(8.75, -6.25);
-	B12z.AddTimeValue(8.125, -6.25);
-	B12z.AddTimeValue(7.5, -6.25);
+	B12z.AddTimeValue(10.0, -7.25);
+	B12z.AddTimeValue(9.375, -7.25);
+	B12z.AddTimeValue(8.75, -7.25);
+	B12z.AddTimeValue(8.125, -7.25);
+	B12z.AddTimeValue(7.5, -7.25);
 	B12z.AddTimeValue(6.875, -7.5);
 	B12z.AddTimeValue(6.25, -8);
 	B12z.AddTimeValue(5.625, -8);

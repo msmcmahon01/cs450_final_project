@@ -20,7 +20,7 @@ void loadB13() {
 	B13x.AddTimeValue(0.625, -12);
 
 	B13z.Init();
-	B13z.AddTimeValue(0.0, -48);
+	B13z.AddTimeValue(0.0, -48.25);
 	B13z.AddTimeValue(10.0, -9.25);
 	B13z.AddTimeValue(9.375, -9.25);
 	B13z.AddTimeValue(8.75, -9.25);

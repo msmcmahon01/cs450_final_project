@@ -371,12 +371,12 @@ void loadBMatricies() {
 	glCallList(SphereDL);
 	glPopMatrix();
 	glPushMatrix();
-	glColor3f(0, 1, 1);
+	glColor3f(0, 1, 0);
 	glTranslatef(B3x.GetValue(Time * 10), 0, B3z.GetValue(Time * 10));
 	glCallList(SphereDL);
 	glPopMatrix();
 	glPushMatrix();
-	glColor3f(0, 1, 1);
+	glColor3f(0, 1, 0);
 	glTranslatef(B4x.GetValue(Time * 10), 0, B4z.GetValue(Time * 10));
 	glCallList(SphereDL);
 	glPopMatrix();

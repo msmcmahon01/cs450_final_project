@@ -2,10 +2,10 @@ Keytimes M15x, M15z;
 void loadM15() {
 	M15x.Init();
 	M15x.AddTimeValue(0.0, 42);
-	M15x.AddTimeValue(10.0, 29.75);
-	M15x.AddTimeValue(9.375, 29.75);
-	M15x.AddTimeValue(8.75, 29.75);
-	M15x.AddTimeValue(8.125, 29.75);
+	M15x.AddTimeValue(10.0, 39.75);
+	M15x.AddTimeValue(9.375, 39.75);
+	M15x.AddTimeValue(8.75, 39.75);
+	M15x.AddTimeValue(8.125, 39.75);
 	M15x.AddTimeValue(7.5, 39.25);
 	M15x.AddTimeValue(6.875, 38.5);
 	M15x.AddTimeValue(6.25, 38);

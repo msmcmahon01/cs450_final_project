@@ -21,10 +21,10 @@ void loadA10() {
 
 	A10z.Init();
 	A10z.AddTimeValue(0.0, 44);
-	A10z.AddTimeValue(10.0, 11.25);
-	A10z.AddTimeValue(9.375, 11.25);
-	A10z.AddTimeValue(8.75, 11.25);
-	A10z.AddTimeValue(8.125, 11.25);
+	A10z.AddTimeValue(10.0, 10.25);
+	A10z.AddTimeValue(9.375, 10.25);
+	A10z.AddTimeValue(8.75, 10.25);
+	A10z.AddTimeValue(8.125, 10.25);
 	A10z.AddTimeValue(7.5, 14.25);
 	A10z.AddTimeValue(6.875, 18);
 	A10z.AddTimeValue(6.25, 22);

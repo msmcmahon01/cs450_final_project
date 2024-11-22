@@ -21,15 +21,15 @@ void loadB4() {
 
 	B4z.Init();
 	B4z.AddTimeValue(0.0, -42);
-	B4z.AddTimeValue(10.0, -7.25);
-	B4z.AddTimeValue(9.375, -7.25);
-	B4z.AddTimeValue(8.75, -7.25);
-	B4z.AddTimeValue(8.125, -7.25);
-	B4z.AddTimeValue(7.5, -7.25);
-	B4z.AddTimeValue(6.875, -5);
-	B4z.AddTimeValue(6.25, -3);
-	B4z.AddTimeValue(5.625, -3);
-	B4z.AddTimeValue(5.0, -4);
+	B4z.AddTimeValue(10.0, -5.25);
+	B4z.AddTimeValue(9.375, -5.25);
+	B4z.AddTimeValue(8.75, -5.25);
+	B4z.AddTimeValue(8.125, -5.25);
+	B4z.AddTimeValue(7.5, -5.25);
+	B4z.AddTimeValue(6.875, -3);
+	B4z.AddTimeValue(6.25, -1);
+	B4z.AddTimeValue(5.625, -1);
+	B4z.AddTimeValue(5.0, -2);
 	B4z.AddTimeValue(4.375, -6);
 	B4z.AddTimeValue(3.75, -6);
 	B4z.AddTimeValue(3.125, -6);

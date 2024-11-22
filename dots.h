@@ -231,15 +231,15 @@
 //#include "dots/T42.cpp"
 //#include "dots/T43.cpp"
 // U
-//#include "dots/U1.cpp"
-//#include "dots/U2.cpp"
-//#include "dots/U3.cpp"
-//#include "dots/U4.cpp"
-//#include "dots/U5.cpp"
-//#include "dots/U6.cpp"
-//#include "dots/U7.cpp"
-//#include "dots/U8.cpp"
-//#include "dots/U9.cpp"
+#include "dots/U1.cpp"
+#include "dots/U2.cpp"
+#include "dots/U3.cpp"
+#include "dots/U4.cpp"
+#include "dots/U5.cpp"
+#include "dots/U6.cpp"
+#include "dots/U7.cpp"
+#include "dots/U8.cpp"
+#include "dots/U9.cpp"
 #include "dots/U10.cpp"
 #include "dots/U11.cpp"
 #include "dots/U12.cpp"
@@ -1403,53 +1403,52 @@ void loadTMatricies() {
 	//glPopMatrix();
 }
 
-// TODO
 void loadUMatricies() {
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(U1x.GetValue(Time * 10), 0, U1z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(U2x.GetValue(Time * 10), 0, U2z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(U3x.GetValue(Time * 10), 0, U3z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(U4x.GetValue(Time * 10), 0, U4z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(U5x.GetValue(Time * 10), 0, U5z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(U6x.GetValue(Time * 10), 0, U6z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(U7x.GetValue(Time * 10), 0, U7z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(U8x.GetValue(Time * 10), 0, U8z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(U9x.GetValue(Time * 10), 0, U9z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(U1x.GetValue(Time * 10), 0, U1z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(U2x.GetValue(Time * 10), 0, U2z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(U3x.GetValue(Time * 10), 0, U3z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(U4x.GetValue(Time * 10), 0, U4z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(U5x.GetValue(Time * 10), 0, U5z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(U6x.GetValue(Time * 10), 0, U6z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(U7x.GetValue(Time * 10), 0, U7z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(U8x.GetValue(Time * 10), 0, U8z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(U9x.GetValue(Time * 10), 0, U9z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
 	glPushMatrix();
 	glColor3f(0, 1, 0);
 	glTranslatef(U10x.GetValue(Time * 10), 0, U10z.GetValue(Time * 10));
@@ -1898,15 +1897,15 @@ void loadDots() {
 	//loadT42();
 	//loadT43();
 
-	//loadU1();
-	//loadU2();
-	//loadU3();
-	//loadU4();
-	//loadU5();
-	//loadU6();
-	//loadU7();
-	//loadU8();
-	//loadU9();
+	loadU1();
+	loadU2();
+	loadU3();
+	loadU4();
+	loadU5();
+	loadU6();
+	loadU7();
+	loadU8();
+	loadU9();
 	loadU10();
 	loadU11();
 	loadU12();

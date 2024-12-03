@@ -118,31 +118,31 @@
 #include "dots/N5.cpp"
 #include "dots/N6.cpp"
 // P
-//#include "dots/P1.cpp"
-//#include "dots/P2.cpp"
-//#include "dots/P3.cpp"
-//#include "dots/P4.cpp"
-//#include "dots/P5.cpp"
-//#include "dots/P6.cpp"
-//#include "dots/P7.cpp"
-//#include "dots/P8.cpp"
-//#include "dots/P9.cpp"
-//#include "dots/P10.cpp"
-//#include "dots/P11.cpp"
-//#include "dots/P12.cpp"
-//#include "dots/P13.cpp"
-//#include "dots/P14.cpp"
-//#include "dots/P15.cpp"
-//#include "dots/P16.cpp"
-//#include "dots/P17.cpp"
-//#include "dots/P18.cpp"
-//#include "dots/P19.cpp"
-//#include "dots/P20.cpp"
-//#include "dots/P21.cpp"
-//#include "dots/P22.cpp"
-//#include "dots/P23.cpp"
-//#include "dots/P24.cpp"
-//#include "dots/P25.cpp"
+#include "dots/P1.cpp"
+#include "dots/P2.cpp"
+#include "dots/P3.cpp"
+#include "dots/P4.cpp"
+#include "dots/P5.cpp"
+#include "dots/P6.cpp"
+#include "dots/P7.cpp"
+#include "dots/P8.cpp"
+#include "dots/P9.cpp"
+#include "dots/P10.cpp"
+#include "dots/P11.cpp"
+#include "dots/P12.cpp"
+#include "dots/P13.cpp"
+#include "dots/P14.cpp"
+#include "dots/P15.cpp"
+#include "dots/P16.cpp"
+#include "dots/P17.cpp"
+#include "dots/P18.cpp"
+#include "dots/P19.cpp"
+#include "dots/P20.cpp"
+#include "dots/P21.cpp"
+#include "dots/P22.cpp"
+#include "dots/P23.cpp"
+#include "dots/P24.cpp"
+#include "dots/P25.cpp"
 // Q
 //#include "dots/Q1.cpp"
 //#include "dots/Q2.cpp"
@@ -843,133 +843,132 @@ void loadNMatricies() {
 	glPopMatrix();
 }
 
-// TODO
 void loadPMatricies() {
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P1x.GetValue(Time * 10), 0, P1z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P2x.GetValue(Time * 10), 0, P2z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P3x.GetValue(Time * 10), 0, P3z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P4x.GetValue(Time * 10), 0, P4z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P5x.GetValue(Time * 10), 0, P5z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P6x.GetValue(Time * 10), 0, P6z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P7x.GetValue(Time * 10), 0, P7z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P8x.GetValue(Time * 10), 0, P8z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P9x.GetValue(Time * 10), 0, P9z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P10x.GetValue(Time * 10), 0, P10z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P11x.GetValue(Time * 10), 0, P11z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P12x.GetValue(Time * 10), 0, P12z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P13x.GetValue(Time * 10), 0, P13z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P14x.GetValue(Time * 10), 0, P14z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P15x.GetValue(Time * 10), 0, P15z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P16x.GetValue(Time * 10), 0, P16z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P17x.GetValue(Time * 10), 0, P17z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P18x.GetValue(Time * 10), 0, P18z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P19x.GetValue(Time * 10), 0, P19z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P20x.GetValue(Time * 10), 0, P20z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P21x.GetValue(Time * 10), 0, P21z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P22x.GetValue(Time * 10), 0, P22z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P23x.GetValue(Time * 10), 0, P23z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P24x.GetValue(Time * 10), 0, P24z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(P25x.GetValue(Time * 10), 0, P25z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P1x.GetValue(Time * 10), 0, P1z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P2x.GetValue(Time * 10), 0, P2z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P3x.GetValue(Time * 10), 0, P3z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P4x.GetValue(Time * 10), 0, P4z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P5x.GetValue(Time * 10), 0, P5z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P6x.GetValue(Time * 10), 0, P6z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P7x.GetValue(Time * 10), 0, P7z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P8x.GetValue(Time * 10), 0, P8z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P9x.GetValue(Time * 10), 0, P9z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P10x.GetValue(Time * 10), 0, P10z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P11x.GetValue(Time * 10), 0, P11z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P12x.GetValue(Time * 10), 0, P12z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P13x.GetValue(Time * 10), 0, P13z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P14x.GetValue(Time * 10), 0, P14z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P15x.GetValue(Time * 10), 0, P15z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P16x.GetValue(Time * 10), 0, P16z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P17x.GetValue(Time * 10), 0, P17z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P18x.GetValue(Time * 10), 0, P18z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P19x.GetValue(Time * 10), 0, P19z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P20x.GetValue(Time * 10), 0, P20z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P21x.GetValue(Time * 10), 0, P21z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P22x.GetValue(Time * 10), 0, P22z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P23x.GetValue(Time * 10), 0, P23z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P24x.GetValue(Time * 10), 0, P24z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(P25x.GetValue(Time * 10), 0, P25z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
 }
 
 //TODO
@@ -1784,31 +1783,31 @@ void loadDots() {
 	loadN5();
 	loadN6();
 
-	//loadP1();
-	//loadP2();
-	//loadP3();
-	//loadP4();
-	//loadP5();
-	//loadP6();
-	//loadP7();
-	//loadP8();
-	//loadP9();
-	//loadP10();
-	//loadP11();
-	//loadP12();
-	//loadP13();
-	//loadP14();
-	//loadP15();
-	//loadP16();
-	//loadP17();
-	//loadP18();
-	//loadP19();
-	//loadP20();
-	//loadP21();
-	//loadP22();
-	//loadP23();
-	//loadP24();
-	//loadP25();
+	loadP1();
+	loadP2();
+	loadP3();
+	loadP4();
+	loadP5();
+	loadP6();
+	loadP7();
+	loadP8();
+	loadP9();
+	loadP10();
+	loadP11();
+	loadP12();
+	loadP13();
+	loadP14();
+	loadP15();
+	loadP16();
+	loadP17();
+	loadP18();
+	loadP19();
+	loadP20();
+	loadP21();
+	loadP22();
+	loadP23();
+	loadP24();
+	loadP25();
 
 	//loadQ1();
 	//loadQ2();

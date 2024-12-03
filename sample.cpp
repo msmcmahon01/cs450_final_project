@@ -1182,6 +1182,7 @@ Reset( )
 	NowProjection = PERSP;
 	Xrot = Yrot = 0.;
 	TimeElapsed = 0.f;
+	NowCameraPosition = 2;
 }
 
 

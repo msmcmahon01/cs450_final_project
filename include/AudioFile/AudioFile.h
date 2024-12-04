@@ -517,10 +517,12 @@ bool AudioFile<T>::load(std::string filePath)
 
     if (audioFileFormat == AudioFileFormat::Wave)
     {
+        std::cout << "Audio File Type: Wave" << std::endl;
         return decodeWaveFile(fileData);
     }
     else if (audioFileFormat == AudioFileFormat::Aiff)
     {
+        std::cout << "Audio File Type: Aiff" << std::endl;
         return decodeAiffFile(fileData);
     }
     else

@@ -154,16 +154,16 @@
 #include "dots/Q8.cpp"
 #include "dots/Q9.cpp"
 #include "dots/Q10.cpp"
-//#include "dots/Q11.cpp"
-//#include "dots/Q12.cpp"
-//#include "dots/Q13.cpp"
-//#include "dots/Q14.cpp"
-//#include "dots/Q15.cpp"
-//#include "dots/Q16.cpp"
-//#include "dots/Q17.cpp"
-//#include "dots/Q18.cpp"
-//#include "dots/Q19.cpp"
-//#include "dots/Q20.cpp"
+#include "dots/Q11.cpp"
+#include "dots/Q12.cpp"
+#include "dots/Q13.cpp"
+#include "dots/Q14.cpp"
+#include "dots/Q15.cpp"
+#include "dots/Q16.cpp"
+#include "dots/Q17.cpp"
+#include "dots/Q18.cpp"
+#include "dots/Q19.cpp"
+#include "dots/Q20.cpp"
 //#include "dots/Q21.cpp"
 //#include "dots/Q22.cpp"
 //#include "dots/Q23.cpp"
@@ -1023,56 +1023,56 @@ void loadQMatricies() {
 	glTranslatef(Q10x.GetValue(Time * 10), 0, Q10z.GetValue(Time * 10));
 	glCallList(SphereDL);
 	glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q11x.GetValue(Time * 10), 0, Q11z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q12x.GetValue(Time * 10), 0, Q12z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q13x.GetValue(Time * 10), 0, Q13z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q14x.GetValue(Time * 10), 0, Q14z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q15x.GetValue(Time * 10), 0, Q15z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q16x.GetValue(Time * 10), 0, Q16z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q17x.GetValue(Time * 10), 0, Q17z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q18x.GetValue(Time * 10), 0, Q18z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q19x.GetValue(Time * 10), 0, Q19z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q20x.GetValue(Time * 10), 0, Q20z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q11x.GetValue(Time * 10), 0, Q11z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q12x.GetValue(Time * 10), 0, Q12z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q13x.GetValue(Time * 10), 0, Q13z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q14x.GetValue(Time * 10), 0, Q14z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q15x.GetValue(Time * 10), 0, Q15z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q16x.GetValue(Time * 10), 0, Q16z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q17x.GetValue(Time * 10), 0, Q17z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q18x.GetValue(Time * 10), 0, Q18z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q19x.GetValue(Time * 10), 0, Q19z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q20x.GetValue(Time * 10), 0, Q20z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
 	//glPushMatrix();
 	//glColor3f(0, 1, 0);
 	//glTranslatef(Q21x.GetValue(Time * 10), 0, Q21z.GetValue(Time * 10));
@@ -1819,16 +1819,16 @@ void loadDots() {
 	loadQ8();
 	loadQ9();
 	loadQ10();
-	//loadQ11();
-	//loadQ12();
-	//loadQ13();
-	//loadQ14();
-	//loadQ15();
-	//loadQ16();
-	//loadQ17();
-	//loadQ18();
-	//loadQ19();
-	//loadQ20();
+	loadQ11();
+	loadQ12();
+	loadQ13();
+	loadQ14();
+	loadQ15();
+	loadQ16();
+	loadQ17();
+	loadQ18();
+	loadQ19();
+	loadQ20();
 	//loadQ21();
 	//loadQ22();
 	//loadQ23();

@@ -3,12 +3,12 @@ float startx = 48, startz = 42;
 void loadA8() {
 	A8x.Init();
 	A8x.AddTimeValue(0.0, startx);
-	A8x.AddTimeValue(10.0, startx + 4 + 2.5 + 2.5 + 2.25);
-	A8x.AddTimeValue(9.375, startx + 4 + 2.5 + 2.5 + 2.25);
-	A8x.AddTimeValue(8.75, startx + 4 + 2.5 + 2.5 + 2.25);
-	A8x.AddTimeValue(8.125, startx + 4 + 2.5 + 2.5 + 2.25);
-	A8x.AddTimeValue(7.5, startx + 4 + 2.5 + 2.5);
-	A8x.AddTimeValue(6.875, startx + 4 + 2.5);
+	A8x.AddTimeValue(10.0, startx + 11.25);
+	A8x.AddTimeValue(9.375, startx + 11.25);
+	A8x.AddTimeValue(8.75, startx + 11.25);
+	A8x.AddTimeValue(8.125, startx + 11.25);
+	A8x.AddTimeValue(7.5, startx + 9);
+	A8x.AddTimeValue(6.875, startx + 6.5);
 	A8x.AddTimeValue(6.25, startx + 4);
 	A8x.AddTimeValue(5.625, startx + 4);
 	A8x.AddTimeValue(5.0, startx - 4);

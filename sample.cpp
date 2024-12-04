@@ -5,6 +5,8 @@
 #include <ctype.h>
 #include <time.h>
 #include <iostream>
+#include <vector>
+#include <fstream>
 
 
 #ifndef F_PI
@@ -17,19 +19,40 @@
 #ifdef WIN32
 #include <windows.h>
 #pragma warning(disable:4996)
+#pragma warning(disable:4244)
 #endif
 
 
 #ifdef __APPLE__
 #include <OpenGL/gl.h>
 #include <OpenGL/glu.h>
+#include <AL/al.h>
+#include <AL/alc.h>
 #else
 #include "glew.h"
 #include <GL/gl.h>
 #include <GL/glu.h>
+#include <AL/al.h>
+#include <AL/alc.h>
 #endif
 
 #include "glut.h"
+
+#define OpenAL_ErrorCheck(message)\
+{\
+    ALenum error = alGetError();\
+    if(error != AL_NO_ERROR)\
+    {\
+        std::cerr << "OpenAL Error: " << error << " with call for " << message << std::endl;\
+    }\
+}
+
+#define alec(FUNCTION_CALL, MESSAGE)\
+{\
+    FUNCTION_CALL;\
+    OpenAL_ErrorCheck(MESSAGE);\
+}
+
 
 
 //	This is a sample OpenGL / GLUT program
@@ -201,6 +224,9 @@ float	Xrot, Yrot;				// rotation angles in degrees
 int		NowCameraPosition;
 bool	Freeze;
 float	TimeFrozen, TimeUnfrozen, TimeElapsed;
+ALCdevice	*device;
+ALCcontext	*context;
+ALuint		buffer, source;
 
 
 // function prototypes:
@@ -228,6 +254,11 @@ void	MouseMotion( int, int );
 void	Reset( );
 void	Resize( int, int );
 void	Visibility( int );
+
+bool	loadWavFile(const std::string& filename, std::vector<char>& bufferData, ALenum& format, ALsizei& freq);
+void	initOpenAL();
+void	playAudio();
+void	pauseAudio();
 
 void			Axes( float );
 void			HsvRgb( float[3], float [3] );
@@ -319,46 +350,137 @@ TimeOfDaySeed( )
 //#include "vertexbufferobject.cpp"
 
 #include "dots.h"
+//#include "AudioFile/AudioFile.h"
 
 // main program:
 
 int
-main( int argc, char *argv[ ] )
-{
-	// turn on the glut package:
-	// (do this before checking argc and argv since glutInit might
-	// pull some command line arguments out)
+main(int argc, char *argv[]) {
+    // Turn on the GLUT package
+    glutInit(&argc, argv);
 
-	glutInit( &argc, argv );
+    // Setup all the graphics stuff
+    InitGraphics();
 
-	// setup all the graphics stuff:
+    // Create the display lists that will not change
+    InitLists();
 
-	InitGraphics( );
+    // Init all the global variables used by Display()
+    Reset();
 
-	// create the display lists that **will not change**:
+    // Setup all the user interface stuff
+    InitMenus();
 
-	InitLists( );
+	// Find the default audio device
+	//const ALCchar* defaultDeviceString = alcGetString(nullptr, ALC_DEFAULT_DEVICE_SPECIFIER);
+	//ALCdevice* device = alcOpenDevice(defaultDeviceString);
+	//if (!device) {
+	//	fprintf(stderr, "Failed to get the default device for OpenAL");
+	//	return -1;
+	//}
+	//std::cout << "OpenAL Device: " << alcGetString(device, ALC_DEVICE_SPECIFIER) << std::endl;
+	//OpenAL_ErrorCheck(device);
 
-	// init all the global variables used by Display( ):
-	// this will also post a redisplay
+	// Create an OpenAL audio context from the device
+	//ALCcontext* context = alcCreateContext(device, nullptr);
+	//OpenAL_ErrorCheck(context);
 
-	Reset( );
+	// Activate this context so that OpenAL state modifications are applied to the context
+	//if (!alcMakeContextCurrent(context)) {
+	//	fprintf(stderr, "Failed to make the OpenAL context the current context");
+	//	return -1;
+	//}
 
-	// setup all the user interface stuff:
+	// Create a listener in 3d space
+	//alec(alListener3f(AL_POSITION, 0.f, 0.f, 0.f), alListener3f);
+	//alec(alListener3f(AL_POSITION, 0.f, 0.f, 0.f), alListener3f);
+	//ALfloat forwardAndUpVectors[] = {
+	//	1.f, 0.f, 0.f,
+	//	0.f, 1.f, 0.f
+	//};
+	//alec(alListenerfv(AL_ORIENTATION, forwardAndUpVectors), alListenerfv);
 
-	InitMenus( );
+	// Create buffers that hold our sound data
+	//AudioFile<float> monoSoundFile;
+	//if (!monoSoundFile.load("wav/TakeTheField2024FullAudio.wav")) {
+	//	fprintf(stderr, "Failed to load the audio file");
+	//	return -1;
+	//}
+	//std::vector<uint8_t> monoPCMDataBytes;
+	//monoSoundFile.writePCMToBuffer(monoPCMDataBytes);
+	//auto convertFileToOpenALFormat = [](const AudioFile<float>& audioFile) {
+	//	int bitDepth = audioFile.getBitDepth();
+	//	if (bitDepth == 16) return audioFile.isStereo() ? AL_FORMAT_STEREO16 : AL_FORMAT_MONO16;
+	//	else if (bitDepth == 8) return audioFile.isStereo() ? AL_FORMAT_STEREO8 : AL_FORMAT_MONO8;
+	//	else return -1;
+	//};
+	//ALuint monoSoundBuffer;
+	//alec(alGenBuffers(1, &monoSoundBuffer), alGenBuffers);
+	//alec(alBufferData(monoSoundBuffer, convertFileToOpenALFormat(monoSoundFile), monoPCMDataBytes.data(), monoPCMDataBytes.size(), monoSoundFile.getSampleRate()), alBufferData);
 
-	// draw the scene once and wait for some interaction:
-	// (this will never return)
+	//AudioFile<float> stereoSoundFile;
+	//if (!stereoSoundFile.load("wav/TakeTheField2024FullAudio.wav")) {
+	//	fprintf(stderr, "Failed to load the audio file");
+	//	return -1;
+	//}
+	//else {
+	//	std::cout << "File loaded correctly" << std::endl;
+	//}
+	//std::vector<uint8_t> stereoPCMDataBytes;
+	//stereoSoundFile.writePCMToBuffer(stereoPCMDataBytes);
+	//ALuint stereoSoundBuffer;
+	//alec(alGenBuffers(1, &stereoSoundBuffer), alGenBuffers);
+	//alec(alBufferData(stereoSoundBuffer, convertFileToOpenALFormat(stereoSoundFile), stereoPCMDataBytes.data(), stereoPCMDataBytes.size(), stereoSoundFile.getSampleRate()), alBufferData);
 
-	glutSetWindow( MainWindow );
-	glutMainLoop( );
+	// Create a sound source that plays the mono sound from the sound buffer
+	//ALuint monoSource;
+	//alec(alGenSources(1, &monoSource), alGenSources);
+	//alec(alSource3f(monoSource, AL_POSITION, 1.f, 0.f, 0.f), alSource3f);
+	//alec(alSource3f(monoSource, AL_VELOCITY, 0.f, 0.f, 0.f), alSource3f);
+	//alec(alSourcef(monoSource, AL_PITCH, 1.f), alSourcef);
+	//alec(alSourcef(monoSource, AL_GAIN, 1.f), alSourcef);
+	//alec(alSourcef(monoSource, AL_LOOPING, AL_FALSE), alSourcef);
+	//alec(alSourcef(monoSource, AL_BUFFER, monoSoundBuffer), alSourcef);
 
-	// glutMainLoop( ) never actually returns
-	// the following line is here to make the compiler happy:
+	// Create a sound source that plays the stereo sound
+	//ALuint stereoSource;
+	//alec(alGenSources(1, &stereoSource), alGenSources);
+	//alec(alSourcef(stereoSource, AL_PITCH, 1.f), alSourcef);
+	//alec(alSourcef(stereoSource, AL_GAIN, 1.f), alSourcef);
+	//alec(alSourcef(stereoSource, AL_LOOPING, AL_FALSE), alSourcef);
+	//alec(alSourcef(stereoSource, AL_BUFFER, stereoSoundBuffer), alSourcef);
+
+	// Play the mono sound
+	//alec(alSourcePlay(monoSource), alSourcePlay);
+	//ALint sourceState;
+	//alec(alGetSourcei(monoSource, AL_SOURCE_STATE, &sourceState), alGetSourcei);
+	//while (sourceState = AL_PLAYING) {
+	//	alec(alGetSourcei(monoSource, AL_SOURCE_STATE, &sourceState), alGetSourcei);
+	//}
+
+	// Play the stereo sound
+	//alSourcePlay(stereoSource);
+	//alGetSourcei(stereoSource, AL_SOURCE_STATE, &sourceState);
+	//while (sourceState = AL_PLAYING) {
+	//	alGetSourcei(stereoSource, AL_SOURCE_STATE, &sourceState);
+	//}
+
+    // Draw the scene once and wait for some interaction
+    glutSetWindow(MainWindow);
+    glutMainLoop();
+
+	// Cleanup OpenAL resources
+	//alec(alDeleteSources(1, &monoSource), alDeleteSources);
+	//alec(alDeleteSources(1, &stereoSource), alDeleteSources);
+	//alec(alDeleteBuffers(1, &monoSoundBuffer), alDeleteBuffers);
+	//alec(alDeleteBuffers(1, &stereoSoundBuffer), alDeleteBuffers);
+	//alec(alcMakeContextCurrent(nullptr), alcMakeContextCurrent);
+	//alec(alcDestroyContext(context), alcDestroyContext);
+	//alec(alcCloseDevice(device), alcCloseDevice);
 
 	return 0;
 }
+
 
 
 // this is where one would put code that is to be called
@@ -867,7 +989,7 @@ InitLists( )
 	// create the object:
 	SphereDL = glGenLists(1);
 	glNewList(SphereDL, GL_COMPILE);
-	OsuSphere(1., 20., 20.);
+	OsuSphere(1.f, 20.f, 20.f);
 	glEndList();
 
 #define XSIDE		160
@@ -1045,6 +1167,7 @@ Keyboard( unsigned char c, int x, int y )
 				TimeFrozen = Time - TimeElapsed;
 				if ( TimeFrozen < 0. )
 					TimeFrozen = TimeFrozen + 1.f;
+				pauseAudio();
 			}
 			else {
 				glutIdleFunc( Animate );
@@ -1054,7 +1177,8 @@ Keyboard( unsigned char c, int x, int y )
 				TimeUnfrozen = Time;
 				TimeElapsed = TimeUnfrozen - TimeFrozen;
 				if ( TimeElapsed < 0. )
-					TimeElapsed = TimeElapsed + 1.;
+					TimeElapsed = TimeElapsed + 1.f;
+				playAudio();
 			}
 			break;
 
@@ -1449,4 +1573,47 @@ Unit( float v[3] )
 		v[2] /= dist;
 	}
 	return dist;
+}
+
+
+// OpenAL functions
+
+void initOpenAL() {
+	device = alcOpenDevice(NULL);
+	context = alcCreateContext(device, NULL);
+	alcMakeContextCurrent(context);
+	alGenBuffers(1, &buffer);
+	alGenSources(1, &source);
+}
+
+bool loadWavFile(const std::string& filename, std::vector<char>& bufferData, ALenum& format, ALsizei& freq) {
+	std::ifstream file(filename, std::ios::binary);
+	if (!file.is_open()) return false;
+
+	char chunkId[4];
+	file.read(chunkId, 4);
+	if (std::strncmp(chunkId, "RIFF", 4) != 0) return false;
+
+	file.seekg(20);
+	file.read(reinterpret_cast<char*>(&format), 2);
+
+	file.seekg(24);
+	file.read(reinterpret_cast<char*>(&freq), 4);
+
+	file.seekg(40);
+	int dataSize;
+	file.read(reinterpret_cast<char*>(&dataSize), 4);
+
+	bufferData.resize(dataSize);
+	file.read(bufferData.data(), dataSize);
+
+	return true;
+}
+
+void playAudio() {
+	alSourcePlay(source);
+}
+
+void pauseAudio() {
+	alSourcePause(source);
 }

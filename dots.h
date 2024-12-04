@@ -169,14 +169,14 @@
 #include "dots/Q23.cpp"
 #include "dots/Q24.cpp"
 #include "dots/Q25.cpp"
-//#include "dots/Q26.cpp"
-//#include "dots/Q27.cpp"
-//#include "dots/Q28.cpp"
-//#include "dots/Q29.cpp"
-//#include "dots/Q30.cpp"
-//#include "dots/Q31.cpp"
-//#include "dots/Q32.cpp"
-//#include "dots/Q33.cpp"
+#include "dots/Q26.cpp"
+#include "dots/Q27.cpp"
+#include "dots/Q28.cpp"
+#include "dots/Q29.cpp"
+#include "dots/Q30.cpp"
+#include "dots/Q31.cpp"
+#include "dots/Q32.cpp"
+#include "dots/Q33.cpp"
 // S
 #include "dots/S1.cpp"
 #include "dots/S2.cpp"
@@ -401,12 +401,12 @@ void loadBMatricies() {
 	glCallList(SphereDL);
 	glPopMatrix();
 	glPushMatrix();
-	glColor3f(0, 0, 0); // Error
+	glColor3f(0, 1, 0);
 	glTranslatef(B9x.GetValue(Time * 10), 0, B9z.GetValue(Time * 10));
 	glCallList(SphereDL);
 	glPopMatrix();
 	glPushMatrix();
-	glColor3f(0, 0, 0);	// Error
+	glColor3f(0, 1, 0);
 	glTranslatef(B10x.GetValue(Time * 10), 0, B10z.GetValue(Time * 10));
 	glCallList(SphereDL);
 	glPopMatrix();
@@ -971,7 +971,6 @@ void loadPMatricies() {
 	glPopMatrix();
 }
 
-//TODO
 void loadQMatricies() {
 	glPushMatrix();
 	glColor3f(0, 1, 0);
@@ -1098,46 +1097,46 @@ void loadQMatricies() {
 	glTranslatef(Q25x.GetValue(Time * 10), 0, Q25z.GetValue(Time * 10));
 	glCallList(SphereDL);
 	glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q26x.GetValue(Time * 10), 0, Q26z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q27x.GetValue(Time * 10), 0, Q27z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q28x.GetValue(Time * 10), 0, Q28z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q29x.GetValue(Time * 10), 0, Q29z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q30x.GetValue(Time * 10), 0, Q30z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q31x.GetValue(Time * 10), 0, Q31z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q32x.GetValue(Time * 10), 0, Q32z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q33x.GetValue(Time * 10), 0, Q33z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q26x.GetValue(Time * 10), 0, Q26z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q27x.GetValue(Time * 10), 0, Q27z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q28x.GetValue(Time * 10), 0, Q28z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q29x.GetValue(Time * 10), 0, Q29z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q30x.GetValue(Time * 10), 0, Q30z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q31x.GetValue(Time * 10), 0, Q31z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q32x.GetValue(Time * 10), 0, Q32z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q33x.GetValue(Time * 10), 0, Q33z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
 }
 
 void loadSMatricies() {
@@ -1834,14 +1833,14 @@ void loadDots() {
 	loadQ23();
 	loadQ24();
 	loadQ25();
-	//loadQ26();
-	//loadQ27();
-	//loadQ28();
-	//loadQ29();
-	//loadQ30();
-	//loadQ31();
-	//loadQ32();
-	//loadQ33();
+	loadQ26();
+	loadQ27();
+	loadQ28();
+	loadQ29();
+	loadQ30();
+	loadQ31();
+	loadQ32();
+	loadQ33();
 
 	loadS1();
 	loadS2();

@@ -2,11 +2,11 @@ Keytimes B11x, B11z;
 void loadB11() {
 	B11x.Init();
 	B11x.AddTimeValue(0.0, -6);
-	B11x.AddTimeValue(10.0, -15);
-	B11x.AddTimeValue(9.375, -15);
-	B11x.AddTimeValue(8.75, -15);
-	B11x.AddTimeValue(8.125, -15);
-	B11x.AddTimeValue(7.5, -15);
+	B11x.AddTimeValue(10.0, -15.25);
+	B11x.AddTimeValue(9.375, -15.25);
+	B11x.AddTimeValue(8.75, -15.25);
+	B11x.AddTimeValue(8.125, -15.25);
+	B11x.AddTimeValue(7.5, -15.25);
 	B11x.AddTimeValue(6.875, -12.5);
 	B11x.AddTimeValue(6.25, -10);
 	B11x.AddTimeValue(5.625, -10);

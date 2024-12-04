@@ -951,7 +951,7 @@ InitGraphics( )
 
 	// all other setups go here, such as GLSLProgram and KeyTime setups:
 	int width, height;
-	char *file = (char*)"bmps/fbf.bmp";
+	char *file = (char*)"bmps/udbapp_field.bmp";
 	unsigned char *texture = BmpToTexture( file, &width, &height );
 	if ( texture == NULL ) {
 		fprintf(stderr, "Cannot open texture '%s'\n", file);
@@ -1012,10 +1012,10 @@ InitLists( )
 		glPushMatrix();
 		glTranslatef(X0, 0, Z0);
 		glBegin( GL_QUADS );
-			glVertex3f(0, 0, 0);
-			glVertex3f(XSIDE, 0, 0);
-			glVertex3f(XSIDE, 0, ZSIDE);
-			glVertex3f(0, 0, ZSIDE);
+			glTexCoord2f(0.0f, 0.0f); glVertex3f(0, 0, 0);
+			glTexCoord2f(1.0f, 0.0f); glVertex3f(XSIDE, 0, 0);
+			glTexCoord2f(1.0f, 1.0f); glVertex3f(XSIDE, 0, ZSIDE);
+			glTexCoord2f(0.0f, 1.0f); glVertex3f(0, 0, ZSIDE);
 		glEnd();
 		glPopMatrix();
 
@@ -1306,6 +1306,7 @@ Reset( )
 	NowProjection = PERSP;
 	Xrot = Yrot = 0.;
 	TimeElapsed = 0.f;
+	NowCameraPosition = 2;
 }
 
 

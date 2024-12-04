@@ -20,7 +20,7 @@ void loadC22() {
 	C22x.AddTimeValue(0.625, 66);
 
 	C22z.Init();
-	C22z.AddTimeValue(0.0, -57.75);
+	C22z.AddTimeValue(0.0, -47.75);
 	C22z.AddTimeValue(10.0, -15.5);
 	C22z.AddTimeValue(9.375, -15.5);
 	C22z.AddTimeValue(8.75, -15.5);

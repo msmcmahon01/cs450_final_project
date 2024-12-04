@@ -1018,15 +1018,6 @@ InitLists( )
 			glTexCoord2f(0.0f, 1.0f); glVertex3f(0, 0, ZSIDE);
 		glEnd();
 		glPopMatrix();
-
-		//for (int i = 0; i < NZ; ++i) {
-		//	glBegin( GL_QUAD_STRIP );
-		//	for (int j = 0; j < NX; ++j) {
-		//		glVertex3f(X0 + DX * (float)j, YHEIGHT, Z0 + DZ * (float)i);
-		//		glVertex3f(X0 + DX * (float)j, YHEIGHT, Z0 + DZ * (float)(i + 1));
-		//	}
-		//	glEnd();
-		//}
 	glEndList();
 
 

@@ -164,11 +164,11 @@
 #include "dots/Q18.cpp"
 #include "dots/Q19.cpp"
 #include "dots/Q20.cpp"
-//#include "dots/Q21.cpp"
-//#include "dots/Q22.cpp"
-//#include "dots/Q23.cpp"
-//#include "dots/Q24.cpp"
-//#include "dots/Q25.cpp"
+#include "dots/Q21.cpp"
+#include "dots/Q22.cpp"
+#include "dots/Q23.cpp"
+#include "dots/Q24.cpp"
+#include "dots/Q25.cpp"
 //#include "dots/Q26.cpp"
 //#include "dots/Q27.cpp"
 //#include "dots/Q28.cpp"
@@ -1073,31 +1073,31 @@ void loadQMatricies() {
 	glTranslatef(Q20x.GetValue(Time * 10), 0, Q20z.GetValue(Time * 10));
 	glCallList(SphereDL);
 	glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q21x.GetValue(Time * 10), 0, Q21z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q22x.GetValue(Time * 10), 0, Q22z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q23x.GetValue(Time * 10), 0, Q23z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q24x.GetValue(Time * 10), 0, Q24z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
-	//glPushMatrix();
-	//glColor3f(0, 1, 0);
-	//glTranslatef(Q25x.GetValue(Time * 10), 0, Q25z.GetValue(Time * 10));
-	//glCallList(SphereDL);
-	//glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q21x.GetValue(Time * 10), 0, Q21z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q22x.GetValue(Time * 10), 0, Q22z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q23x.GetValue(Time * 10), 0, Q23z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q24x.GetValue(Time * 10), 0, Q24z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
+	glPushMatrix();
+	glColor3f(0, 1, 0);
+	glTranslatef(Q25x.GetValue(Time * 10), 0, Q25z.GetValue(Time * 10));
+	glCallList(SphereDL);
+	glPopMatrix();
 	//glPushMatrix();
 	//glColor3f(0, 1, 0);
 	//glTranslatef(Q26x.GetValue(Time * 10), 0, Q26z.GetValue(Time * 10));
@@ -1829,11 +1829,11 @@ void loadDots() {
 	loadQ18();
 	loadQ19();
 	loadQ20();
-	//loadQ21();
-	//loadQ22();
-	//loadQ23();
-	//loadQ24();
-	//loadQ25();
+	loadQ21();
+	loadQ22();
+	loadQ23();
+	loadQ24();
+	loadQ25();
 	//loadQ26();
 	//loadQ27();
 	//loadQ28();

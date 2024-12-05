@@ -3,8 +3,6 @@ void loadX9() {
 	X9x.Init();
 	X9x.AddTimeValue(0.0, -54);
 	X9x.AddTimeValue(10.0, -59.5);
-	X9x.AddTimeValue(9.375, -59.5);
-	X9x.AddTimeValue(8.75, -59.5);
 	X9x.AddTimeValue(8.125, -59.5);
 	X9x.AddTimeValue(7.5, -59.5);
 	X9x.AddTimeValue(6.875, -58.75);
@@ -22,8 +20,6 @@ void loadX9() {
 	X9z.Init();
 	X9z.AddTimeValue(0.0, -47.75);
 	X9z.AddTimeValue(10.0, -13.75);
-	X9z.AddTimeValue(9.375, -13.75);
-	X9z.AddTimeValue(8.75, -13.75);
 	X9z.AddTimeValue(8.125, -13.75);
 	X9z.AddTimeValue(7.5, -13.75);
 	X9z.AddTimeValue(6.875, -13.25);

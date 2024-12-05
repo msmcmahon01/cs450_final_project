@@ -3,8 +3,6 @@ void loadB5() {
     B5x.Init();
     B5x.AddTimeValue(0.0, -40);
     B5x.AddTimeValue(10.0, -26.75);
-    B5x.AddTimeValue(9.375, -26.75);
-    B5x.AddTimeValue(8.75, -26.75);
     B5x.AddTimeValue(8.125, -26.75);
     B5x.AddTimeValue(7.5, -26.75);
     B5x.AddTimeValue(6.875, -28.5);
@@ -22,8 +20,6 @@ void loadB5() {
     B5z.Init();
     B5z.AddTimeValue(0.0, -42);
     B5z.AddTimeValue(10.0, -3.25);
-    B5z.AddTimeValue(9.375, -3.25);
-    B5z.AddTimeValue(8.75, -3.25);
     B5z.AddTimeValue(8.125, -3.25);
     B5z.AddTimeValue(7.5, -3.25);
     B5z.AddTimeValue(6.875, -0.5);

@@ -3,8 +3,6 @@ void loadB4() {
 	B4x.Init();
 	B4x.AddTimeValue(0.0, -24);
 	B4x.AddTimeValue(10.0, -27);
-	B4x.AddTimeValue(9.375, -27);
-	B4x.AddTimeValue(8.75, -27);
 	B4x.AddTimeValue(8.125, -27);
 	B4x.AddTimeValue(7.5, -27);
 	B4x.AddTimeValue(6.875, -25);
@@ -22,8 +20,6 @@ void loadB4() {
 	B4z.Init();
 	B4z.AddTimeValue(0.0, -42);
 	B4z.AddTimeValue(10.0, -5.25);
-	B4z.AddTimeValue(9.375, -5.25);
-	B4z.AddTimeValue(8.75, -5.25);
 	B4z.AddTimeValue(8.125, -5.25);
 	B4z.AddTimeValue(7.5, -5.25);
 	B4z.AddTimeValue(6.875, -3);

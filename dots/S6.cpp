@@ -3,8 +3,6 @@ void loadS6() {
 	S6x.Init();
 	S6x.AddTimeValue(0.0, 15);
 	S6x.AddTimeValue(10.0, 5.5);
-	S6x.AddTimeValue(9.375, 5.5);
-	S6x.AddTimeValue(8.75, 5.5);
 	S6x.AddTimeValue(8.125, 5.5);
 	S6x.AddTimeValue(7.5, 5.5);
 	S6x.AddTimeValue(6.875, 5.5);
@@ -22,8 +20,6 @@ void loadS6() {
 	S6z.Init();
 	S6z.AddTimeValue(0.0, -44);
 	S6z.AddTimeValue(10.0, -2.25);
-	S6z.AddTimeValue(9.375, -2.25);
-	S6z.AddTimeValue(8.75, -2.25);
 	S6z.AddTimeValue(8.125, -2.25);
 	S6z.AddTimeValue(7.5, -2.25);
 	S6z.AddTimeValue(6.875, -2.25);

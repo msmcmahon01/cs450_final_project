@@ -3,8 +3,6 @@ void loadN1() {
 	N1x.Init();
 	N1x.AddTimeValue(0.0, 13.5);
 	N1x.AddTimeValue(10.0, 11.5);
-	N1x.AddTimeValue(9.375, 11.5);
-	N1x.AddTimeValue(8.75, 11.5);
 	N1x.AddTimeValue(8.125, 11.5);
 	N1x.AddTimeValue(7.5, 11.5);
 	N1x.AddTimeValue(6.875, 11.5);
@@ -22,8 +20,6 @@ void loadN1() {
 	N1z.Init();
 	N1z.AddTimeValue(0.0, -46);
 	N1z.AddTimeValue(10.0, -5.5);
-	N1z.AddTimeValue(9.375, -5.5);
-	N1z.AddTimeValue(8.75, -5.5);
 	N1z.AddTimeValue(8.125, -5.5);
 	N1z.AddTimeValue(7.5, -5.5);
 	N1z.AddTimeValue(6.875, -5.5);

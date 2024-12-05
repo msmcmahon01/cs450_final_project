@@ -3,8 +3,6 @@ void loadB15() {
 	B15x.Init();
 	B15x.AddTimeValue(0.0, 6);
 	B15x.AddTimeValue(10.0, -15.75);
-	B15x.AddTimeValue(9.375, -15.75);
-	B15x.AddTimeValue(8.75, -15.75);
 	B15x.AddTimeValue(8.125, -15.75);
 	B15x.AddTimeValue(7.5, -15.75);
 	B15x.AddTimeValue(6.875, -15.25);
@@ -22,8 +20,6 @@ void loadB15() {
 	B15z.Init();
 	B15z.AddTimeValue(0.0, -48.25);
 	B15z.AddTimeValue(10.0, -13.25);
-	B15z.AddTimeValue(9.375, -13.25);
-	B15z.AddTimeValue(8.75, -13.25);
 	B15z.AddTimeValue(8.125, -13.25);
 	B15z.AddTimeValue(7.5, -13.25);
 	B15z.AddTimeValue(6.875, -14);

@@ -3,8 +3,6 @@ void loadD3() {
 	D3x.Init();
 	D3x.AddTimeValue(0.0, 4.75);
 	D3x.AddTimeValue(10.0, 3.5);
-	D3x.AddTimeValue(9.375, 3.5);
-	D3x.AddTimeValue(8.75, 3.5);
 	D3x.AddTimeValue(8.125, 3.5);
 	D3x.AddTimeValue(7.5, 3.5);
 	D3x.AddTimeValue(6.875, 3.5);
@@ -22,8 +20,6 @@ void loadD3() {
 	D3z.Init();
 	D3z.AddTimeValue(0.0, -46);
 	D3z.AddTimeValue(10.0, -5.5);
-	D3z.AddTimeValue(9.375, -5.5);
-	D3z.AddTimeValue(8.75, -5.5);
 	D3z.AddTimeValue(8.125, -5.5);
 	D3z.AddTimeValue(7.5, -5.5);
 	D3z.AddTimeValue(6.875, -5.5);

@@ -3,8 +3,6 @@ void loadM12() {
 	M12x.Init();
 	M12x.AddTimeValue(0.0, 54);
 	M12x.AddTimeValue(10.0, 33);
-	M12x.AddTimeValue(9.375, 33);
-	M12x.AddTimeValue(8.75, 33);
 	M12x.AddTimeValue(8.125, 33);
 	M12x.AddTimeValue(7.5, 32.75);
 	M12x.AddTimeValue(6.875, 32.25);
@@ -22,8 +20,6 @@ void loadM12() {
 	M12z.Init();
 	M12z.AddTimeValue(0.0, 44);
 	M12z.AddTimeValue(10.0, 16.25);
-	M12z.AddTimeValue(9.375, 16.25);
-	M12z.AddTimeValue(8.75, 16.25);
 	M12z.AddTimeValue(8.125, 16.25);
 	M12z.AddTimeValue(7.5, 17.5);
 	M12z.AddTimeValue(6.875, 18.75);

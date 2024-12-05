@@ -3,8 +3,6 @@ void loadT32() {
 	T32x.Init();
 	T32x.AddTimeValue(0.0f, -2f);
 	T32x.AddTimeValue(10.0f, -2f);
-	T32x.AddTimeValue(9.375f, -2f);
-	T32x.AddTimeValue(8.75f, -12f);
 	T32x.AddTimeValue(8.125f, -12f);
 	T32x.AddTimeValue(7.5f, -4f);
 	T32x.AddTimeValue(6.875f, -4f);
@@ -22,8 +20,6 @@ void loadT32() {
 	T32z.Init();
 	T32z.AddTimeValue(0.0f, 86f);
 	T32z.AddTimeValue(10.0f, 84f);
-	T32z.AddTimeValue(9.375f, 68f);
-	T32z.AddTimeValue(8.75f, 72f);
 	T32z.AddTimeValue(8.125f, 72f);
 	T32z.AddTimeValue(7.5f, 76f);
 	T32z.AddTimeValue(6.875f, 76f);

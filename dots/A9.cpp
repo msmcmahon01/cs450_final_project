@@ -3,8 +3,6 @@ void loadA9() {
 	A9x.Init();
 	A9x.AddTimeValue(0.0, 58);
 	A9x.AddTimeValue(10.0, 61);
-	A9x.AddTimeValue(9.375, 61);
-	A9x.AddTimeValue(8.75, 61);
 	A9x.AddTimeValue(8.125, 61);
 	A9x.AddTimeValue(7.5, 60.75);
 	A9x.AddTimeValue(6.875, 60.25);
@@ -22,8 +20,6 @@ void loadA9() {
 	A9z.Init();
 	A9z.AddTimeValue(0.0, 42);
 	A9z.AddTimeValue(10.0, 12);
-	A9z.AddTimeValue(9.375, 12);
-	A9z.AddTimeValue(8.75, 12);
 	A9z.AddTimeValue(8.125, 12);
 	A9z.AddTimeValue(7.5, 12.25);
 	A9z.AddTimeValue(6.875, 12.75);

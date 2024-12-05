@@ -3,8 +3,6 @@ void loadC14() {
 	C14x.Init();
 	C14x.AddTimeValue(0.0, 54);
 	C14x.AddTimeValue(10.0, 65.75);
-	C14x.AddTimeValue(9.375, 65.75);
-	C14x.AddTimeValue(8.75, 65.75);
 	C14x.AddTimeValue(8.125, 65.75);
 	C14x.AddTimeValue(7.5, 65.75);
 	C14x.AddTimeValue(6.875, 63.5);
@@ -22,8 +20,6 @@ void loadC14() {
 	C14z.Init();
 	C14z.AddTimeValue(0.0, 42);
 	C14z.AddTimeValue(10.0, -2.5);
-	C14z.AddTimeValue(9.375, -2.5);
-	C14z.AddTimeValue(8.75, -2.5);
 	C14z.AddTimeValue(8.125, -2.5);
 	C14z.AddTimeValue(7.5, -2.5);
 	C14z.AddTimeValue(6.875, 0.25);

@@ -3,8 +3,6 @@ void loadM14() {
 	M14x.Init();
 	M14x.AddTimeValue(0.0, 36);
 	M14x.AddTimeValue(10.0, 37.5);
-	M14x.AddTimeValue(9.375, 37.5);
-	M14x.AddTimeValue(8.75, 37.5);
 	M14x.AddTimeValue(8.125, 37.5);
 	M14x.AddTimeValue(7.5, 37.25);
 	M14x.AddTimeValue(6.875, 37.25);
@@ -22,8 +20,6 @@ void loadM14() {
 	M14z.Init();
 	M14z.AddTimeValue(0.0, 42);
 	M14z.AddTimeValue(10.0, 17);
-	M14z.AddTimeValue(9.375, 17);
-	M14z.AddTimeValue(8.75, 17);
 	M14z.AddTimeValue(8.125, 17);
 	M14z.AddTimeValue(7.5, 12.25);
 	M14z.AddTimeValue(6.875, 7.75);

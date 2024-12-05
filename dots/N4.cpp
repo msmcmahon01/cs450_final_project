@@ -3,8 +3,6 @@ void loadN4() {
 	N4x.Init();
 	N4x.AddTimeValue(0.0, 22.25);
 	N4x.AddTimeValue(10.0, 13.5);
-	N4x.AddTimeValue(9.375, 13.5);
-	N4x.AddTimeValue(8.75, 13.5);
 	N4x.AddTimeValue(8.125, 13.5);
 	N4x.AddTimeValue(7.5, 13.5);
 	N4x.AddTimeValue(6.875, 13.5);
@@ -22,8 +20,6 @@ void loadN4() {
 	N4z.Init();
 	N4z.AddTimeValue(0.0, -46);
 	N4z.AddTimeValue(10.0, -10.75);
-	N4z.AddTimeValue(9.375, -10.75);
-	N4z.AddTimeValue(8.75, -10.75);
 	N4z.AddTimeValue(8.125, -10.75);
 	N4z.AddTimeValue(7.5, -10.75);
 	N4z.AddTimeValue(6.875, -10.75);

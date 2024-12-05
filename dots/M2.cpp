@@ -3,8 +3,6 @@ void loadM2() {
 	M2x.Init();
 	M2x.AddTimeValue(0.0, 38);
 	M2x.AddTimeValue(10.0, 25.25);
-	M2x.AddTimeValue(9.375, 25.25);
-	M2x.AddTimeValue(8.75, 25.25);
 	M2x.AddTimeValue(8.125, 25.25);
 	M2x.AddTimeValue(7.5, 25.25);
 	M2x.AddTimeValue(6.875, 24);
@@ -22,8 +20,6 @@ void loadM2() {
 	M2z.Init();
 	M2z.AddTimeValue(0.0, 44);
 	M2z.AddTimeValue(10.0, 2.5);
-	M2z.AddTimeValue(9.375, 2.5);
-	M2z.AddTimeValue(8.75, 2.5);
 	M2z.AddTimeValue(8.125, 2.5);
 	M2z.AddTimeValue(7.5, 2.5);
 	M2z.AddTimeValue(6.875, 3.75);

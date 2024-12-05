@@ -3,8 +3,6 @@ void loadP17() {
 	P17x.Init();
 	P17x.AddTimeValue(0.0, 12);
 	P17x.AddTimeValue(10.0, -15.75);
-	P17x.AddTimeValue(9.375, -15.75);
-	P17x.AddTimeValue(8.75, -15.75);
 	P17x.AddTimeValue(8.125, -15.75);
 	P17x.AddTimeValue(7.5, -15.75);
 	P17x.AddTimeValue(6.875, -15.75);
@@ -22,8 +20,6 @@ void loadP17() {
 	P17z.Init();
 	P17z.AddTimeValue(0.0, -49.25);
 	P17z.AddTimeValue(10.0, -19.25);
-	P17z.AddTimeValue(9.375, -19.25);
-	P17z.AddTimeValue(8.75, -19.25);
 	P17z.AddTimeValue(8.125, -19.25);
 	P17z.AddTimeValue(7.5, -19.25);
 	P17z.AddTimeValue(6.875, -19.25);

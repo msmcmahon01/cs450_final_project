@@ -3,8 +3,6 @@ void loadP23() {
 	P23x.Init();
 	P23x.AddTimeValue(0.0, -30);
 	P23x.AddTimeValue(10.0, -36.25);
-	P23x.AddTimeValue(9.375, -36.25);
-	P23x.AddTimeValue(8.75, -36.25);
 	P23x.AddTimeValue(8.125, -36.25);
 	P23x.AddTimeValue(7.5, -36.25);
 	P23x.AddTimeValue(6.875, -36.25);
@@ -22,8 +20,6 @@ void loadP23() {
 	P23z.Init();
 	P23z.AddTimeValue(0.0, -49.5);
 	P23z.AddTimeValue(10.0, -16.25);
-	P23z.AddTimeValue(9.375, -16.25);
-	P23z.AddTimeValue(8.75, -16.25);
 	P23z.AddTimeValue(8.125, -16.25);
 	P23z.AddTimeValue(7.5, -16.25);
 	P23z.AddTimeValue(6.875, -16.25);

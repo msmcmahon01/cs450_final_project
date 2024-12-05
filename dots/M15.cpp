@@ -3,8 +3,6 @@ void loadM15() {
 	M15x.Init();
 	M15x.AddTimeValue(0.0, 42);
 	M15x.AddTimeValue(10.0, 39.75);
-	M15x.AddTimeValue(9.375, 39.75);
-	M15x.AddTimeValue(8.75, 39.75);
 	M15x.AddTimeValue(8.125, 39.75);
 	M15x.AddTimeValue(7.5, 39.25);
 	M15x.AddTimeValue(6.875, 38.5);
@@ -22,8 +20,6 @@ void loadM15() {
 	M15z.Init();
 	M15z.AddTimeValue(0.0, 42);
 	M15z.AddTimeValue(10.0, 17.25);
-	M15z.AddTimeValue(9.375, 17.25);
-	M15z.AddTimeValue(8.75, 17.25);
 	M15z.AddTimeValue(8.125, 17.25);
 	M15z.AddTimeValue(7.5, 14.5);
 	M15z.AddTimeValue(6.875, 11.75);

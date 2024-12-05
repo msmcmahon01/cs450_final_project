@@ -3,8 +3,6 @@ void loadX6() {
 	X6x.Init();
 	X6x.AddTimeValue(0.0, -51);
 	X6x.AddTimeValue(10.0, -53.5);
-	X6x.AddTimeValue(9.375, -53.5);
-	X6x.AddTimeValue(8.75, -53.5);
 	X6x.AddTimeValue(8.125, -53.5);
 	X6x.AddTimeValue(7.5, -53.5);
 	X6x.AddTimeValue(6.875, -53.5);
@@ -22,8 +20,6 @@ void loadX6() {
 	X6z.Init();
 	X6z.AddTimeValue(0.0, -47.75);
 	X6z.AddTimeValue(10.0, -16.25);
-	X6z.AddTimeValue(9.375, -16.25);
-	X6z.AddTimeValue(8.75, -16.25);
 	X6z.AddTimeValue(8.125, -16.25);
 	X6z.AddTimeValue(7.5, -16.25);
 	X6z.AddTimeValue(6.875, -16.25);

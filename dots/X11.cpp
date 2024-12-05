@@ -3,8 +3,6 @@ void loadX11() {
 	X11x.Init();
 	X11x.AddTimeValue(0.0, -63);
 	X11x.AddTimeValue(10.0, -62.75);
-	X11x.AddTimeValue(9.375, -62.75);
-	X11x.AddTimeValue(8.75, -62.75);
 	X11x.AddTimeValue(8.125, -62.75);
 	X11x.AddTimeValue(7.5, -62.75);
 	X11x.AddTimeValue(6.875, -63.25);
@@ -22,8 +20,6 @@ void loadX11() {
 	X11z.Init();
 	X11z.AddTimeValue(0.0, -47.75);
 	X11z.AddTimeValue(10.0, -10.75);
-	X11z.AddTimeValue(9.375, -10.75);
-	X11z.AddTimeValue(8.75, -10.75);
 	X11z.AddTimeValue(8.125, -10.75);
 	X11z.AddTimeValue(7.5, -10.75);
 	X11z.AddTimeValue(6.875, -11.75);

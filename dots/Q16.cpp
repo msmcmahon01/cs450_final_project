@@ -3,8 +3,6 @@ void loadQ16() {
 	Q16x.Init();
 	Q16x.AddTimeValue(0.0, -64);
 	Q16x.AddTimeValue(10.0, -50.75);
-	Q16x.AddTimeValue(9.375, -50.75);
-	Q16x.AddTimeValue(8.75, -50.75);
 	Q16x.AddTimeValue(8.125, -50.75);
 	Q16x.AddTimeValue(7.5, -50.5);
 	Q16x.AddTimeValue(6.875, -50.25);
@@ -22,8 +20,6 @@ void loadQ16() {
 	Q16z.Init();
 	Q16z.AddTimeValue(0.0, 44);
 	Q16z.AddTimeValue(10.0, 15.25);
-	Q16z.AddTimeValue(9.375, 15.25);
-	Q16z.AddTimeValue(8.75, 15.25);
 	Q16z.AddTimeValue(8.125, 15.25);
 	Q16z.AddTimeValue(7.5, 18.5);
 	Q16z.AddTimeValue(6.875, 21.75);

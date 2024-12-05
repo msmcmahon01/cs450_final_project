@@ -3,8 +3,6 @@ void loadY5() {
 	Y5x.Init();
 	Y5x.AddTimeValue(0.0, 11);
 	Y5x.AddTimeValue(10.0, -5);
-	Y5x.AddTimeValue(9.375, -5);
-	Y5x.AddTimeValue(8.75, -5);
 	Y5x.AddTimeValue(8.125, -5);
 	Y5x.AddTimeValue(7.5, -5);
 	Y5x.AddTimeValue(6.875, -5);
@@ -22,8 +20,6 @@ void loadY5() {
 	Y5z.Init();
 	Y5z.AddTimeValue(0.0, -42);
 	Y5z.AddTimeValue(10.0, 4);
-	Y5z.AddTimeValue(9.375, 4);
-	Y5z.AddTimeValue(8.75, 4);
 	Y5z.AddTimeValue(8.125, 4);
 	Y5z.AddTimeValue(7.5, 4);
 	Y5z.AddTimeValue(6.875, 4);

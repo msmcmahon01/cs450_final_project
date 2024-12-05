@@ -3,8 +3,6 @@ void loadD1() {
 	D1x.Init();
 	D1x.AddTimeValue(0.0, 10.5);
 	D1x.AddTimeValue(10.0, 8.5);
-	D1x.AddTimeValue(9.375, 8.5);
-	D1x.AddTimeValue(8.75, 8.5);
 	D1x.AddTimeValue(8.125, 8.5);
 	D1x.AddTimeValue(7.5, 8.5);
 	D1x.AddTimeValue(6.875, 8.5);
@@ -22,8 +20,6 @@ void loadD1() {
 	D1z.Init();
 	D1z.AddTimeValue(0.0, -46);
 	D1z.AddTimeValue(10.0, -8);
-	D1z.AddTimeValue(9.375, -8);
-	D1z.AddTimeValue(8.75, -8);
 	D1z.AddTimeValue(8.125, -8);
 	D1z.AddTimeValue(7.5, -8);
 	D1z.AddTimeValue(6.875, -8);

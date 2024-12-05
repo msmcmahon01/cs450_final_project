@@ -3,8 +3,6 @@ void loadQ23() {
 	Q23x.Init();
 	Q23x.AddTimeValue(0.0, -56);
 	Q23x.AddTimeValue(10.0, -35.5);
-	Q23x.AddTimeValue(9.375, -35.5);
-	Q23x.AddTimeValue(8.75, -35.5);
 	Q23x.AddTimeValue(8.125, -35.5);
 	Q23x.AddTimeValue(7.5, -35);
 	Q23x.AddTimeValue(6.875, -34.5);
@@ -22,8 +20,6 @@ void loadQ23() {
 	Q23z.Init();
 	Q23z.AddTimeValue(0.0, 44);
 	Q23z.AddTimeValue(10.0, 15.25);
-	Q23z.AddTimeValue(9.375, 15.25);
-	Q23z.AddTimeValue(8.75, 15.25);
 	Q23z.AddTimeValue(8.125, 15.25);
 	Q23z.AddTimeValue(7.5, 18.25);
 	Q23z.AddTimeValue(6.875, 21);

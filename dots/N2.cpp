@@ -3,8 +3,6 @@ void loadN2() {
 	N2x.Init();
 	N2x.AddTimeValue(0.0, 16.25);
 	N2x.AddTimeValue(10.0, 11);
-	N2x.AddTimeValue(9.375, 11);
-	N2x.AddTimeValue(8.75, 11);
 	N2x.AddTimeValue(8.125, 11);
 	N2x.AddTimeValue(7.5, 11);
 	N2x.AddTimeValue(6.875, 11);
@@ -22,8 +20,6 @@ void loadN2() {
 	N2z.Init();
 	N2z.AddTimeValue(0.0, -46);
 	N2z.AddTimeValue(10.0, -9.25);
-	N2z.AddTimeValue(9.375, -9.25);
-	N2z.AddTimeValue(8.75, -9.25);
 	N2z.AddTimeValue(8.125, -9.25);
 	N2z.AddTimeValue(7.5, -9.25);
 	N2z.AddTimeValue(6.875, -9.25);

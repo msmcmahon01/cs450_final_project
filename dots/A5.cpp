@@ -3,8 +3,6 @@ void loadA5() {
 A5x.Init();
 A5x.AddTimeValue(0.0, 46);
 A5x.AddTimeValue(10.0, 53.25);
-A5x.AddTimeValue(9.375, 53.25);
-A5x.AddTimeValue(8.75, 53.25);
 A5x.AddTimeValue(8.125, 53.25);
 A5x.AddTimeValue(7.5, 51);
 A5x.AddTimeValue(6.875, 49);
@@ -22,8 +20,6 @@ A5x.AddTimeValue(0.625, 46);
 A5z.Init();
 A5z.AddTimeValue(0.0, 42);
 A5z.AddTimeValue(10.0, 16.25);
-A5z.AddTimeValue(9.375, 16.25);
-A5z.AddTimeValue(8.75, 16.25);
 A5z.AddTimeValue(8.125, 16.25);
 A5z.AddTimeValue(7.5, 12.5);
 A5z.AddTimeValue(6.875, 8.75);

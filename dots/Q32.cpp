@@ -3,8 +3,6 @@ void loadQ32() {
 	Q32x.Init();
 	Q32x.AddTimeValue(0.0, -12);
 	Q32x.AddTimeValue(10.0, -16.75);
-	Q32x.AddTimeValue(9.375, -16.75);
-	Q32x.AddTimeValue(8.75, -16.75);
 	Q32x.AddTimeValue(8.125, -16.75);
 	Q32x.AddTimeValue(7.5, -15.75);
 	Q32x.AddTimeValue(6.875, -15);
@@ -22,8 +20,6 @@ void loadQ32() {
 	Q32z.Init();
 	Q32z.AddTimeValue(0.0, 44);
 	Q32z.AddTimeValue(10.0, 10);
-	Q32z.AddTimeValue(9.375, 10);
-	Q32z.AddTimeValue(8.75, 10);
 	Q32z.AddTimeValue(8.125, 10);
 	Q32z.AddTimeValue(7.5, 11.75);
 	Q32z.AddTimeValue(6.875, 13.25);

@@ -3,8 +3,6 @@ void loadU16() {
 	U16x.Init();
 	U16x.AddTimeValue(0.0, -12.75);
 	U16x.AddTimeValue(10.0, -13.5);
-	U16x.AddTimeValue(9.375, -13.5);
-	U16x.AddTimeValue(8.75, -13.5);
 	U16x.AddTimeValue(8.125, -13.5);
 	U16x.AddTimeValue(7.5, -13.5);
 	U16x.AddTimeValue(6.875, -13.5);
@@ -22,8 +20,6 @@ void loadU16() {
 	U16z.Init();
 	U16z.AddTimeValue(0.0, -51.5);
 	U16z.AddTimeValue(10.0, -25.5);
-	U16z.AddTimeValue(9.375, -25.5);
-	U16z.AddTimeValue(8.75, -25.5);
 	U16z.AddTimeValue(8.125, -25.5);
 	U16z.AddTimeValue(7.5, -25.5);
 	U16z.AddTimeValue(6.875, -25.5);

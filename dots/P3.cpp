@@ -3,8 +3,6 @@ void loadP3() {
 	P3x.Init();
 	P3x.AddTimeValue(0.0, -24);
 	P3x.AddTimeValue(10.0, -27.25);
-	P3x.AddTimeValue(9.375, -27.25);
-	P3x.AddTimeValue(8.75, -27.25);
 	P3x.AddTimeValue(8.125, -27.25);
 	P3x.AddTimeValue(7.5, -27.25);
 	P3x.AddTimeValue(6.875, -27.25);
@@ -22,8 +20,6 @@ void loadP3() {
 	P3z.Init();
 	P3z.AddTimeValue(0.0, -47.75);
 	P3z.AddTimeValue(10.0, -19);
-	P3z.AddTimeValue(9.375, -19);
-	P3z.AddTimeValue(8.75, -19);
 	P3z.AddTimeValue(8.125, -19);
 	P3z.AddTimeValue(7.5, -19);
 	P3z.AddTimeValue(6.875, -19);

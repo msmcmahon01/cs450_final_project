@@ -3,8 +3,6 @@ void loadG7() {
 	G7x.Init();
 	G7x.AddTimeValue(0.0, -28);
 	G7x.AddTimeValue(10.0, -28);
-	G7x.AddTimeValue(9.375, -28);
-	G7x.AddTimeValue(8.75, -28);
 	G7x.AddTimeValue(8.125, -28);
 	G7x.AddTimeValue(7.5, -28);
 	G7x.AddTimeValue(6.875, -28);
@@ -22,8 +20,6 @@ void loadG7() {
 	G7z.Init();
 	G7z.AddTimeValue(0.0, -55);
 	G7z.AddTimeValue(10.0, -36);
-	G7z.AddTimeValue(9.375, -36);
-	G7z.AddTimeValue(8.75, -36);
 	G7z.AddTimeValue(8.125, -36);
 	G7z.AddTimeValue(7.5, -36);
 	G7z.AddTimeValue(6.875, -36);

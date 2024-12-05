@@ -3,8 +3,6 @@ void loadQ33() {
 	Q33x.Init();
 	Q33x.AddTimeValue(0.0, -18);
 	Q33x.AddTimeValue(10.0, -14.75);
-	Q33x.AddTimeValue(9.375, -14.75);
-	Q33x.AddTimeValue(8.75, -14.75);
 	Q33x.AddTimeValue(8.125, -14.75);
 	Q33x.AddTimeValue(7.5, -14.75);
 	Q33x.AddTimeValue(6.875, -14.75);
@@ -22,8 +20,6 @@ void loadQ33() {
 	Q33z.Init();
 	Q33z.AddTimeValue(0.0, 42);
 	Q33z.AddTimeValue(10.0, 9.25);
-	Q33z.AddTimeValue(9.375, 9.25);
-	Q33z.AddTimeValue(8.75, 9.25);
 	Q33z.AddTimeValue(8.125, 9.25);
 	Q33z.AddTimeValue(7.5, 9.25);
 	Q33z.AddTimeValue(6.875, 9.25);

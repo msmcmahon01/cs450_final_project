@@ -3,8 +3,6 @@ void loadG16() {
 	G16x.Init();
 	G16x.AddTimeValue(0.0, 44);
 	G16x.AddTimeValue(10.0, 44);
-	G16x.AddTimeValue(9.375, 44);
-	G16x.AddTimeValue(8.75, 44);
 	G16x.AddTimeValue(8.125, 44);
 	G16x.AddTimeValue(7.5, 44);
 	G16x.AddTimeValue(6.875, 44);
@@ -22,8 +20,6 @@ void loadG16() {
 	G16z.Init();
 	G16z.AddTimeValue(0.0, -55);
 	G16z.AddTimeValue(10.0, -30);
-	G16z.AddTimeValue(9.375, -30);
-	G16z.AddTimeValue(8.75, -30);
 	G16z.AddTimeValue(8.125, -30);
 	G16z.AddTimeValue(7.5, -30);
 	G16z.AddTimeValue(6.875, -30);

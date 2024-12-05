@@ -3,8 +3,6 @@ void loadB11() {
 	B11x.Init();
 	B11x.AddTimeValue(0.0, -6);
 	B11x.AddTimeValue(10.0, -15.25);
-	B11x.AddTimeValue(9.375, -15.25);
-	B11x.AddTimeValue(8.75, -15.25);
 	B11x.AddTimeValue(8.125, -15.25);
 	B11x.AddTimeValue(7.5, -15.25);
 	B11x.AddTimeValue(6.875, -12.5);
@@ -22,8 +20,6 @@ void loadB11() {
 	B11z.Init();
 	B11z.AddTimeValue(0.0, -42);
 	B11z.AddTimeValue(10.0, -5.25);
-	B11z.AddTimeValue(9.375, -5.25);
-	B11z.AddTimeValue(8.75, -5.25);
 	B11z.AddTimeValue(8.125, -5.25);
 	B11z.AddTimeValue(7.5, -5.25);
 	B11z.AddTimeValue(6.875, -6.5);

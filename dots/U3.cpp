@@ -3,8 +3,6 @@ void loadU3() {
 	U3x.Init();
 	U3x.AddTimeValue(0.0, 14.75);
 	U3x.AddTimeValue(10.0, 11.5);
-	U3x.AddTimeValue(9.375, 11.5);
-	U3x.AddTimeValue(8.75, 11.5);
 	U3x.AddTimeValue(8.125, 11.5);
 	U3x.AddTimeValue(7.5, 11.5);
 	U3x.AddTimeValue(6.875, 11.5);
@@ -22,8 +20,6 @@ void loadU3() {
 	U3z.Init();
 	U3z.AddTimeValue(0.0, -51.5);
 	U3z.AddTimeValue(10.0, -26);
-	U3z.AddTimeValue(9.375, -26);
-	U3z.AddTimeValue(8.75, -26);
 	U3z.AddTimeValue(8.125, -26);
 	U3z.AddTimeValue(7.5, -26);
 	U3z.AddTimeValue(6.875, -26);

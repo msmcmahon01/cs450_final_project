@@ -3,8 +3,6 @@ void loadC11() {
 	C11x.Init();
 	C11x.AddTimeValue(0.0, 32);
 	C11x.AddTimeValue(10.0, 26.25);
-	C11x.AddTimeValue(9.375, 26.25);
-	C11x.AddTimeValue(8.75, 26.25);
 	C11x.AddTimeValue(8.125, 26.25);
 	C11x.AddTimeValue(7.5, 26.25);
 	C11x.AddTimeValue(6.875, 23.5);
@@ -22,8 +20,6 @@ void loadC11() {
 	C11z.Init();
 	C11z.AddTimeValue(0.0, 42);
 	C11z.AddTimeValue(10.0, -1.25);
-	C11z.AddTimeValue(9.375, -1.25);
-	C11z.AddTimeValue(8.75, -1.25);
 	C11z.AddTimeValue(8.125, -1.25);
 	C11z.AddTimeValue(7.5, -1.25);
 	C11z.AddTimeValue(6.875, -1.25);

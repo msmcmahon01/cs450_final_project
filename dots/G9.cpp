@@ -3,8 +3,6 @@ void loadG9() {
 	G9x.Init();
 	G9x.AddTimeValue(0.0, -12);
 	G9x.AddTimeValue(10.0, -12);
-	G9x.AddTimeValue(9.375, -12);
-	G9x.AddTimeValue(8.75, -12);
 	G9x.AddTimeValue(8.125, -12);
 	G9x.AddTimeValue(7.5, -12);
 	G9x.AddTimeValue(6.875, -12);
@@ -22,8 +20,6 @@ void loadG9() {
 	G9z.Init();
 	G9z.AddTimeValue(0.0, -55);
 	G9z.AddTimeValue(10.0, -36);
-	G9z.AddTimeValue(9.375, -36);
-	G9z.AddTimeValue(8.75, -36);
 	G9z.AddTimeValue(8.125, -36);
 	G9z.AddTimeValue(7.5, -36);
 	G9z.AddTimeValue(6.875, -36);

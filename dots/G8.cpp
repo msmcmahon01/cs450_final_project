@@ -3,8 +3,6 @@ void loadG8() {
 	G8x.Init();
 	G8x.AddTimeValue(0.0, -20);
 	G8x.AddTimeValue(10.0, -20);
-	G8x.AddTimeValue(9.375, -20);
-	G8x.AddTimeValue(8.75, -20);
 	G8x.AddTimeValue(8.125, -20);
 	G8x.AddTimeValue(7.5, -20);
 	G8x.AddTimeValue(6.875, -20);
@@ -22,8 +20,6 @@ void loadG8() {
 	G8z.Init();
 	G8z.AddTimeValue(0.0, -55);
 	G8z.AddTimeValue(10.0, -42);
-	G8z.AddTimeValue(9.375, -42);
-	G8z.AddTimeValue(8.75, -42);
 	G8z.AddTimeValue(8.125, -42);
 	G8z.AddTimeValue(7.5, -42);
 	G8z.AddTimeValue(6.875, -42);

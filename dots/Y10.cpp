@@ -3,8 +3,6 @@ void loadY10() {
 	Y10x.Init();
 	Y10x.AddTimeValue(0.0, 21);
 	Y10x.AddTimeValue(10.0, 26.5);
-	Y10x.AddTimeValue(9.375, 26.5);
-	Y10x.AddTimeValue(8.75, 26.5);
 	Y10x.AddTimeValue(8.125, 26.5);
 	Y10x.AddTimeValue(7.5, 26.5);
 	Y10x.AddTimeValue(6.875, 26.5);
@@ -22,8 +20,6 @@ void loadY10() {
 	Y10z.Init();
 	Y10z.AddTimeValue(0.0, -42);
 	Y10z.AddTimeValue(10.0, -12.75);
-	Y10z.AddTimeValue(9.375, -12.75);
-	Y10z.AddTimeValue(8.75, -12.75);
 	Y10z.AddTimeValue(8.125, -12.75);
 	Y10z.AddTimeValue(7.5, -12.75);
 	Y10z.AddTimeValue(6.875, -12.75);

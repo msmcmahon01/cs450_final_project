@@ -3,8 +3,6 @@ void loadN5() {
 	N5x.Init();
 	N5x.AddTimeValue(0.0, 25);
 	N5x.AddTimeValue(10.0, 15.75);
-	N5x.AddTimeValue(9.375, 15.75);
-	N5x.AddTimeValue(8.75, 15.75);
 	N5x.AddTimeValue(8.125, 15.75);
 	N5x.AddTimeValue(7.5, 15.75);
 	N5x.AddTimeValue(6.875, 15.75);
@@ -22,8 +20,6 @@ void loadN5() {
 	N5z.Init();
 	N5z.AddTimeValue(0.0, -46);
 	N5z.AddTimeValue(10.0, -7.75);
-	N5z.AddTimeValue(9.375, -7.75);
-	N5z.AddTimeValue(8.75, -7.75);
 	N5z.AddTimeValue(8.125, -7.75);
 	N5z.AddTimeValue(7.5, -7.75);
 	N5z.AddTimeValue(6.875, -7.75);

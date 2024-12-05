@@ -3,8 +3,6 @@ void loadA7() {
 	A7x.Init();
 	A7x.AddTimeValue(0.0, 60);
 	A7x.AddTimeValue(10.0, 57.25);
-	A7x.AddTimeValue(9.375, 57.25);
-	A7x.AddTimeValue(8.75, 57.25);
 	A7x.AddTimeValue(8.125, 57.25);
 	A7x.AddTimeValue(7.5, 57.5);
 	A7x.AddTimeValue(6.875, 57.75);
@@ -22,8 +20,6 @@ void loadA7() {
 	A7z.Init();
 	A7z.AddTimeValue(0.0, 44);
 	A7z.AddTimeValue(10.0, 14.75);
-	A7z.AddTimeValue(9.375, 14.75);
-	A7z.AddTimeValue(8.75, 14.75);
 	A7z.AddTimeValue(8.125, 14.75);
 	A7z.AddTimeValue(7.5, 18.5);
 	A7z.AddTimeValue(6.875, 22.25);

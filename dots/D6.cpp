@@ -3,8 +3,6 @@ void loadD6() {
     D6x.Init();
     D6x.AddTimeValue(0.0, -4);
     D6x.AddTimeValue(10.0, -4);
-    D6x.AddTimeValue(9.375, -4);
-    D6x.AddTimeValue(8.75, -4);
     D6x.AddTimeValue(8.125, -4);
     D6x.AddTimeValue(7.5, -4);
     D6x.AddTimeValue(6.875, -4);
@@ -22,8 +20,6 @@ void loadD6() {
     D6z.Init();
     D6z.AddTimeValue(0.0, -46);
     D6z.AddTimeValue(10.0, -1.25);
-    D6z.AddTimeValue(9.375, -1.25);
-    D6z.AddTimeValue(8.75, -1.25);
     D6z.AddTimeValue(8.125, -1.25);
     D6z.AddTimeValue(7.5, -1.25);
     D6z.AddTimeValue(6.875, -1.25);

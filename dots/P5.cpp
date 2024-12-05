@@ -3,8 +3,6 @@ void loadP5() {
 	P5x.Init();
 	P5x.AddTimeValue(0.0, -18);
 	P5x.AddTimeValue(10.0, -27.5);
-	P5x.AddTimeValue(9.375, -27.5);
-	P5x.AddTimeValue(8.75, -27.5);
 	P5x.AddTimeValue(8.125, -27.5);
 	P5x.AddTimeValue(7.5, -27.5);
 	P5x.AddTimeValue(6.875, -27.5);
@@ -22,8 +20,6 @@ void loadP5() {
 	P5z.Init();
 	P5z.AddTimeValue(0.0, -49.5);
 	P5z.AddTimeValue(10.0, -15.25);
-	P5z.AddTimeValue(9.375, -15.25);
-	P5z.AddTimeValue(8.75, -15.25);
 	P5z.AddTimeValue(8.125, -15.25);
 	P5z.AddTimeValue(7.5, -15.25);
 	P5z.AddTimeValue(6.875, -15.25);

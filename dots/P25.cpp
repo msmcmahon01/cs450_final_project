@@ -3,8 +3,6 @@ void loadP25() {
 	P25x.Init();
 	P25x.AddTimeValue(0.0, -36);
 	P25x.AddTimeValue(10.0, -40.5);
-	P25x.AddTimeValue(9.375, -40.5);
-	P25x.AddTimeValue(8.75, -40.5);
 	P25x.AddTimeValue(8.125, -40.5);
 	P25x.AddTimeValue(7.5, -40.5);
 	P25x.AddTimeValue(6.875, -40.5);
@@ -22,8 +20,6 @@ void loadP25() {
 	P25z.Init();
 	P25z.AddTimeValue(0.0, -47.75);
 	P25z.AddTimeValue(10.0, -17);
-	P25z.AddTimeValue(9.375, -17);
-	P25z.AddTimeValue(8.75, -17);
 	P25z.AddTimeValue(8.125, -17);
 	P25z.AddTimeValue(7.5, -17);
 	P25z.AddTimeValue(6.875, -17);

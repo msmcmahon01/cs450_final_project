@@ -3,8 +3,6 @@ void loadM6() {
 	M6x.Init();
 	M6x.AddTimeValue(0.0, 22);
 	M6x.AddTimeValue(10.0, 22.5);
-	M6x.AddTimeValue(9.375, 22.5);
-	M6x.AddTimeValue(8.75, 22.5);
 	M6x.AddTimeValue(8.125, 22.5);
 	M6x.AddTimeValue(7.5, 20);
 	M6x.AddTimeValue(6.875, 17.5);
@@ -22,8 +20,6 @@ void loadM6() {
 	M6z.Init();
 	M6z.AddTimeValue(0.0, 42);
 	M6z.AddTimeValue(10.0, 10);
-	M6z.AddTimeValue(9.375, 10);
-	M6z.AddTimeValue(8.75, 10);
 	M6z.AddTimeValue(8.125, 10);
 	M6z.AddTimeValue(7.5, 9);
 	M6z.AddTimeValue(6.875, 8);

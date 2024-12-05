@@ -3,8 +3,6 @@ void loadA12() {
 	A12x.Init();
 	A12x.AddTimeValue(0.0, 52);
 	A12x.AddTimeValue(10.0, 65);
-	A12x.AddTimeValue(9.375, 65);
-	A12x.AddTimeValue(8.75, 65);
 	A12x.AddTimeValue(8.125, 65);
 	A12x.AddTimeValue(7.5, 61.25);
 	A12x.AddTimeValue(6.875, 57.75);
@@ -22,8 +20,6 @@ void loadA12() {
 	A12z.Init();
 	A12z.AddTimeValue(0.0, 42);
 	A12z.AddTimeValue(10.0, 6.5);
-	A12z.AddTimeValue(9.375, 6.5);
-	A12z.AddTimeValue(8.75, 6.5);
 	A12z.AddTimeValue(8.125, 6.5);
 	A12z.AddTimeValue(7.5, 5.5);
 	A12z.AddTimeValue(6.875, 4.75);

@@ -3,8 +3,6 @@ void loadX12() {
 	X12x.Init();
 	X12x.AddTimeValue(0.0, -72);
 	X12x.AddTimeValue(10.0, -64);
-	X12x.AddTimeValue(9.375, -64);
-	X12x.AddTimeValue(8.75, -64);
 	X12x.AddTimeValue(8.125, -64);
 	X12x.AddTimeValue(7.5, -64);
 	X12x.AddTimeValue(6.875, -67);
@@ -22,8 +20,6 @@ void loadX12() {
 	X12z.Init();
 	X12z.AddTimeValue(0.0, -47.75);
 	X12z.AddTimeValue(10.0, -9);
-	X12z.AddTimeValue(9.375, -9);
-	X12z.AddTimeValue(8.75, -9);
 	X12z.AddTimeValue(8.125, -9);
 	X12z.AddTimeValue(7.5, -9);
 	X12z.AddTimeValue(6.875, -11.5);

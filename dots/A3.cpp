@@ -3,8 +3,6 @@ void loadA3() {
 	A3x.Init();
 	A3x.AddTimeValue(0.0, 44);
 	A3x.AddTimeValue(10.0, 48.75);
-	A3x.AddTimeValue(9.375, 48.75);
-	A3x.AddTimeValue(8.75, 48.75);
 	A3x.AddTimeValue(8.125, 48.75);
 	A3x.AddTimeValue(7.5, 48.5);
 	A3x.AddTimeValue(6.875, 48.25);
@@ -22,8 +20,6 @@ void loadA3() {
 	A3z.Init();
 	A3z.AddTimeValue(0.0, 42);
 	A3z.AddTimeValue(10.0, 16.75);
-	A3z.AddTimeValue(9.375, 16.75);
-	A3z.AddTimeValue(8.75, 16.75);
 	A3z.AddTimeValue(8.125, 16.75);
 	A3z.AddTimeValue(7.5, 16.5);
 	A3z.AddTimeValue(6.875, 16.25);

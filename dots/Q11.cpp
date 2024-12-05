@@ -3,8 +3,6 @@ void loadQ11() {
 	Q11x.Init();
 	Q11x.AddTimeValue(0.0, -58);
 	Q11x.AddTimeValue(10.0, -60.75);
-	Q11x.AddTimeValue(9.375, -60.75);
-	Q11x.AddTimeValue(8.75, -60.75);
 	Q11x.AddTimeValue(8.125, -60.75);
 	Q11x.AddTimeValue(7.5, -63.75);
 	Q11x.AddTimeValue(6.875, -67);
@@ -22,8 +20,6 @@ void loadQ11() {
 	Q11z.Init();
 	Q11z.AddTimeValue(0.0, 44);
 	Q11z.AddTimeValue(10.0, 11);
-	Q11z.AddTimeValue(9.375, 11);
-	Q11z.AddTimeValue(8.75, 11);
 	Q11z.AddTimeValue(8.125, 11);
 	Q11z.AddTimeValue(7.5, 13.75);
 	Q11z.AddTimeValue(6.875, 16.25);

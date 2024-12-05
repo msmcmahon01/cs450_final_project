@@ -3,8 +3,6 @@ void loadC32() {
 	C32x.Init();
 	C32x.AddTimeValue(0.0, 21);
 	C32x.AddTimeValue(10.0, 33);
-	C32x.AddTimeValue(9.375, 33);
-	C32x.AddTimeValue(8.75, 33);
 	C32x.AddTimeValue(8.125, 33);
 	C32x.AddTimeValue(7.5, 33);
 	C32x.AddTimeValue(6.875, 33);
@@ -22,8 +20,6 @@ void loadC32() {
 	C32z.Init();
 	C32z.AddTimeValue(0.0, -47.75);
 	C32z.AddTimeValue(10.0, -15);
-	C32z.AddTimeValue(9.375, -15);
-	C32z.AddTimeValue(8.75, -15);
 	C32z.AddTimeValue(8.125, -15);
 	C32z.AddTimeValue(7.5, -15);
 	C32z.AddTimeValue(6.875, -15);

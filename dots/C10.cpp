@@ -3,8 +3,6 @@ void loadC10() {
 	C10x.Init();
 	C10x.AddTimeValue(0.0, 38);
 	C10x.AddTimeValue(10.0, 26.5);
-	C10x.AddTimeValue(9.375, 26.5);
-	C10x.AddTimeValue(8.75, 26.5);
 	C10x.AddTimeValue(8.125, 26.5);
 	C10x.AddTimeValue(7.5, 26.5);
 	C10x.AddTimeValue(6.875, 27.25);
@@ -22,8 +20,6 @@ void loadC10() {
 	C10z.Init();
 	C10z.AddTimeValue(0.0, 42);
 	C10z.AddTimeValue(10.0, -3.25);
-	C10z.AddTimeValue(9.375, -3.25);
-	C10z.AddTimeValue(8.75, -3.25);
 	C10z.AddTimeValue(8.125, -3.25);
 	C10z.AddTimeValue(7.5, -3.25);
 	C10z.AddTimeValue(6.875, -2.75);

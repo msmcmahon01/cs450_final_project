@@ -3,8 +3,6 @@ void loadG() {
 	Gx.Init();
 	Gx.AddTimeValue(0.0, );
 	Gx.AddTimeValue(10.0, );
-	Gx.AddTimeValue(9.375, );
-	Gx.AddTimeValue(8.75, );
 	Gx.AddTimeValue(8.125, );
 	Gx.AddTimeValue(7.5, );
 	Gx.AddTimeValue(6.875, );
@@ -22,8 +20,6 @@ void loadG() {
 	Gz.Init();
 	Gz.AddTimeValue(0.0, );
 	Gz.AddTimeValue(10.0, );
-	Gz.AddTimeValue(9.375, );
-	Gz.AddTimeValue(8.75, );
 	Gz.AddTimeValue(8.125, );
 	Gz.AddTimeValue(7.5, );
 	Gz.AddTimeValue(6.875, );

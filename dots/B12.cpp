@@ -3,8 +3,6 @@ void loadB12() {
 	B12x.Init();
 	B12x.AddTimeValue(0.0, -22);
 	B12x.AddTimeValue(10.0, -15.25);
-	B12x.AddTimeValue(9.375, -15.25);
-	B12x.AddTimeValue(8.75, -15.25);
 	B12x.AddTimeValue(8.125, -15.25);
 	B12x.AddTimeValue(7.5, -15.25);
 	B12x.AddTimeValue(6.875, -18.75);
@@ -22,8 +20,6 @@ void loadB12() {
 	B12z.Init();
 	B12z.AddTimeValue(0.0, -42);
 	B12z.AddTimeValue(10.0, -7.25);
-	B12z.AddTimeValue(9.375, -7.25);
-	B12z.AddTimeValue(8.75, -7.25);
 	B12z.AddTimeValue(8.125, -7.25);
 	B12z.AddTimeValue(7.5, -7.25);
 	B12z.AddTimeValue(6.875, -7.5);

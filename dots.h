@@ -1,3 +1,4 @@
+#include "dots/times.cpp"
 // A
 #include "dots/A1.cpp"
 #include "dots/A2.cpp"
@@ -283,8 +284,8 @@
 
 void loadAMatricies() {
 	glPushMatrix();
-	glColor3f(0, 1, 0);
-	glTranslatef(A1x.GetValue(Time * 10), 0, A1z.GetValue(Time * 10));
+	glColor3f(0, 0, 1);
+	glTranslatef(A1x.GetValue(Time * 87), 0, A1z.GetValue(Time * 87));
 	glCallList(SphereDL);
 	glPopMatrix();
 	glPushMatrix();

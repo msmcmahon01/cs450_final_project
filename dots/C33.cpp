@@ -3,8 +3,6 @@ void loadC33() {
 	C33x.Init();
 	C33x.AddTimeValue(0.0, 36);
 	C33x.AddTimeValue(10.0, 30.75);
-	C33x.AddTimeValue(9.375, 30.75);
-	C33x.AddTimeValue(8.75, 30.75);
 	C33x.AddTimeValue(8.125, 30.75);
 	C33x.AddTimeValue(7.5, 30.75);
 	C33x.AddTimeValue(6.875, 30.75);
@@ -22,8 +20,6 @@ void loadC33() {
 	C33z.Init();
 	C33z.AddTimeValue(0.0, -49.75);
 	C33z.AddTimeValue(10.0, -14.25);
-	C33z.AddTimeValue(9.375, -14.25);
-	C33z.AddTimeValue(8.75, -14.25);
 	C33z.AddTimeValue(8.125, -14.25);
 	C33z.AddTimeValue(7.5, -14.25);
 	C33z.AddTimeValue(6.875, -14.25);

@@ -3,8 +3,6 @@ void loadC3() {
 	C3x.Init();
 	C3x.AddTimeValue(0.0, 31.75);
 	C3x.AddTimeValue(10.0, 27.25);
-	C3x.AddTimeValue(9.375, 27.25);
-	C3x.AddTimeValue(8.75, 27.25);
 	C3x.AddTimeValue(8.125, 27.25);
 	C3x.AddTimeValue(7.5, 27.25);
 	C3x.AddTimeValue(6.875, 27.25);
@@ -22,8 +20,6 @@ void loadC3() {
 	C3z.Init();
 	C3z.AddTimeValue(0.0, -51.5);
 	C3z.AddTimeValue(10.0, -19.25);
-	C3z.AddTimeValue(9.375, -19.25);
-	C3z.AddTimeValue(8.75, -19.25);
 	C3z.AddTimeValue(8.125, -19.25);
 	C3z.AddTimeValue(7.5, -19.25);
 	C3z.AddTimeValue(6.875, -19.25);

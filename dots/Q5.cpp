@@ -3,8 +3,6 @@ void loadQ5() {
 	Q5x.Init();
 	Q5x.AddTimeValue(0.0, -26);
 	Q5x.AddTimeValue(10.0, -21.25);
-	Q5x.AddTimeValue(9.375, -21.25);
-	Q5x.AddTimeValue(8.75, -21.25);
 	Q5x.AddTimeValue(8.125, -21.25);
 	Q5x.AddTimeValue(7.5, -21.25);
 	Q5x.AddTimeValue(6.875, -21.25);
@@ -22,8 +20,6 @@ void loadQ5() {
 	Q5z.Init();
 	Q5z.AddTimeValue(0.0, 44);
 	Q5z.AddTimeValue(10.0, 13.75);
-	Q5z.AddTimeValue(9.375, 13.75);
-	Q5z.AddTimeValue(8.75, 13.75);
 	Q5z.AddTimeValue(8.125, 13.75);
 	Q5z.AddTimeValue(7.5, 13.75);
 	Q5z.AddTimeValue(6.875, 13.75);

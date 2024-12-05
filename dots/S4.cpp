@@ -3,8 +3,6 @@ void loadS4() {
 	S4x.Init();
 	S4x.AddTimeValue(0.0, 11);
 	S4x.AddTimeValue(10.0, 2);
-	S4x.AddTimeValue(9.375, 2);
-	S4x.AddTimeValue(8.75, 2);
 	S4x.AddTimeValue(8.125, 2);
 	S4x.AddTimeValue(7.5, 2);
 	S4x.AddTimeValue(6.875, 2);
@@ -22,8 +20,6 @@ void loadS4() {
 	S4z.Init();
 	S4z.AddTimeValue(0.0, -44);
 	S4z.AddTimeValue(10.0, -0.25);
-	S4z.AddTimeValue(9.375, -0.25);
-	S4z.AddTimeValue(8.75, -0.25);
 	S4z.AddTimeValue(8.125, -0.25);
 	S4z.AddTimeValue(7.5, -0.25);
 	S4z.AddTimeValue(6.875, -0.25);

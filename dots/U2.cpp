@@ -3,8 +3,6 @@ void loadU2() {
 	U2x.Init();
 	U2x.AddTimeValue(0.0, 17);
 	U2x.AddTimeValue(10.0, 13.5);
-	U2x.AddTimeValue(9.375, 13.5);
-	U2x.AddTimeValue(8.75, 13.5);
 	U2x.AddTimeValue(8.125, 13.5);
 	U2x.AddTimeValue(7.5, 13.5);
 	U2x.AddTimeValue(6.875, 13.5);
@@ -22,8 +20,6 @@ void loadU2() {
 	U2z.Init();
 	U2z.AddTimeValue(0.0, -51.5);
 	U2z.AddTimeValue(10.0, -25.5);
-	U2z.AddTimeValue(9.375, -25.5);
-	U2z.AddTimeValue(8.75, -25.5);
 	U2z.AddTimeValue(8.125, -25.5);
 	U2z.AddTimeValue(7.5, -25.5);
 	U2z.AddTimeValue(6.875, -25.5);

@@ -3,8 +3,6 @@ void loadG20() {
 	G20x.Init();
 	G20x.AddTimeValue(0.0, 76);
 	G20x.AddTimeValue(10.0, 76);
-	G20x.AddTimeValue(9.375, 76);
-	G20x.AddTimeValue(8.75, 76);
 	G20x.AddTimeValue(8.125, 76);
 	G20x.AddTimeValue(7.5, 76);
 	G20x.AddTimeValue(6.875, 76);
@@ -22,8 +20,6 @@ void loadG20() {
 	G20z.Init();
 	G20z.AddTimeValue(0.0, -55);
 	G20z.AddTimeValue(10.0, -22);
-	G20z.AddTimeValue(9.375, -22);
-	G20z.AddTimeValue(8.75, -22);
 	G20z.AddTimeValue(8.125, -22);
 	G20z.AddTimeValue(7.5, -22);
 	G20z.AddTimeValue(6.875, -22);

@@ -3,8 +3,6 @@ void loadC2() {
 	C2x.Init();
 	C2x.AddTimeValue(0.0, 34);
 	C2x.AddTimeValue(10.0, 27);
-	C2x.AddTimeValue(9.375, 27);
-	C2x.AddTimeValue(8.75, 27);
 	C2x.AddTimeValue(8.125, 27);
 	C2x.AddTimeValue(7.5, 27);
 	C2x.AddTimeValue(6.875, 27);
@@ -22,8 +20,6 @@ void loadC2() {
 	C2z.Init();
 	C2z.AddTimeValue(0.0, -51.5);
 	C2z.AddTimeValue(10.0, -21.25);
-	C2z.AddTimeValue(9.375, -21.25);
-	C2z.AddTimeValue(8.75, -21.25);
 	C2z.AddTimeValue(8.125, -21.25);
 	C2z.AddTimeValue(7.5, -21.25);
 	C2z.AddTimeValue(6.875, -21.25);

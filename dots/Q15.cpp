@@ -3,8 +3,6 @@ void loadQ15() {
 	Q15x.Init();
 	Q15x.AddTimeValue(0.0, -62);
 	Q15x.AddTimeValue(10.0, -53);
-	Q15x.AddTimeValue(9.375, -53);
-	Q15x.AddTimeValue(8.75, -53);
 	Q15x.AddTimeValue(8.125, -53);
 	Q15x.AddTimeValue(7.5, -55);
 	Q15x.AddTimeValue(6.875, -57);
@@ -22,8 +20,6 @@ void loadQ15() {
 	Q15z.Init();
 	Q15z.AddTimeValue(0.0, 44);
 	Q15z.AddTimeValue(10.0, 14.75);
-	Q15z.AddTimeValue(9.375, 14.75);
-	Q15z.AddTimeValue(8.75, 14.75);
 	Q15z.AddTimeValue(8.125, 14.75);
 	Q15z.AddTimeValue(7.5, 17.75);
 	Q15z.AddTimeValue(6.875, 21);

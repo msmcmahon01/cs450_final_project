@@ -3,8 +3,6 @@ void loadU7() {
 	U7x.Init();
 	U7x.AddTimeValue(0.0, 6.25);
 	U7x.AddTimeValue(10.0, 3.5);
-	U7x.AddTimeValue(9.375, 3.5);
-	U7x.AddTimeValue(8.75, 3.5);
 	U7x.AddTimeValue(8.125, 3.5);
 	U7x.AddTimeValue(7.5, 3.5);
 	U7x.AddTimeValue(6.875, 3.5);
@@ -22,8 +20,6 @@ void loadU7() {
 	U7z.Init();
 	U7z.AddTimeValue(0.0, -51.5);
 	U7z.AddTimeValue(10.0, -29);
-	U7z.AddTimeValue(9.375, -29);
-	U7z.AddTimeValue(8.75, -29);
 	U7z.AddTimeValue(8.125, -29);
 	U7z.AddTimeValue(7.5, -29);
 	U7z.AddTimeValue(6.875, -29);

@@ -3,8 +3,6 @@ void loadU1() {
 	U1x.Init();
 	U1x.AddTimeValue(0.0, 19);
 	U1x.AddTimeValue(10.0, 15.5);
-	U1x.AddTimeValue(9.375, 15.5);
-	U1x.AddTimeValue(8.75, 15.5);
 	U1x.AddTimeValue(8.125, 15.5);
 	U1x.AddTimeValue(7.5, 15.5);
 	U1x.AddTimeValue(6.875, 15.5);
@@ -22,8 +20,6 @@ void loadU1() {
 	U1z.Init();
 	U1z.AddTimeValue(0.0, -51.5);
 	U1z.AddTimeValue(10.0, -25.25);
-	U1z.AddTimeValue(9.375, -25.25);
-	U1z.AddTimeValue(8.75, -25.25);
 	U1z.AddTimeValue(8.125, -25.25);
 	U1z.AddTimeValue(7.5, -25.25);
 	U1z.AddTimeValue(6.875, -25.25);

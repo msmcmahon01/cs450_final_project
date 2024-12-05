@@ -3,8 +3,6 @@ void loadQ14() {
 	Q14x.Init();
 	Q14x.AddTimeValue(0.0, -50);
 	Q14x.AddTimeValue(10.0, -55);
-	Q14x.AddTimeValue(9.375, -55);
-	Q14x.AddTimeValue(8.75, -55);
 	Q14x.AddTimeValue(8.125, -55);
 	Q14x.AddTimeValue(7.5, -55.25);
 	Q14x.AddTimeValue(6.875, -55.75);
@@ -22,8 +20,6 @@ void loadQ14() {
 	Q14z.Init();
 	Q14z.AddTimeValue(0.0, 42);
 	Q14z.AddTimeValue(10.0, 14);
-	Q14z.AddTimeValue(9.375, 14);
-	Q14z.AddTimeValue(8.75, 14);
 	Q14z.AddTimeValue(8.125, 14);
 	Q14z.AddTimeValue(7.5, 14.25);
 	Q14z.AddTimeValue(6.875, 14.75);

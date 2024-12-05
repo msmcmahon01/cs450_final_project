@@ -3,8 +3,6 @@ void loadX17() {
 	X17x.Init();
 	X17x.AddTimeValue(0.0, -64);
 	X17x.AddTimeValue(10.0, -66);
-	X17x.AddTimeValue(9.375, -66);
-	X17x.AddTimeValue(8.75, -66);
 	X17x.AddTimeValue(8.125, -66);
 	X17x.AddTimeValue(7.5, -66);
 	X17x.AddTimeValue(6.875, -66);
@@ -22,8 +20,6 @@ void loadX17() {
 	X17z.Init();
 	X17z.AddTimeValue(0.0, 42);
 	X17z.AddTimeValue(10.0, 1.75);
-	X17z.AddTimeValue(9.375, 1.75);
-	X17z.AddTimeValue(8.75, 1.75);
 	X17z.AddTimeValue(8.125, 1.75);
 	X17z.AddTimeValue(7.5, 1.75);
 	X17z.AddTimeValue(6.875, 3.75);

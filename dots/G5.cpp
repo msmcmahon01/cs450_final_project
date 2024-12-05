@@ -3,8 +3,6 @@ void loadG5() {
 	G5x.Init();
 	G5x.AddTimeValue(0.0, -44);
 	G5x.AddTimeValue(10.0, -44);
-	G5x.AddTimeValue(9.375, -44);
-	G5x.AddTimeValue(8.75, -44);
 	G5x.AddTimeValue(8.125, -44);
 	G5x.AddTimeValue(7.5, -44);
 	G5x.AddTimeValue(6.875, -44);
@@ -22,8 +20,6 @@ void loadG5() {
 	G5z.Init();
 	G5z.AddTimeValue(0.0, -55);
 	G5z.AddTimeValue(10.0, -30);
-	G5z.AddTimeValue(9.375, -30);
-	G5z.AddTimeValue(8.75, -30);
 	G5z.AddTimeValue(8.125, -30);
 	G5z.AddTimeValue(7.5, -30);
 	G5z.AddTimeValue(6.875, -30);

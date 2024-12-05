@@ -3,8 +3,6 @@ void loadM8() {
 	M8x.Init();
 	M8x.AddTimeValue(0.0, 30);
 	M8x.AddTimeValue(10.0, 24.25);
-	M8x.AddTimeValue(9.375, 24.25);
-	M8x.AddTimeValue(8.75, 24.25);
 	M8x.AddTimeValue(8.125, 24.25);
 	M8x.AddTimeValue(7.5, 24.25);
 	M8x.AddTimeValue(6.875, 24);
@@ -22,8 +20,6 @@ void loadM8() {
 	M8z.Init();
 	M8z.AddTimeValue(0.0, 44);
 	M8z.AddTimeValue(10.0, 14);
-	M8z.AddTimeValue(9.375, 14);
-	M8z.AddTimeValue(8.75, 14);
 	M8z.AddTimeValue(8.125, 14);
 	M8z.AddTimeValue(7.5, 17.75);
 	M8z.AddTimeValue(6.875, 21.25);

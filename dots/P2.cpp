@@ -3,8 +3,6 @@ void loadP2() {
 	P2x.Init();
 	P2x.AddTimeValue(0.0, -32);
 	P2x.AddTimeValue(10.0, -26.75);
-	P2x.AddTimeValue(9.375, -26.75);
-	P2x.AddTimeValue(8.75, -26.75);
 	P2x.AddTimeValue(8.125, -26.75);
 	P2x.AddTimeValue(7.5, -26.75);
 	P2x.AddTimeValue(6.875, -26.75);
@@ -22,8 +20,6 @@ void loadP2() {
 	P2z.Init();
 	P2z.AddTimeValue(0.0, -51.5);
 	P2z.AddTimeValue(10.0, -21);
-	P2z.AddTimeValue(9.375, -21);
-	P2z.AddTimeValue(8.75, -21);
 	P2z.AddTimeValue(8.125, -21);
 	P2z.AddTimeValue(7.5, -21);
 	P2z.AddTimeValue(6.875, -21);

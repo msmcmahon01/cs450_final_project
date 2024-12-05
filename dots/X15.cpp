@@ -3,8 +3,6 @@ void loadX15() {
 	X15x.Init();
 	X15x.AddTimeValue(0.0, -56);
 	X15x.AddTimeValue(10.0, -65.75);
-	X15x.AddTimeValue(9.375, -65.75);
-	X15x.AddTimeValue(8.75, -65.75);
 	X15x.AddTimeValue(8.125, -65.75);
 	X15x.AddTimeValue(7.5, -65.75);
 	X15x.AddTimeValue(6.875, -62.5);
@@ -22,8 +20,6 @@ void loadX15() {
 	X15z.Init();
 	X15z.AddTimeValue(0.0, 42);
 	X15z.AddTimeValue(10.0, -2.75);
-	X15z.AddTimeValue(9.375, -2.75);
-	X15z.AddTimeValue(8.75, -2.75);
 	X15z.AddTimeValue(8.125, -2.75);
 	X15z.AddTimeValue(7.5, -2.75);
 	X15z.AddTimeValue(6.875, -1.75);

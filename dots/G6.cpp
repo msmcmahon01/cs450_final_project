@@ -3,8 +3,6 @@ void loadG6() {
 	G6x.Init();
 	G6x.AddTimeValue(0.0, -36);
 	G6x.AddTimeValue(10.0, -36);
-	G6x.AddTimeValue(9.375, -36);
-	G6x.AddTimeValue(8.75, -36);
 	G6x.AddTimeValue(8.125, -36);
 	G6x.AddTimeValue(7.5, -36);
 	G6x.AddTimeValue(6.875, -36);
@@ -22,8 +20,6 @@ void loadG6() {
 	G6z.Init();
 	G6z.AddTimeValue(0.0, -55);
 	G6z.AddTimeValue(10.0, -34);
-	G6z.AddTimeValue(9.375, -34);
-	G6z.AddTimeValue(8.75, -34);
 	G6z.AddTimeValue(8.125, -34);
 	G6z.AddTimeValue(7.5, -34);
 	G6z.AddTimeValue(6.875, -34);

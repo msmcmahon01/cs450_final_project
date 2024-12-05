@@ -3,8 +3,6 @@ void loadP14() {
 	P14x.Init();
 	P14x.AddTimeValue(0.0, -34);
 	P14x.AddTimeValue(10.0, -26);
-	P14x.AddTimeValue(9.375, -26);
-	P14x.AddTimeValue(8.75, -26);
 	P14x.AddTimeValue(8.125, -26);
 	P14x.AddTimeValue(7.5, -26);
 	P14x.AddTimeValue(6.875, -26);
@@ -22,8 +20,6 @@ void loadP14() {
 	P14z.Init();
 	P14z.AddTimeValue(0.0, -51.5);
 	P14z.AddTimeValue(10.0, -25);
-	P14z.AddTimeValue(9.375, -25);
-	P14z.AddTimeValue(8.75, -25);
 	P14z.AddTimeValue(8.125, -25);
 	P14z.AddTimeValue(7.5, -25);
 	P14z.AddTimeValue(6.875, -25);

@@ -3,8 +3,6 @@ void loadC29() {
 	C29x.Init();
 	C29x.AddTimeValue(0.0, 42);
 	C29x.AddTimeValue(10.0, 39.5);
-	C29x.AddTimeValue(9.375, 39.5);
-	C29x.AddTimeValue(8.75, 39.5);
 	C29x.AddTimeValue(8.125, 39.5);
 	C29x.AddTimeValue(7.5, 39.5);
 	C29x.AddTimeValue(6.875, 39.5);
@@ -22,8 +20,6 @@ void loadC29() {
 	C29z.Init();
 	C29z.AddTimeValue(0.0, -47.75);
 	C29z.AddTimeValue(10.0, -16.5);
-	C29z.AddTimeValue(9.375, -16.5);
-	C29z.AddTimeValue(8.75, -16.5);
 	C29z.AddTimeValue(8.125, -16.5);
 	C29z.AddTimeValue(7.5, -16.5);
 	C29z.AddTimeValue(6.875, -16.5);

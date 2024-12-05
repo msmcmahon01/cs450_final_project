@@ -3,8 +3,6 @@ void loadQ27() {
 	Q27x.Init();
 	Q27x.AddTimeValue(0.0, -34);
 	Q27x.AddTimeValue(10.0, -27);
-	Q27x.AddTimeValue(9.375, -27);
-	Q27x.AddTimeValue(8.75, -27);
 	Q27x.AddTimeValue(8.125, -27);
 	Q27x.AddTimeValue(7.5, -27);
 	Q27x.AddTimeValue(6.875, -27);
@@ -22,8 +20,6 @@ void loadQ27() {
 	Q27z.Init();
 	Q27z.AddTimeValue(0.0, 42);
 	Q27z.AddTimeValue(10.0, 13.5);
-	Q27z.AddTimeValue(9.375, 13.5);
-	Q27z.AddTimeValue(8.75, 13.5);
 	Q27z.AddTimeValue(8.125, 13.5);
 	Q27z.AddTimeValue(7.5, 13.5);
 	Q27z.AddTimeValue(6.875, 13.5);

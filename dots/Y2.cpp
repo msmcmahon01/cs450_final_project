@@ -3,8 +3,6 @@ void loadY2() {
 	Y2x.Init();
 	Y2x.AddTimeValue(0.0, 5);
 	Y2x.AddTimeValue(10.0, -10.75);
-	Y2x.AddTimeValue(9.375, -10.75);
-	Y2x.AddTimeValue(8.75, -10.75);
 	Y2x.AddTimeValue(8.125, -10.75);
 	Y2x.AddTimeValue(7.5, -10.75);
 	Y2x.AddTimeValue(6.875, -10.75);
@@ -22,8 +20,6 @@ void loadY2() {
 	Y2z.Init();
 	Y2z.AddTimeValue(0.0, -42);
 	Y2z.AddTimeValue(10.0, 7.25);
-	Y2z.AddTimeValue(9.375, 7.25);
-	Y2z.AddTimeValue(8.75, 7.25);
 	Y2z.AddTimeValue(8.125, 7.25);
 	Y2z.AddTimeValue(7.5, 7.25);
 	Y2z.AddTimeValue(6.875, 7.25);

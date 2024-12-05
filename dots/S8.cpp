@@ -3,8 +3,6 @@ void loadS8() {
 	S8x.Init();
 	S8x.AddTimeValue(0.0, 19);
 	S8x.AddTimeValue(10.0, 9.25);
-	S8x.AddTimeValue(9.375, 9.25);
-	S8x.AddTimeValue(8.75, 9.25);
 	S8x.AddTimeValue(8.125, 9.25);
 	S8x.AddTimeValue(7.5, 9.25);
 	S8x.AddTimeValue(6.875, 9.25);
@@ -22,8 +20,6 @@ void loadS8() {
 	S8z.Init();
 	S8z.AddTimeValue(0.0, -44);
 	S8z.AddTimeValue(10.0, -4.25);
-	S8z.AddTimeValue(9.375, -4.25);
-	S8z.AddTimeValue(8.75, -4.25);
 	S8z.AddTimeValue(8.125, -4.25);
 	S8z.AddTimeValue(7.5, -4.25);
 	S8z.AddTimeValue(6.875, -4.25);

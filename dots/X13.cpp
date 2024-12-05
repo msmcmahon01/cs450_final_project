@@ -3,8 +3,6 @@ void loadX13() {
 	X13x.Init();
 	X13x.AddTimeValue(0.0, -66);
 	X13x.AddTimeValue(10.0, -64.75);
-	X13x.AddTimeValue(9.375, -64.75);
-	X13x.AddTimeValue(8.75, -64.75);
 	X13x.AddTimeValue(8.125, -64.75);
 	X13x.AddTimeValue(7.5, -64.75);
 	X13x.AddTimeValue(6.875, -65);
@@ -22,8 +20,6 @@ void loadX13() {
 	X13z.Init();
 	X13z.AddTimeValue(0.0, -47.75);
 	X13z.AddTimeValue(10.0, -7);
-	X13z.AddTimeValue(9.375, -7);
-	X13z.AddTimeValue(8.75, -7);
 	X13z.AddTimeValue(8.125, -7);
 	X13z.AddTimeValue(7.5, -7);
 	X13z.AddTimeValue(6.875, -7.5);

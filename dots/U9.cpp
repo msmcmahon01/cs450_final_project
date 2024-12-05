@@ -3,8 +3,6 @@ void loadU9() {
 	U9x.Init();
 	U9x.AddTimeValue(0.0, 2);
 	U9x.AddTimeValue(10.0, 0);
-	U9x.AddTimeValue(9.375, 0);
-	U9x.AddTimeValue(8.75, 0);
 	U9x.AddTimeValue(8.125, 0);
 	U9x.AddTimeValue(7.5, 0);
 	U9x.AddTimeValue(6.875, 0);
@@ -22,8 +20,6 @@ void loadU9() {
 	U9z.Init();
 	U9z.AddTimeValue(0.0, -51.5);
 	U9z.AddTimeValue(10.0, -31);
-	U9z.AddTimeValue(9.375, -31);
-	U9z.AddTimeValue(8.75, -31);
 	U9z.AddTimeValue(8.125, -31);
 	U9z.AddTimeValue(7.5, -31);
 	U9z.AddTimeValue(6.875, -31);

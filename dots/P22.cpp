@@ -3,8 +3,6 @@ void loadP22() {
 	P22x.Init();
 	P22x.AddTimeValue(0.0, -30);
 	P22x.AddTimeValue(10.0, -34);
-	P22x.AddTimeValue(9.375, -34);
-	P22x.AddTimeValue(8.75, -34);
 	P22x.AddTimeValue(8.125, -34);
 	P22x.AddTimeValue(7.5, -34);
 	P22x.AddTimeValue(6.875, -34);
@@ -22,8 +20,6 @@ void loadP22() {
 	P22z.Init();
 	P22z.AddTimeValue(0.0, -47.75);
 	P22z.AddTimeValue(10.0, -15.5);
-	P22z.AddTimeValue(9.375, -15.5);
-	P22z.AddTimeValue(8.75, -15.5);
 	P22z.AddTimeValue(8.125, -15.5);
 	P22z.AddTimeValue(7.5, -15.5);
 	P22z.AddTimeValue(6.875, -15.5);

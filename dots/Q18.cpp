@@ -3,8 +3,6 @@ void loadQ18() {
 	Q18x.Init();
 	Q18x.AddTimeValue(0.0, -50);
 	Q18x.AddTimeValue(10.0, -46.5);
-	Q18x.AddTimeValue(9.375, -46.5);
-	Q18x.AddTimeValue(8.75, -46.5);
 	Q18x.AddTimeValue(8.125, -46.5);
 	Q18x.AddTimeValue(7.5, -46.25);
 	Q18x.AddTimeValue(6.875, -46.25);
@@ -22,8 +20,6 @@ void loadQ18() {
 	Q18z.Init();
 	Q18z.AddTimeValue(0.0, 44);
 	Q18z.AddTimeValue(10.0, 15.75);
-	Q18z.AddTimeValue(9.375, 15.75);
-	Q18z.AddTimeValue(8.75, 15.75);
 	Q18z.AddTimeValue(8.125, 15.75);
 	Q18z.AddTimeValue(7.5, 16.5);
 	Q18z.AddTimeValue(6.875, 17.25);

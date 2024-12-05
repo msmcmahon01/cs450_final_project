@@ -3,8 +3,6 @@ void loadC5() {
 	C5x.Init();
 	C5x.AddTimeValue(0.0, 18);
 	C5x.AddTimeValue(10.0, 27.5);
-	C5x.AddTimeValue(9.375, 27.5);
-	C5x.AddTimeValue(8.75, 27.5);
 	C5x.AddTimeValue(8.125, 27.5);
 	C5x.AddTimeValue(7.5, 27.5);
 	C5x.AddTimeValue(6.875, 27.5);
@@ -22,8 +20,6 @@ void loadC5() {
 	C5z.Init();
 	C5z.AddTimeValue(0.0, -49.5);
 	C5z.AddTimeValue(10.0, -15.25);
-	C5z.AddTimeValue(9.375, -15.25);
-	C5z.AddTimeValue(8.75, -15.25);
 	C5z.AddTimeValue(8.125, -15.25);
 	C5z.AddTimeValue(7.5, -15.25);
 	C5z.AddTimeValue(6.875, -15.25);

@@ -3,8 +3,6 @@ void loadB2() {
 	B2x.Init();
 	B2x.AddTimeValue(0.0, -38);
 	B2x.AddTimeValue(10.0, -27.5);
-	B2x.AddTimeValue(9.375, -27.5);
-	B2x.AddTimeValue(8.75, -27.5);
 	B2x.AddTimeValue(8.125, -27.5);
 	B2x.AddTimeValue(7.5, -27.5);
 	B2x.AddTimeValue(6.875, -29.75);
@@ -22,8 +20,6 @@ void loadB2() {
 	B2z.Init();
 	B2z.AddTimeValue(0.0, -42);
 	B2z.AddTimeValue(10.0, -9.25);
-	B2z.AddTimeValue(9.375, -9.25);
-	B2z.AddTimeValue(8.75, -9.25);
 	B2z.AddTimeValue(8.125, -9.25);
 	B2z.AddTimeValue(7.5, -9.25);
 	B2z.AddTimeValue(6.875, -8.5);

@@ -3,8 +3,6 @@ void loadC30() {
 	C30x.Init();
 	C30x.AddTimeValue(0.0, 24);
 	C30x.AddTimeValue(10.0, 37.25);
-	C30x.AddTimeValue(9.375, 37.25);
-	C30x.AddTimeValue(8.75, 37.25);
 	C30x.AddTimeValue(8.125, 37.25);
 	C30x.AddTimeValue(7.5, 37.25);
 	C30x.AddTimeValue(6.875, 37.25);
@@ -22,8 +20,6 @@ void loadC30() {
 	C30z.Init();
 	C30z.AddTimeValue(0.0, -47.75);
 	C30z.AddTimeValue(10.0, -16);
-	C30z.AddTimeValue(9.375, -16);
-	C30z.AddTimeValue(8.75, -16);
 	C30z.AddTimeValue(8.125, -16);
 	C30z.AddTimeValue(7.5, -16);
 	C30z.AddTimeValue(6.875, -16);

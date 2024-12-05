@@ -3,8 +3,6 @@ void loadM1() {
 	M1x.Init();
 	M1x.AddTimeValue(0.0, 30);
 	M1x.AddTimeValue(10.0, 25.75);
-	M1x.AddTimeValue(9.375, 25.75);
-	M1x.AddTimeValue(8.75, 25.75);
 	M1x.AddTimeValue(8.125, 25.75);
 	M1x.AddTimeValue(7.5, 25.75);
 	M1x.AddTimeValue(6.875, 27.25);
@@ -22,8 +20,6 @@ void loadM1() {
 	M1z.Init();
 	M1z.AddTimeValue(0.0, 42);
 	M1z.AddTimeValue(10.0, 0.5);
-	M1z.AddTimeValue(9.375, 0.5);
-	M1z.AddTimeValue(8.75, 0.5);
 	M1z.AddTimeValue(8.125, 0.5);
 	M1z.AddTimeValue(7.5, 0.5);
 	M1z.AddTimeValue(6.875, 2.75);

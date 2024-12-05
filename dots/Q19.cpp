@@ -3,8 +3,6 @@ void loadQ19() {
 	Q19x.Init();
 	Q19x.AddTimeValue(0.0, -52);
 	Q19x.AddTimeValue(10.0, -44.25);
-	Q19x.AddTimeValue(9.375, -44.25);
-	Q19x.AddTimeValue(8.75, -44.25);
 	Q19x.AddTimeValue(8.125, -44.25);
 	Q19x.AddTimeValue(7.5, -43.75);
 	Q19x.AddTimeValue(6.875, -43.5);
@@ -22,8 +20,6 @@ void loadQ19() {
 	Q19z.Init();
 	Q19z.AddTimeValue(0.0, 44);
 	Q19z.AddTimeValue(10.0, 15.75);
-	Q19z.AddTimeValue(9.375, 15.75);
-	Q19z.AddTimeValue(8.75, 15.75);
 	Q19z.AddTimeValue(8.125, 15.75);
 	Q19z.AddTimeValue(7.5, 19.5);
 	Q19z.AddTimeValue(6.875, 23.25);

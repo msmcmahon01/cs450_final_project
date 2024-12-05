@@ -3,8 +3,6 @@ void loadU5() {
 	U5x.Init();
 	U5x.AddTimeValue(0.0, 12.75);
 	U5x.AddTimeValue(10.0, 7.5);
-	U5x.AddTimeValue(9.375, 7.5);
-	U5x.AddTimeValue(8.75, 7.5);
 	U5x.AddTimeValue(8.125, 7.5);
 	U5x.AddTimeValue(7.5, 7.5);
 	U5x.AddTimeValue(6.875, 7.5);
@@ -22,8 +20,6 @@ void loadU5() {
 	U5z.Init();
 	U5z.AddTimeValue(0.0, -51.5);
 	U5z.AddTimeValue(10.0, -27.25);
-	U5z.AddTimeValue(9.375, -27.25);
-	U5z.AddTimeValue(8.75, -27.25);
 	U5z.AddTimeValue(8.125, -27.25);
 	U5z.AddTimeValue(7.5, -27.25);
 	U5z.AddTimeValue(6.875, -27.25);

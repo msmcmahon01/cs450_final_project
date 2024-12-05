@@ -3,8 +3,6 @@ void loadP6() {
 	P6x.Init();
 	P6x.AddTimeValue(0.0, -27);
 	P6x.AddTimeValue(10.0, -27.5);
-	P6x.AddTimeValue(9.375, -27.5);
-	P6x.AddTimeValue(8.75, -27.5);
 	P6x.AddTimeValue(8.125, -27.5);
 	P6x.AddTimeValue(7.5, -27.5);
 	P6x.AddTimeValue(6.875, -30.25);
@@ -22,8 +20,6 @@ void loadP6() {
 	P6z.Init();
 	P6z.AddTimeValue(0.0, -47.75);
 	P6z.AddTimeValue(10.0, -13.25);
-	P6z.AddTimeValue(9.375, -13.25);
-	P6z.AddTimeValue(8.75, -13.25);
 	P6z.AddTimeValue(8.125, -13.25);
 	P6z.AddTimeValue(7.5, -13.25);
 	P6z.AddTimeValue(6.875, -15);

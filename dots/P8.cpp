@@ -3,8 +3,6 @@ void loadP8() {
 	P8x.Init();
 	P8x.AddTimeValue(0.0, 23.25);
 	P8x.AddTimeValue(10.0, 19.75);
-	P8x.AddTimeValue(9.375, 19.75);
-	P8x.AddTimeValue(8.75, 19.75);
 	P8x.AddTimeValue(8.125, 19.75);
 	P8x.AddTimeValue(7.5, 19.75);
 	P8x.AddTimeValue(6.875, 19.75);
@@ -22,8 +20,6 @@ void loadP8() {
 	P8z.Init();
 	P8z.AddTimeValue(0.0, -51.5);
 	P8z.AddTimeValue(10.0, -25);
-	P8z.AddTimeValue(9.375, -25);
-	P8z.AddTimeValue(8.75, -25);
 	P8z.AddTimeValue(8.125, -25);
 	P8z.AddTimeValue(7.5, -25);
 	P8z.AddTimeValue(6.875, -25);

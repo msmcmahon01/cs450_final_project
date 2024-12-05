@@ -3,8 +3,6 @@ void loadA4() {
 	A4x.Init();
 	A4x.AddTimeValue(0.0, 62);
 	A4x.AddTimeValue(10.0, 51);
-	A4x.AddTimeValue(9.375, 51);
-	A4x.AddTimeValue(8.75, 51);
 	A4x.AddTimeValue(8.125, 51);
 	A4x.AddTimeValue(7.5, 50.25);
 	A4x.AddTimeValue(6.875, 49.75);
@@ -22,8 +20,6 @@ void loadA4() {
 	A4z.Init();
 	A4z.AddTimeValue(0.0, 44);
 	A4z.AddTimeValue(10.0, 16.5);
-	A4z.AddTimeValue(9.375, 16.5);
-	A4z.AddTimeValue(8.75, 16.5);
 	A4z.AddTimeValue(8.125, 16.5);
 	A4z.AddTimeValue(7.5, 18.5);
 	A4z.AddTimeValue(6.875, 20.25);

@@ -3,8 +3,6 @@ void loadQ12() {
 	Q12x.Init();
 	Q12x.AddTimeValue(0.0, -60);
 	Q12x.AddTimeValue(10.0, -59);
-	Q12x.AddTimeValue(9.375, -59);
-	Q12x.AddTimeValue(8.75, -59);
 	Q12x.AddTimeValue(8.125, -59);
 	Q12x.AddTimeValue(7.5, -60.75);
 	Q12x.AddTimeValue(6.875, -62.25);
@@ -22,8 +20,6 @@ void loadQ12() {
 	Q12z.Init();
 	Q12z.AddTimeValue(0.0, 44);
 	Q12z.AddTimeValue(10.0, 12.25);
-	Q12z.AddTimeValue(9.375, 12.25);
-	Q12z.AddTimeValue(8.75, 12.25);
 	Q12z.AddTimeValue(8.125, 12.25);
 	Q12z.AddTimeValue(7.5, 13.75);
 	Q12z.AddTimeValue(6.875, 15.5);

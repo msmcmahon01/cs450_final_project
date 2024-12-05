@@ -3,8 +3,6 @@ void loadG14() {
 	G14x.Init();
 	G14x.AddTimeValue(0.0, 28);
 	G14x.AddTimeValue(10.0, 28);
-	G14x.AddTimeValue(9.375, 28);
-	G14x.AddTimeValue(8.75, 28);
 	G14x.AddTimeValue(8.125, 28);
 	G14x.AddTimeValue(7.5, 28);
 	G14x.AddTimeValue(6.875, 28);
@@ -22,8 +20,6 @@ void loadG14() {
 	G14z.Init();
 	G14z.AddTimeValue(0.0, -55);
 	G14z.AddTimeValue(10.0, -36);
-	G14z.AddTimeValue(9.375, -36);
-	G14z.AddTimeValue(8.75, -36);
 	G14z.AddTimeValue(8.125, -36);
 	G14z.AddTimeValue(7.5, -36);
 	G14z.AddTimeValue(6.875, -36);

@@ -3,8 +3,6 @@ void loadC18() {
 	C18x.Init();
 	C18x.AddTimeValue(0.0, 63);
 	C18x.AddTimeValue(10.0, 62.5);
-	C18x.AddTimeValue(9.375, 62.5);
-	C18x.AddTimeValue(8.75, 62.5);
 	C18x.AddTimeValue(8.125, 62.5);
 	C18x.AddTimeValue(7.5, 62.5);
 	C18x.AddTimeValue(6.875, 65.25);
@@ -22,8 +20,6 @@ void loadC18() {
 	C18z.Init();
 	C18z.AddTimeValue(0.0, -47.75);
 	C18z.AddTimeValue(10.0, -10.75);
-	C18z.AddTimeValue(9.375, -10.75);
-	C18z.AddTimeValue(8.75, -10.75);
 	C18z.AddTimeValue(8.125, -10.75);
 	C18z.AddTimeValue(7.5, -10.75);
 	C18z.AddTimeValue(6.875, -10.75);

@@ -3,8 +3,6 @@ void loadQ26() {
 	Q26x.Init();
 	Q26x.AddTimeValue(0.0, -36);
 	Q26x.AddTimeValue(10.0, -29);
-	Q26x.AddTimeValue(9.375, -29);
-	Q26x.AddTimeValue(8.75, -29);
 	Q26x.AddTimeValue(8.125, -29);
 	Q26x.AddTimeValue(7.5, -29.5);
 	Q26x.AddTimeValue(6.875, -29.75);
@@ -22,8 +20,6 @@ void loadQ26() {
 	Q26z.Init();
 	Q26z.AddTimeValue(0.0, -42);
 	Q26z.AddTimeValue(10.0, 14);
-	Q26z.AddTimeValue(9.375, 14);
-	Q26z.AddTimeValue(8.75, 14);
 	Q26z.AddTimeValue(8.125, 14);
 	Q26z.AddTimeValue(7.5, 12.25);
 	Q26z.AddTimeValue(6.875, 10.75);

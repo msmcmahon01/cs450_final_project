@@ -3,8 +3,6 @@ void loadC17() {
 	C17x.Init();
 	C17x.AddTimeValue(0.0, 51);
 	C17x.AddTimeValue(10.0, 63.75);
-	C17x.AddTimeValue(9.375, 63.75);
-	C17x.AddTimeValue(8.75, 63.75);
 	C17x.AddTimeValue(8.125, 63.75);
 	C17x.AddTimeValue(7.5, 63.75);
 	C17x.AddTimeValue(6.875, 63);
@@ -22,8 +20,6 @@ void loadC17() {
 	C17z.Init();
 	C17z.AddTimeValue(0.0, -47.75);
 	C17z.AddTimeValue(10.0, -8.75);
-	C17z.AddTimeValue(9.375, -8.75);
-	C17z.AddTimeValue(8.75, -8.75);
 	C17z.AddTimeValue(8.125, -8.75);
 	C17z.AddTimeValue(7.5, -8.75);
 	C17z.AddTimeValue(6.875, -8);

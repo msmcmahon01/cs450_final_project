@@ -3,8 +3,6 @@ void loadB3() {
 	B3x.Init();
 	B3x.AddTimeValue(0.0, -30);
 	B3x.AddTimeValue(10.0, -27.25);
-	B3x.AddTimeValue(9.375, -27.25);
-	B3x.AddTimeValue(8.75, -27.25);
 	B3x.AddTimeValue(8.125, -27.25);
 	B3x.AddTimeValue(7.5, -27.25);
 	B3x.AddTimeValue(6.875, -28.25);
@@ -22,8 +20,6 @@ void loadB3() {
 	B3z.Init();
 	B3z.AddTimeValue(0.0, -42);
 	B3z.AddTimeValue(10.0, -7.25);
-	B3z.AddTimeValue(9.375, -7.25);
-	B3z.AddTimeValue(8.75, -7.25);
 	B3z.AddTimeValue(8.125, -7.25);
 	B3z.AddTimeValue(7.5, -7.25);
 	B3z.AddTimeValue(6.875, -5.5);

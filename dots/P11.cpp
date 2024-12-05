@@ -3,8 +3,6 @@ void loadP11() {
 	P11x.Init();
 	P11x.AddTimeValue(0.0, -23.5);
 	P11x.AddTimeValue(10.0, -19.75);
-	P11x.AddTimeValue(9.375, -19.75);
-	P11x.AddTimeValue(8.75, -19.75);
 	P11x.AddTimeValue(8.125, -19.75);
 	P11x.AddTimeValue(7.5, -19.75);
 	P11x.AddTimeValue(6.875, -19.75);
@@ -22,8 +20,6 @@ void loadP11() {
 	P11z.Init();
 	P11z.AddTimeValue(0.0, -51.5);
 	P11z.AddTimeValue(10.0, -25);
-	P11z.AddTimeValue(9.375, -25);
-	P11z.AddTimeValue(8.75, -25);
 	P11z.AddTimeValue(8.125, -25);
 	P11z.AddTimeValue(7.5, -25);
 	P11z.AddTimeValue(6.875, -25);

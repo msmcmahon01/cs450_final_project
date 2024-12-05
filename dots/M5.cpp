@@ -3,8 +3,6 @@ void loadM5() {
 	M5x.Init();
 	M5x.AddTimeValue(0.0, 20);
 	M5x.AddTimeValue(10.0, 23.25);
-	M5x.AddTimeValue(9.375, 23.25);
-	M5x.AddTimeValue(8.75, 23.25);
 	M5x.AddTimeValue(8.125, 23.25);
 	M5x.AddTimeValue(7.5, 19.75);
 	M5x.AddTimeValue(6.875, 16.5);
@@ -22,8 +20,6 @@ void loadM5() {
 	M5z.Init();
 	M5z.AddTimeValue(0.0, 42);
 	M5z.AddTimeValue(10.0, 8.25);
-	M5z.AddTimeValue(9.375, 8.25);
-	M5z.AddTimeValue(8.75, 8.25);
 	M5z.AddTimeValue(8.125, 8.25);
 	M5z.AddTimeValue(7.5, 6);
 	M5z.AddTimeValue(6.875, 4);

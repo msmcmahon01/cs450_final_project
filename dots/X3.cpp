@@ -3,8 +3,6 @@ void loadX3() {
 	X3x.Init();
 	X3x.AddTimeValue(0.0, -42);
 	X3x.AddTimeValue(10.0, -47);
-	X3x.AddTimeValue(9.375, -47);
-	X3x.AddTimeValue(8.75, -47);
 	X3x.AddTimeValue(8.125, -47);
 	X3x.AddTimeValue(7.5, -47);
 	X3x.AddTimeValue(6.875, -47);
@@ -22,8 +20,6 @@ void loadX3() {
 	X3z.Init();
 	X3z.AddTimeValue(0.0, -47.75);
 	X3z.AddTimeValue(10.0, -17.25);
-	X3z.AddTimeValue(9.375, -17.25);
-	X3z.AddTimeValue(8.75, -17.25);
 	X3z.AddTimeValue(8.125, -17.25);
 	X3z.AddTimeValue(7.5, -17.25);
 	X3z.AddTimeValue(6.875, -17.25);

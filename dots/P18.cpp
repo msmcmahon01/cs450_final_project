@@ -3,8 +3,6 @@ void loadP18() {
 	P18x.Init();
 	P18x.AddTimeValue(0.0, -17);
 	P18x.AddTimeValue(10.0, -15.75);
-	P18x.AddTimeValue(9.375, -15.75);
-	P18x.AddTimeValue(8.75, -15.75);
 	P18x.AddTimeValue(8.125, -15.75);
 	P18x.AddTimeValue(7.5, -15.75);
 	P18x.AddTimeValue(6.875, -15.75);
@@ -22,8 +20,6 @@ void loadP18() {
 	P18z.Init();
 	P18z.AddTimeValue(0.0, -51.5);
 	P18z.AddTimeValue(10.0, -21.25);
-	P18z.AddTimeValue(9.375, -21.25);
-	P18z.AddTimeValue(8.75, -21.25);
 	P18z.AddTimeValue(8.125, -21.25);
 	P18z.AddTimeValue(7.5, -21.25);
 	P18z.AddTimeValue(6.875, -21.25);

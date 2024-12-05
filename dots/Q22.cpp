@@ -3,8 +3,6 @@ void loadQ22() {
 	Q22x.Init();
 	Q22x.AddTimeValue(0.0, -44);
 	Q22x.AddTimeValue(10.0, -37.75);
-	Q22x.AddTimeValue(9.375, -37.75);
-	Q22x.AddTimeValue(8.75, -37.75);
 	Q22x.AddTimeValue(8.125, -37.75);
 	Q22x.AddTimeValue(7.5, -37.75);
 	Q22x.AddTimeValue(6.875, -37.75);
@@ -22,8 +20,6 @@ void loadQ22() {
 	Q22z.Init();
 	Q22z.AddTimeValue(0.0, 42);
 	Q22z.AddTimeValue(10.0, 15.5);
-	Q22z.AddTimeValue(9.375, 15.5);
-	Q22z.AddTimeValue(8.75, 15.5);
 	Q22z.AddTimeValue(8.125, 15.5);
 	Q22z.AddTimeValue(7.5, 15.5);
 	Q22z.AddTimeValue(6.875, 15.5);

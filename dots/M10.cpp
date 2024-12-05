@@ -3,8 +3,6 @@ void loadM10() {
 	M10x.Init();
 	M10x.AddTimeValue(0.0, 40);
 	M10x.AddTimeValue(10.0, 28.75);
-	M10x.AddTimeValue(9.375, 28.75);
-	M10x.AddTimeValue(8.75, 28.75);
 	M10x.AddTimeValue(8.125, 28.75);
 	M10x.AddTimeValue(7.5, 28);
 	M10x.AddTimeValue(6.875, 27.5);
@@ -22,8 +20,6 @@ void loadM10() {
 	M10z.Init();
 	M10z.AddTimeValue(0.0, 44);
 	M10z.AddTimeValue(10.0, 15.25);
-	M10z.AddTimeValue(9.375, 15.25);
-	M10z.AddTimeValue(8.75, 15.25);
 	M10z.AddTimeValue(8.125, 15.25);
 	M10z.AddTimeValue(7.5, 17.25);
 	M10z.AddTimeValue(6.875, 19);

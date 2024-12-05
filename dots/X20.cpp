@@ -3,8 +3,6 @@ void loadX20() {
 	X20x.Init();
 	X20x.AddTimeValue(0.0, -60);
 	X20x.AddTimeValue(10.0, -63.75);
-	X20x.AddTimeValue(9.375, -63.75);
-	X20x.AddTimeValue(8.75, -63.75);
 	X20x.AddTimeValue(8.125, -63.75);
 	X20x.AddTimeValue(7.5, -64.5);
 	X20x.AddTimeValue(6.875, -65.25);
@@ -22,8 +20,6 @@ void loadX20() {
 	X20z.Init();
 	X20z.AddTimeValue(0.0, 42);
 	X20z.AddTimeValue(10.0, 7.75);
-	X20z.AddTimeValue(9.375, 7.75);
-	X20z.AddTimeValue(8.75, 7.75);
 	X20z.AddTimeValue(8.125, 7.75);
 	X20z.AddTimeValue(7.5, 8.5);
 	X20z.AddTimeValue(6.875, 9.75);

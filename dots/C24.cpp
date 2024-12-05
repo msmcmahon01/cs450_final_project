@@ -3,8 +3,6 @@ void loadC24() {
 	C24x.Init();
 	C24x.AddTimeValue(0.0, 48);
 	C24x.AddTimeValue(10.0, 50.75);
-	C24x.AddTimeValue(9.375, 50.75);
-	C24x.AddTimeValue(8.75, 50.75);
 	C24x.AddTimeValue(8.125, 50.75);
 	C24x.AddTimeValue(7.5, 50.75);
 	C24x.AddTimeValue(6.875, 50.75);
@@ -22,8 +20,6 @@ void loadC24() {
 	C24z.Init();
 	C24z.AddTimeValue(0.0, -47.75);
 	C24z.AddTimeValue(10.0, -16.75);
-	C24z.AddTimeValue(9.375, -16.75);
-	C24z.AddTimeValue(8.75, -16.75);
 	C24z.AddTimeValue(8.125, -16.75);
 	C24z.AddTimeValue(7.5, -16.75);
 	C24z.AddTimeValue(6.875, -16.75);

@@ -3,8 +3,6 @@ void loadG15() {
 	G15x.Init();
 	G15x.AddTimeValue(0.0, 36);
 	G15x.AddTimeValue(10.0, 36);
-	G15x.AddTimeValue(9.375, 36);
-	G15x.AddTimeValue(8.75, 36);
 	G15x.AddTimeValue(8.125, 36);
 	G15x.AddTimeValue(7.5, 36);
 	G15x.AddTimeValue(6.875, 36);
@@ -22,8 +20,6 @@ void loadG15() {
 	G15z.Init();
 	G15z.AddTimeValue(0.0, -55);
 	G15z.AddTimeValue(10.0, -34);
-	G15z.AddTimeValue(9.375, -34);
-	G15z.AddTimeValue(8.75, -34);
 	G15z.AddTimeValue(8.125, -34);
 	G15z.AddTimeValue(7.5, -34);
 	G15z.AddTimeValue(6.875, -34);

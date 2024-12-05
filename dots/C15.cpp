@@ -3,8 +3,6 @@ void loadC15() {
 	C15x.Init();
 	C15x.AddTimeValue(0.0, 72);
 	C15x.AddTimeValue(10.0, 65.5);
-	C15x.AddTimeValue(9.375, 65.5);
-	C15x.AddTimeValue(8.75, 65.5);
 	C15x.AddTimeValue(8.125, 65.5);
 	C15x.AddTimeValue(7.5, 65.5);
 	C15x.AddTimeValue(6.875, 68.75);
@@ -22,8 +20,6 @@ void loadC15() {
 	C15z.Init();
 	C15z.AddTimeValue(0.0, -47.75);
 	C15z.AddTimeValue(10.0, -4.75);
-	C15z.AddTimeValue(9.375, -4.75);
-	C15z.AddTimeValue(8.75, -4.75);
 	C15z.AddTimeValue(8.125, -4.75);
 	C15z.AddTimeValue(7.5, -4.75);
 	C15z.AddTimeValue(6.875, -3.75);

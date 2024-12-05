@@ -3,8 +3,6 @@ void loadQ28() {
 	Q28x.Init();
 	Q28x.AddTimeValue(0.0, -38);
 	Q28x.AddTimeValue(10.0, -25);
-	Q28x.AddTimeValue(9.375, -25);
-	Q28x.AddTimeValue(8.75, -25);
 	Q28x.AddTimeValue(8.125, -25);
 	Q28x.AddTimeValue(7.5, -25);
 	Q28x.AddTimeValue(6.875, -25);
@@ -22,8 +20,6 @@ void loadQ28() {
 	Q28z.Init();
 	Q28z.AddTimeValue(0.0, 42);
 	Q28z.AddTimeValue(10.0, 13);
-	Q28z.AddTimeValue(9.375, 13);
-	Q28z.AddTimeValue(8.75, 13);
 	Q28z.AddTimeValue(8.125, 13);
 	Q28z.AddTimeValue(7.5, 13);
 	Q28z.AddTimeValue(6.875, 13);

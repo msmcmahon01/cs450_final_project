@@ -3,8 +3,6 @@ void loadP24() {
 	P24x.Init();
 	P24x.AddTimeValue(0.0, -33);
 	P24x.AddTimeValue(10.0, -38.25);
-	P24x.AddTimeValue(9.375, -38.25);
-	P24x.AddTimeValue(8.75, -38.25);
 	P24x.AddTimeValue(8.125, -38.25);
 	P24x.AddTimeValue(7.5, -38.25);
 	P24x.AddTimeValue(6.875, -38.25);
@@ -22,8 +20,6 @@ void loadP24() {
 	P24z.Init();
 	P24z.AddTimeValue(0.0, -47.75);
 	P24z.AddTimeValue(10.0, -16.75);
-	P24z.AddTimeValue(9.375, -16.75);
-	P24z.AddTimeValue(8.75, -16.75);
 	P24z.AddTimeValue(8.125, -16.75);
 	P24z.AddTimeValue(7.5, -16.75);
 	P24z.AddTimeValue(6.875, -16.75);

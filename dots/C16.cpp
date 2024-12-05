@@ -3,8 +3,6 @@ void loadC16() {
 	C16x.Init();
 	C16x.AddTimeValue(0.0, 57);
 	C16x.AddTimeValue(10.0, 64.75);
-	C16x.AddTimeValue(9.375, 64.75);
-	C16x.AddTimeValue(8.75, 64.75);
 	C16x.AddTimeValue(8.125, 64.75);
 	C16x.AddTimeValue(7.5, 64.75);
 	C16x.AddTimeValue(6.875, 63.5);
@@ -22,8 +20,6 @@ void loadC16() {
 	C16z.Init();
 	C16z.AddTimeValue(0.0, -47.75);
 	C16z.AddTimeValue(10.0, -6.75);
-	C16z.AddTimeValue(9.375, -6.75);
-	C16z.AddTimeValue(8.75, -6.75);
 	C16z.AddTimeValue(8.125, -6.75);
 	C16z.AddTimeValue(7.5, -6.75);
 	C16z.AddTimeValue(6.875, -4.5);

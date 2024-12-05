@@ -3,8 +3,6 @@ void loadG12() {
 	G12x.Init();
 	G12x.AddTimeValue(0.0, 12);
 	G12x.AddTimeValue(10.0, 12);
-	G12x.AddTimeValue(9.375, 12);
-	G12x.AddTimeValue(8.75, 12);
 	G12x.AddTimeValue(8.125, 12);
 	G12x.AddTimeValue(7.5, 12);
 	G12x.AddTimeValue(6.875, 12);
@@ -22,8 +20,6 @@ void loadG12() {
 	G12z.Init();
 	G12z.AddTimeValue(0.0, -55);
 	G12z.AddTimeValue(10.0, -36);
-	G12z.AddTimeValue(9.375, -36);
-	G12z.AddTimeValue(8.75, -36);
 	G12z.AddTimeValue(8.125, -36);
 	G12z.AddTimeValue(7.5, -36);
 	G12z.AddTimeValue(6.875, -36);

@@ -3,8 +3,6 @@ void loadU6() {
 	U6x.Init();
 	U6x.AddTimeValue(0.0, 8.5);
 	U6x.AddTimeValue(10.0, 5.5);
-	U6x.AddTimeValue(9.375, 5.5);
-	U6x.AddTimeValue(8.75, 5.5);
 	U6x.AddTimeValue(8.125, 5.5);
 	U6x.AddTimeValue(7.5, 5.5);
 	U6x.AddTimeValue(6.875, 5.5);
@@ -22,8 +20,6 @@ void loadU6() {
 	U6z.Init();
 	U6z.AddTimeValue(0.0, -51.5);
 	U6z.AddTimeValue(10.0, -28);
-	U6z.AddTimeValue(9.375, -28);
-	U6z.AddTimeValue(8.75, -28);
 	U6z.AddTimeValue(8.125, -28);
 	U6z.AddTimeValue(7.5, -28);
 	U6z.AddTimeValue(6.875, -28);

@@ -3,8 +3,6 @@ void loadP4() {
 	P4x.Init();
 	P4x.AddTimeValue(0.0, -18);
 	P4x.AddTimeValue(10.0, -27.25);
-	P4x.AddTimeValue(9.375, -27.25);
-	P4x.AddTimeValue(8.75, -27.25);
 	P4x.AddTimeValue(8.125, -27.25);
 	P4x.AddTimeValue(7.5, -27.25);
 	P4x.AddTimeValue(6.875, -27.25);
@@ -22,8 +20,6 @@ void loadP4() {
 	P4z.Init();
 	P4z.AddTimeValue(0.0, -47.75);
 	P4z.AddTimeValue(10.0, -17.25);
-	P4z.AddTimeValue(9.375, -17.25);
-	P4z.AddTimeValue(8.75, -17.25);
 	P4z.AddTimeValue(8.125, -17.25);
 	P4z.AddTimeValue(7.5, -17.25);
 	P4z.AddTimeValue(6.875, -17.25);

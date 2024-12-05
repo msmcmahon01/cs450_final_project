@@ -3,8 +3,6 @@ void loadS1() {
 	S1x.Init();
 	S1x.AddTimeValue(0.0, 5);
 	S1x.AddTimeValue(10.0, -3.25);
-	S1x.AddTimeValue(9.375, -3.25);
-	S1x.AddTimeValue(8.75, -3.25);
 	S1x.AddTimeValue(8.125, -3.25);
 	S1x.AddTimeValue(7.5, -3.25);
 	S1x.AddTimeValue(6.875, -3.25);
@@ -22,8 +20,6 @@ void loadS1() {
 	S1z.Init();
 	S1z.AddTimeValue(0.0, -44);
 	S1z.AddTimeValue(10.0, 2.75);
-	S1z.AddTimeValue(9.375, 2.75);
-	S1z.AddTimeValue(8.75, 2.75);
 	S1z.AddTimeValue(8.125, 2.75);
 	S1z.AddTimeValue(7.5, 2.75);
 	S1z.AddTimeValue(6.875, 2.75);

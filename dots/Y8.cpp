@@ -3,8 +3,6 @@ void loadY8() {
 	Y8x.Init();
 	Y8x.AddTimeValue(0.0, 17);
 	Y8x.AddTimeValue(10.0, 22.25);
-	Y8x.AddTimeValue(9.375, 22.25);
-	Y8x.AddTimeValue(8.75, 22.25);
 	Y8x.AddTimeValue(8.125, 22.25);
 	Y8x.AddTimeValue(7.5, 22.25);
 	Y8x.AddTimeValue(6.875, 22.25);
@@ -22,8 +20,6 @@ void loadY8() {
 	Y8z.Init();
 	Y8z.AddTimeValue(0.0, -42);
 	Y8z.AddTimeValue(10.0, -11);
-	Y8z.AddTimeValue(9.375, -11);
-	Y8z.AddTimeValue(8.75, -11);
 	Y8z.AddTimeValue(8.125, -11);
 	Y8z.AddTimeValue(7.5, -11);
 	Y8z.AddTimeValue(6.875, -11);

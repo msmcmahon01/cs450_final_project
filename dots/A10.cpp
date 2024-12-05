@@ -3,8 +3,6 @@ void loadA10() {
 	A10x.Init();
 	A10x.AddTimeValue(0.0, 58);
 	A10x.AddTimeValue(10.0, 62.75);
-	A10x.AddTimeValue(9.375, 62.75);
-	A10x.AddTimeValue(8.75, 62.75);
 	A10x.AddTimeValue(8.125, 62.75);
 	A10x.AddTimeValue(7.5, 63.75);
 	A10x.AddTimeValue(6.875, 65);
@@ -22,8 +20,6 @@ void loadA10() {
 	A10z.Init();
 	A10z.AddTimeValue(0.0, 44);
 	A10z.AddTimeValue(10.0, 10.25);
-	A10z.AddTimeValue(9.375, 10.25);
-	A10z.AddTimeValue(8.75, 10.25);
 	A10z.AddTimeValue(8.125, 10.25);
 	A10z.AddTimeValue(7.5, 14.25);
 	A10z.AddTimeValue(6.875, 18);

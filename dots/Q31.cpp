@@ -3,8 +3,6 @@ void loadQ31() {
 	Q31x.Init();
 	Q31x.AddTimeValue(0.0, -20);
 	Q31x.AddTimeValue(10.0, -18.75);
-	Q31x.AddTimeValue(9.375, -18.75);
-	Q31x.AddTimeValue(8.75, -18.75);
 	Q31x.AddTimeValue(8.125, -18.75);
 	Q31x.AddTimeValue(7.5, -18.75);
 	Q31x.AddTimeValue(6.875, -19);
@@ -22,8 +20,6 @@ void loadQ31() {
 	Q31z.Init();
 	Q31z.AddTimeValue(0.0, -42);
 	Q31z.AddTimeValue(10.0, 10.75);
-	Q31z.AddTimeValue(9.375, 10.75);
-	Q31z.AddTimeValue(8.75, 10.75);
 	Q31z.AddTimeValue(8.125, 10.75);
 	Q31z.AddTimeValue(7.5, 9.5);
 	Q31z.AddTimeValue(6.875, 8.25);

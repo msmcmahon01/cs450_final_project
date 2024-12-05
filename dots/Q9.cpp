@@ -3,8 +3,6 @@ void loadQ9() {
 	Q9x.Init();
 	Q9x.AddTimeValue(0.0, -18);
 	Q9x.AddTimeValue(10.0, -14.25);
-	Q9x.AddTimeValue(9.375, -14.25);
-	Q9x.AddTimeValue(8.75, -14.25);
 	Q9x.AddTimeValue(8.125, -14.25);
 	Q9x.AddTimeValue(7.5, -14.25);
 	Q9x.AddTimeValue(6.875, -13.25);
@@ -22,8 +20,6 @@ void loadQ9() {
 	Q9z.Init();
 	Q9z.AddTimeValue(0.0, -42);
 	Q9z.AddTimeValue(10.0, 0.75);
-	Q9z.AddTimeValue(9.375, 0.75);
-	Q9z.AddTimeValue(8.75, 0.75);
 	Q9z.AddTimeValue(8.125, 0.75);
 	Q9z.AddTimeValue(7.5, 0.75);
 	Q9z.AddTimeValue(6.875, 2);

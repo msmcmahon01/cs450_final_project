@@ -4,8 +4,6 @@ void loadA8() {
 	A8x.Init();
 	A8x.AddTimeValue(0.0, startx);
 	A8x.AddTimeValue(10.0, startx + 11.25);
-	A8x.AddTimeValue(9.375, startx + 11.25);
-	A8x.AddTimeValue(8.75, startx + 11.25);
 	A8x.AddTimeValue(8.125, startx + 11.25);
 	A8x.AddTimeValue(7.5, startx + 9);
 	A8x.AddTimeValue(6.875, startx + 6.5);
@@ -23,8 +21,6 @@ void loadA8() {
 	A8z.Init();
 	A8z.AddTimeValue(0.0, startz);
 	A8z.AddTimeValue(10.0, startz - 16 - 16 - 16 + 8 + 7 + 1.5 + 1.5 + 1.25);
-	A8z.AddTimeValue(9.375, startz - 16 - 16 - 16 + 8 + 7 + 1.5 + 1.5 + 1.25);
-	A8z.AddTimeValue(8.75, startz - 16 - 16 - 16 + 8 + 7 + 1.5 + 1.5 + 1.25);
 	A8z.AddTimeValue(8.125, startz - 16 - 16 - 16 + 8 + 7 + 1.5 + 1.5 + 1.25);
 	A8z.AddTimeValue(7.5, startz - 16 - 16 - 16 + 8 + 7 + 1.5 + 1.5);
 	A8z.AddTimeValue(6.875, startz - 16 - 16 - 16 + 8 + 7 + 1.5);

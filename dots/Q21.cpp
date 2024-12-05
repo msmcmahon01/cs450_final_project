@@ -3,8 +3,6 @@ void loadQ21() {
 	Q21x.Init();
 	Q21x.AddTimeValue(0.0, -54);
 	Q21x.AddTimeValue(10.0, -40);
-	Q21x.AddTimeValue(9.375, -40);
-	Q21x.AddTimeValue(8.75, -40);
 	Q21x.AddTimeValue(8.125, -40);
 	Q21x.AddTimeValue(7.5, -39.5);
 	Q21x.AddTimeValue(6.875, -39.25);
@@ -22,8 +20,6 @@ void loadQ21() {
 	Q21z.Init();
 	Q21z.AddTimeValue(0.0, 44);
 	Q21z.AddTimeValue(10.0, 15.75);
-	Q21z.AddTimeValue(9.375, 15.75);
-	Q21z.AddTimeValue(8.75, 15.75);
 	Q21z.AddTimeValue(8.125, 15.75);
 	Q21z.AddTimeValue(7.5, 16);
 	Q21z.AddTimeValue(6.875, 16.5);

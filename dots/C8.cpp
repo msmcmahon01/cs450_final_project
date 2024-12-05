@@ -3,8 +3,6 @@ void loadC8() {
 	C8x.Init();
 	C8x.AddTimeValue(0.0, 24);
 	C8x.AddTimeValue(10.0, 27);
-	C8x.AddTimeValue(9.375, 27);
-	C8x.AddTimeValue(8.75, 27);
 	C8x.AddTimeValue(8.125, 27);
 	C8x.AddTimeValue(7.5, 27);
 	C8x.AddTimeValue(6.875, 26.5);
@@ -22,8 +20,6 @@ void loadC8() {
 	C8z.Init();
 	C8z.AddTimeValue(0.0, -49.5);
 	C8z.AddTimeValue(10.0, -7.25);
-	C8z.AddTimeValue(9.375, -7.25);
-	C8z.AddTimeValue(8.75, -7.25);
 	C8z.AddTimeValue(8.125, -7.25);
 	C8z.AddTimeValue(7.5, -7.25);
 	C8z.AddTimeValue(6.875, -7);

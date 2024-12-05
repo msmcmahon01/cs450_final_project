@@ -3,8 +3,6 @@ void loadX7() {
 	X7x.Init();
 	X7x.AddTimeValue(0.0, -48);
 	X7x.AddTimeValue(10.0, -55.5);
-	X7x.AddTimeValue(9.375, -55.5);
-	X7x.AddTimeValue(8.75, -55.5);
 	X7x.AddTimeValue(8.125, -55.5);
 	X7x.AddTimeValue(7.5, -55.5);
 	X7x.AddTimeValue(6.875, -55.5);
@@ -22,8 +20,6 @@ void loadX7() {
 	X7z.Init();
 	X7z.AddTimeValue(0.0, -47.75);
 	X7z.AddTimeValue(10.0, -15.75);
-	X7z.AddTimeValue(9.375, -15.75);
-	X7z.AddTimeValue(8.75, -15.75);
 	X7z.AddTimeValue(8.125, -15.75);
 	X7z.AddTimeValue(7.5, -15.75);
 	X7z.AddTimeValue(6.875, -15.75);

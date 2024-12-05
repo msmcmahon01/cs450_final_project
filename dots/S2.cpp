@@ -3,8 +3,6 @@ void loadS2() {
 	S2x.Init();
 	S2x.AddTimeValue(0.0, 7);
 	S2x.AddTimeValue(10.0, -1.5);
-	S2x.AddTimeValue(9.375, -1.5);
-	S2x.AddTimeValue(8.75, -1.5);
 	S2x.AddTimeValue(8.125, -1.5);
 	S2x.AddTimeValue(7.5, -1.5);
 	S2x.AddTimeValue(6.875, -1.5);
@@ -22,8 +20,6 @@ void loadS2() {
 	S2z.Init();
 	S2z.AddTimeValue(0.0, -44);
 	S2z.AddTimeValue(10.0, 1.75);
-	S2z.AddTimeValue(9.375, 1.75);
-	S2z.AddTimeValue(8.75, 1.75);
 	S2z.AddTimeValue(8.125, 1.75);
 	S2z.AddTimeValue(7.5, 1.75);
 	S2z.AddTimeValue(6.875, 1.75);

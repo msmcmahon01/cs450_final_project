@@ -3,8 +3,6 @@ void loadP15() {
 	P15x.Init();
 	P15x.AddTimeValue(0.0, 0);
 	P15x.AddTimeValue(10.0, -15.75);
-	P15x.AddTimeValue(9.375, -15.75);
-	P15x.AddTimeValue(8.75, -15.75);
 	P15x.AddTimeValue(8.125, -15.75);
 	P15x.AddTimeValue(7.5, -15.75);
 	P15x.AddTimeValue(6.875, -15.75);
@@ -22,8 +20,6 @@ void loadP15() {
 	P15z.Init();
 	P15z.AddTimeValue(0.0, -48.25);
 	P15z.AddTimeValue(10.0, -15.25);
-	P15z.AddTimeValue(9.375, -15.25);
-	P15z.AddTimeValue(8.75, -15.25);
 	P15z.AddTimeValue(8.125, -15.25);
 	P15z.AddTimeValue(7.5, -15.25);
 	P15z.AddTimeValue(6.875, -15.25);

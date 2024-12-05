@@ -3,8 +3,6 @@ void loadM13() {
 	M13x.Init();
 	M13x.AddTimeValue(0.0, 56);
 	M13x.AddTimeValue(10.0, 35.25);
-	M13x.AddTimeValue(9.375, 35.25);
-	M13x.AddTimeValue(8.75, 35.25);
 	M13x.AddTimeValue(8.125, 35.25);
 	M13x.AddTimeValue(7.5, 33.75);
 	M13x.AddTimeValue(6.875, 32.5);
@@ -22,8 +20,6 @@ void loadM13() {
 	M13z.Init();
 	M13z.AddTimeValue(0.0, 44);
 	M13z.AddTimeValue(10.0, 16.75);
-	M13z.AddTimeValue(9.375, 16.75);
-	M13z.AddTimeValue(8.75, 16.75);
 	M13z.AddTimeValue(8.125, 16.75);
 	M13z.AddTimeValue(7.5, 20.25);
 	M13z.AddTimeValue(6.875, 23.5);

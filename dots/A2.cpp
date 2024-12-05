@@ -3,8 +3,6 @@ void loadA2() {
 	A2x.Init();
 	A2x.AddTimeValue(0.0, 64);
 	A2x.AddTimeValue(10.0, 46.5);
-	A2x.AddTimeValue(9.375, 46.5);
-	A2x.AddTimeValue(8.75, 46.5);
 	A2x.AddTimeValue(8.125, 46.5);
 	A2x.AddTimeValue(7.5, 46.75);
 	A2x.AddTimeValue(6.875, 46.75);
@@ -22,8 +20,6 @@ void loadA2() {
 	A2z.Init();
 	A2z.AddTimeValue(0.0, 44);
 	A2z.AddTimeValue(10.0, 17.25);
-	A2z.AddTimeValue(9.375, 17.25);
-	A2z.AddTimeValue(8.75, 17.25);
 	A2z.AddTimeValue(8.125, 17.25);
 	A2z.AddTimeValue(7.5, 20.75);
 	A2z.AddTimeValue(6.875, 24.25);

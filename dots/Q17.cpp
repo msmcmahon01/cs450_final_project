@@ -3,8 +3,6 @@ void loadQ17() {
 	Q17x.Init();
 	Q17x.AddTimeValue(0.0, -42);
 	Q17x.AddTimeValue(10.0, -48.75);
-	Q17x.AddTimeValue(9.375, -48.75);
-	Q17x.AddTimeValue(8.75, -48.75);
 	Q17x.AddTimeValue(8.125, -48.75);
 	Q17x.AddTimeValue(7.5, -48.5);
 	Q17x.AddTimeValue(6.875, -48.25);
@@ -22,8 +20,6 @@ void loadQ17() {
 	Q17z.Init();
 	Q17z.AddTimeValue(0.0, 42);
 	Q17z.AddTimeValue(10.0, 15.5);
-	Q17z.AddTimeValue(9.375, 15.5);
-	Q17z.AddTimeValue(8.75, 15.5);
 	Q17z.AddTimeValue(8.125, 15.5);
 	Q17z.AddTimeValue(7.5, 14.25);
 	Q17z.AddTimeValue(6.875, 13.25);

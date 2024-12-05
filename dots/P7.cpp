@@ -3,8 +3,6 @@ void loadP7() {
 	P7x.Init();
 	P7x.AddTimeValue(0.0, 25.5);
 	P7x.AddTimeValue(10.0, 21.75);
-	P7x.AddTimeValue(9.375, 21.75);
-	P7x.AddTimeValue(8.75, 21.75);
 	P7x.AddTimeValue(8.125, 21.75);
 	P7x.AddTimeValue(7.5, 21.75);
 	P7x.AddTimeValue(6.875, 21.75);
@@ -22,8 +20,6 @@ void loadP7() {
 	P7z.Init();
 	P7z.AddTimeValue(0.0, -51.5);
 	P7z.AddTimeValue(10.0, -25);
-	P7z.AddTimeValue(9.375, -25);
-	P7z.AddTimeValue(8.75, -25);
 	P7z.AddTimeValue(8.125, -25);
 	P7z.AddTimeValue(7.5, -25);
 	P7z.AddTimeValue(6.875, -25);

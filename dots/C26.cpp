@@ -3,8 +3,6 @@ void loadC26() {
 	C26x.Init();
 	C26x.AddTimeValue(0.0, 39);
 	C26x.AddTimeValue(10.0, 46.25);
-	C26x.AddTimeValue(9.375, 46.25);
-	C26x.AddTimeValue(8.75, 46.25);
 	C26x.AddTimeValue(8.125, 46.25);
 	C26x.AddTimeValue(7.5, 46.25);
 	C26x.AddTimeValue(6.875, 46.25);
@@ -22,8 +20,6 @@ void loadC26() {
 	C26z.Init();
 	C26z.AddTimeValue(0.0, -47.75);
 	C26z.AddTimeValue(10.0, -17);
-	C26z.AddTimeValue(9.375, -17);
-	C26z.AddTimeValue(8.75, -17);
 	C26z.AddTimeValue(8.125, -17);
 	C26z.AddTimeValue(7.5, -17);
 	C26z.AddTimeValue(6.875, -17);

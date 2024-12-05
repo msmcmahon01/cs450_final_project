@@ -3,8 +3,6 @@ void loadQ29() {
 	Q29x.Init();
 	Q29x.AddTimeValue(0.0, -30);
 	Q29x.AddTimeValue(10.0, -22.75);
-	Q29x.AddTimeValue(9.375, -22.75);
-	Q29x.AddTimeValue(8.75, -22.75);
 	Q29x.AddTimeValue(8.125, -22.75);
 	Q29x.AddTimeValue(7.5, -22.25);
 	Q29x.AddTimeValue(6.875, -21.5);
@@ -22,8 +20,6 @@ void loadQ29() {
 	Q29z.Init();
 	Q29z.AddTimeValue(0.0, 44);
 	Q29z.AddTimeValue(10.0, 12.25);
-	Q29z.AddTimeValue(9.375, 12.25);
-	Q29z.AddTimeValue(8.75, 12.25);
 	Q29z.AddTimeValue(8.125, 12.25);
 	Q29z.AddTimeValue(7.5, 13.75);
 	Q29z.AddTimeValue(6.875, 15.5);

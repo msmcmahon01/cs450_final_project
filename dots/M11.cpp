@@ -3,8 +3,6 @@ void loadM11() {
 	M11x.Init();
 	M11x.AddTimeValue(0.0, 34);
 	M11x.AddTimeValue(10.0, 30.75);
-	M11x.AddTimeValue(9.375, 30.75);
-	M11x.AddTimeValue(8.75, 30.75);
 	M11x.AddTimeValue(8.125, 30.75);
 	M11x.AddTimeValue(7.5, 31);
 	M11x.AddTimeValue(6.875, 31);
@@ -22,8 +20,6 @@ void loadM11() {
 	M11z.Init();
 	M11z.AddTimeValue(0.0, 42);
 	M11z.AddTimeValue(10.0, 15.75);
-	M11z.AddTimeValue(9.375, 15.75);
-	M11z.AddTimeValue(8.75, 15.75);
 	M11z.AddTimeValue(8.125, 15.75);
 	M11z.AddTimeValue(7.5, 14);
 	M11z.AddTimeValue(6.875, 12);

@@ -3,8 +3,6 @@ void loadC25() {
 	C25x.Init();
 	C25x.AddTimeValue(0.0, 42);
 	C25x.AddTimeValue(10.0, 48.5);
-	C25x.AddTimeValue(9.375, 48.5);
-	C25x.AddTimeValue(8.75, 48.5);
 	C25x.AddTimeValue(8.125, 48.5);
 	C25x.AddTimeValue(7.5, 48.5);
 	C25x.AddTimeValue(6.875, 48.5);
@@ -22,8 +20,6 @@ void loadC25() {
 	C25z.Init();
 	C25z.AddTimeValue(0.0, -49.5);
 	C25z.AddTimeValue(10.0, -17);
-	C25z.AddTimeValue(9.375, -17);
-	C25z.AddTimeValue(8.75, -17);
 	C25z.AddTimeValue(8.125, -17);
 	C25z.AddTimeValue(7.5, -17);
 	C25z.AddTimeValue(6.875, -17);

@@ -3,8 +3,6 @@ void loadU15() {
 	U15x.Init();
 	U15x.AddTimeValue(0.0, -10.75);
 	U15x.AddTimeValue(10.0, -11.5);
-	U15x.AddTimeValue(9.375, -11.5);
-	U15x.AddTimeValue(8.75, -11.5);
 	U15x.AddTimeValue(8.125, -11.5);
 	U15x.AddTimeValue(7.5, -11.5);
 	U15x.AddTimeValue(6.875, -11.5);
@@ -22,8 +20,6 @@ void loadU15() {
 	U15z.Init();
 	U15z.AddTimeValue(0.0, -51.5);
 	U15z.AddTimeValue(10.0, -26);
-	U15z.AddTimeValue(9.375, -26);
-	U15z.AddTimeValue(8.75, -26);
 	U15z.AddTimeValue(8.125, -26);
 	U15z.AddTimeValue(7.5, -26);
 	U15z.AddTimeValue(6.875, -26);

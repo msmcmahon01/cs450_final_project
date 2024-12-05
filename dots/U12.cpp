@@ -3,8 +3,6 @@ void loadU12() {
 	U12x.Init();
 	U12x.AddTimeValue(0.0, -4.25);
 	U12x.AddTimeValue(10.0, -5.5);
-	U12x.AddTimeValue(9.375, -5.5);
-	U12x.AddTimeValue(8.75, -5.5);
 	U12x.AddTimeValue(8.125, -5.5);
 	U12x.AddTimeValue(7.5, -5.5);
 	U12x.AddTimeValue(6.875, -5.5);
@@ -22,8 +20,6 @@ void loadU12() {
 	U12z.Init();
 	U12z.AddTimeValue(0.0, -51.5);
 	U12z.AddTimeValue(10.0, -28);
-	U12z.AddTimeValue(9.375, -28);
-	U12z.AddTimeValue(8.75, -28);
 	U12z.AddTimeValue(8.125, -28);
 	U12z.AddTimeValue(7.5, -28);
 	U12z.AddTimeValue(6.875, -28);

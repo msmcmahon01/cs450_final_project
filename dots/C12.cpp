@@ -3,8 +3,6 @@ void loadC12() {
 	C12x.Init();
 	C12x.AddTimeValue(0.0, 36);
 	C12x.AddTimeValue(10.0, 26);
-	C12x.AddTimeValue(9.375, 26);
-	C12x.AddTimeValue(8.75, 26);
 	C12x.AddTimeValue(8.125, 26);
 	C12x.AddTimeValue(7.5, 26);
 	C12x.AddTimeValue(6.875, 26);
@@ -22,8 +20,6 @@ void loadC12() {
 	C12z.Init();
 	C12z.AddTimeValue(0.0, -51.5);
 	C12z.AddTimeValue(10.0, -25);
-	C12z.AddTimeValue(9.375, -25);
-	C12z.AddTimeValue(8.75, -25);
 	C12z.AddTimeValue(8.125, -25);
 	C12z.AddTimeValue(7.5, -25);
 	C12z.AddTimeValue(6.875, -25);

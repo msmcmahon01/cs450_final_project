@@ -3,8 +3,6 @@ void loadS7() {
 	S7x.Init();
 	S7x.AddTimeValue(0.0, 17);
 	S7x.AddTimeValue(10.0, 7.25);
-	S7x.AddTimeValue(9.375, 7.25);
-	S7x.AddTimeValue(8.75, 7.25);
 	S7x.AddTimeValue(8.125, 7.25);
 	S7x.AddTimeValue(7.5, 7.25);
 	S7x.AddTimeValue(6.875, 7.25);
@@ -22,8 +20,6 @@ void loadS7() {
 	S7z.Init();
 	S7z.AddTimeValue(0.0, -44);
 	S7z.AddTimeValue(10.0, -3.25);
-	S7z.AddTimeValue(9.375, -3.25);
-	S7z.AddTimeValue(8.75, -3.25);
 	S7z.AddTimeValue(8.125, -3.25);
 	S7z.AddTimeValue(7.5, -3.25);
 	S7z.AddTimeValue(6.875, -3.25);

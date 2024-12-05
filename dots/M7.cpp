@@ -3,8 +3,6 @@ void loadM7() {
 	M7x.Init();
 	M7x.AddTimeValue(0.0, 26);
 	M7x.AddTimeValue(10.0, 21.75);
-	M7x.AddTimeValue(9.375, 21.75);
-	M7x.AddTimeValue(8.75, 21.75);
 	M7x.AddTimeValue(8.125, 21.75);
 	M7x.AddTimeValue(7.5, 21.75);
 	M7x.AddTimeValue(6.875, 22);
@@ -22,8 +20,6 @@ void loadM7() {
 	M7z.Init();
 	M7z.AddTimeValue(0.0, 42);
 	M7z.AddTimeValue(10.0, 11.75);
-	M7z.AddTimeValue(9.375, 11.75);
-	M7z.AddTimeValue(8.75, 11.75);
 	M7z.AddTimeValue(8.125, 11.75);
 	M7z.AddTimeValue(7.5, 11.75);
 	M7z.AddTimeValue(6.875, 12);

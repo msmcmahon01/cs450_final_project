@@ -3,8 +3,6 @@ void loadX14() {
 	X14x.Init();
 	X14x.AddTimeValue(0.0, -78);
 	X14x.AddTimeValue(10.0, -65.5);
-	X14x.AddTimeValue(9.375, -65.5);
-	X14x.AddTimeValue(8.75, -65.5);
 	X14x.AddTimeValue(8.125, -65.5);
 	X14x.AddTimeValue(7.5, -65.5);
 	X14x.AddTimeValue(6.875, -68.25);
@@ -22,8 +20,6 @@ void loadX14() {
 	X14z.Init();
 	X14z.AddTimeValue(0.0, -47.75);
 	X14z.AddTimeValue(10.0, -5);
-	X14z.AddTimeValue(9.375, -5);
-	X14z.AddTimeValue(8.75, -5);
 	X14z.AddTimeValue(8.125, -5);
 	X14z.AddTimeValue(7.5, -5);
 	X14z.AddTimeValue(6.875, -7);

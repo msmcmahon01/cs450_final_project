@@ -3,8 +3,6 @@ void loadB9() {
 	B9x.Init();
 	B9x.AddTimeValue(0.0, -16);
 	B9x.AddTimeValue(10.0, -14.75);
-	B9x.AddTimeValue(9.375, -14.75);
-	B9x.AddTimeValue(8.75, -14.75);
 	B9x.AddTimeValue(8.125, -14.75);
 	B9x.AddTimeValue(7.5, -14.75);
 	B9x.AddTimeValue(6.875, -15.25);
@@ -22,8 +20,6 @@ void loadB9() {
 	B9z.Init();
 	B9z.AddTimeValue(0.0, -42);
 	B9z.AddTimeValue(10.0, -1.25);
-	B9z.AddTimeValue(9.375, -1.25);
-	B9z.AddTimeValue(8.75, -1.25);
 	B9z.AddTimeValue(8.125, -1.25);
 	B9z.AddTimeValue(7.5, -1.25);
 	B9z.AddTimeValue(6.875, -1);

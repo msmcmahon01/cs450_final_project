@@ -3,8 +3,6 @@ void loadS3() {
 	S3x.Init();
 	S3x.AddTimeValue(0.0, 9);
 	S3x.AddTimeValue(10.0, 0.25);
-	S3x.AddTimeValue(9.375, 0.25);
-	S3x.AddTimeValue(8.75, 0.25);
 	S3x.AddTimeValue(8.125, 0.25);
 	S3x.AddTimeValue(7.5, 0.25);
 	S3x.AddTimeValue(6.875, 0.25);
@@ -22,8 +20,6 @@ void loadS3() {
 	S3z.Init();
 	S3z.AddTimeValue(0.0, -44);
 	S3z.AddTimeValue(10.0, 0.75);
-	S3z.AddTimeValue(9.375, 0.75);
-	S3z.AddTimeValue(8.75, 0.75);
 	S3z.AddTimeValue(8.125, 0.75);
 	S3z.AddTimeValue(7.5, 0.75);
 	S3z.AddTimeValue(6.875, 0.75);

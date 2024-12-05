@@ -3,8 +3,6 @@ void loadU17() {
 	U17x.Init();
 	U17x.AddTimeValue(0.0, -15);
 	U17x.AddTimeValue(10.0, -15.75);
-	U17x.AddTimeValue(9.375, -15.75);
-	U17x.AddTimeValue(8.75, -15.75);
 	U17x.AddTimeValue(8.125, -15.75);
 	U17x.AddTimeValue(7.5, -15.75);
 	U17x.AddTimeValue(6.875, -15.75);
@@ -22,8 +20,6 @@ void loadU17() {
 	U17z.Init();
 	U17z.AddTimeValue(0.0, -51.5);
 	U17z.AddTimeValue(10.0, -25.25);
-	U17z.AddTimeValue(9.375, -25.25);
-	U17z.AddTimeValue(8.75, -25.25);
 	U17z.AddTimeValue(8.125, -25.25);
 	U17z.AddTimeValue(7.5, -25.25);
 	U17z.AddTimeValue(6.875, -25.25);

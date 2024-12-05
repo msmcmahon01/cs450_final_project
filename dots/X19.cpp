@@ -3,8 +3,6 @@ void loadX19() {
 	X19x.Init();
 	X19x.AddTimeValue(0.0, -54);
 	X19x.AddTimeValue(10.0, -64.75);
-	X19x.AddTimeValue(9.375, -64.75);
-	X19x.AddTimeValue(8.75, -64.75);
 	X19x.AddTimeValue(8.125, -64.75);
 	X19x.AddTimeValue(7.5, -63.75);
 	X19x.AddTimeValue(6.875, -63);
@@ -22,8 +20,6 @@ void loadX19() {
 	X19z.Init();
 	X19z.AddTimeValue(0.0, 42);
 	X19z.AddTimeValue(10.0, 5.75);
-	X19z.AddTimeValue(9.375, 5.75);
-	X19z.AddTimeValue(8.75, 5.75);
 	X19z.AddTimeValue(8.125, 5.75);
 	X19z.AddTimeValue(7.5, 5.25);
 	X19z.AddTimeValue(6.875, 4.5);

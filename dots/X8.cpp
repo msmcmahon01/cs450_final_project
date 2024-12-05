@@ -3,8 +3,6 @@ void loadX8() {
 	X8x.Init();
 	X8x.AddTimeValue(0.0, -57);
 	X8x.AddTimeValue(10.0, -57.5);
-	X8x.AddTimeValue(9.375, -57.5);
-	X8x.AddTimeValue(8.75, -57.5);
 	X8x.AddTimeValue(8.125, -57.5);
 	X8x.AddTimeValue(7.5, -57.5);
 	X8x.AddTimeValue(6.875, -57.5);
@@ -22,8 +20,6 @@ void loadX8() {
 	X8z.Init();
 	X8z.AddTimeValue(0.0, -47.75);
 	X8z.AddTimeValue(10.0, -15);
-	X8z.AddTimeValue(9.375, -15);
-	X8z.AddTimeValue(8.75, -15);
 	X8z.AddTimeValue(8.125, -15);
 	X8z.AddTimeValue(7.5, -15);
 	X8z.AddTimeValue(6.875, -15);

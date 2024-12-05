@@ -3,8 +3,6 @@ void loadN3() {
 	N3x.Init();
 	N3x.AddTimeValue(0.0, 19.25);
 	N3x.AddTimeValue(10.0, 13.75);
-	N3x.AddTimeValue(9.375, 13.75);
-	N3x.AddTimeValue(8.75, 13.75);
 	N3x.AddTimeValue(8.125, 13.75);
 	N3x.AddTimeValue(7.5, 13.75);
 	N3x.AddTimeValue(6.875, 13.75);
@@ -22,8 +20,6 @@ void loadN3() {
 	N3z.Init();
 	N3z.AddTimeValue(0.0, -46);
 	N3z.AddTimeValue(10.0, -6.5);
-	N3z.AddTimeValue(9.375, -6.5);
-	N3z.AddTimeValue(8.75, -6.5);
 	N3z.AddTimeValue(8.125, -6.5);
 	N3z.AddTimeValue(7.5, -6.5);
 	N3z.AddTimeValue(6.875, -6.5);

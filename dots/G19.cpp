@@ -3,8 +3,6 @@ void loadG19() {
 	G19x.Init();
 	G19x.AddTimeValue(0.0, 68);
 	G19x.AddTimeValue(10.0, 68);
-	G19x.AddTimeValue(9.375, 68);
-	G19x.AddTimeValue(8.75, 68);
 	G19x.AddTimeValue(8.125, 68);
 	G19x.AddTimeValue(7.5, 68);
 	G19x.AddTimeValue(6.875, 68);
@@ -22,8 +20,6 @@ void loadG19() {
 	G19z.Init();
 	G19z.AddTimeValue(0.0, -55);
 	G19z.AddTimeValue(10.0, -26);
-	G19z.AddTimeValue(9.375, -26);
-	G19z.AddTimeValue(8.75, -26);
 	G19z.AddTimeValue(8.125, -26);
 	G19z.AddTimeValue(7.5, -26);
 	G19z.AddTimeValue(6.875, -26);

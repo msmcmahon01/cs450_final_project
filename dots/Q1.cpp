@@ -3,8 +3,6 @@ void loadQ1() {
 	Q1x.Init();
 	Q1x.AddTimeValue(0.0, -42);
 	Q1x.AddTimeValue(10.0, -25);
-	Q1x.AddTimeValue(9.375, -25);
-	Q1x.AddTimeValue(8.75, -25);
 	Q1x.AddTimeValue(8.125, -25);
 	Q1x.AddTimeValue(7.5, -27);
 	Q1x.AddTimeValue(6.875, -29);
@@ -22,8 +20,6 @@ void loadQ1() {
 	Q1z.Init();
 	Q1z.AddTimeValue(0.0, -42);
 	Q1z.AddTimeValue(10.0, 4.5);
-	Q1z.AddTimeValue(9.375, 4.5);
-	Q1z.AddTimeValue(8.75, 4.5);
 	Q1z.AddTimeValue(8.125, 4.5);
 	Q1z.AddTimeValue(7.5, 4);
 	Q1z.AddTimeValue(6.875, 3.5);

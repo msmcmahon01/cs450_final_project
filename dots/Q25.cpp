@@ -3,8 +3,6 @@ void loadQ25() {
 	Q25x.Init();
 	Q25x.AddTimeValue(0.0, -42);
 	Q25x.AddTimeValue(10.0, -31.25);
-	Q25x.AddTimeValue(9.375, -31.25);
-	Q25x.AddTimeValue(8.75, -31.25);
 	Q25x.AddTimeValue(8.125, -31.25);
 	Q25x.AddTimeValue(7.5, -30.25);
 	Q25x.AddTimeValue(6.875, -29);
@@ -22,8 +20,6 @@ void loadQ25() {
 	Q25z.Init();
 	Q25z.AddTimeValue(0.0, 44);
 	Q25z.AddTimeValue(10.0, 14.5);
-	Q25z.AddTimeValue(9.375, 14.5);
-	Q25z.AddTimeValue(8.75, 14.5);
 	Q25z.AddTimeValue(8.125, 14.5);
 	Q25z.AddTimeValue(7.5, 18);
 	Q25z.AddTimeValue(6.875, 21.5);

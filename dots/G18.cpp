@@ -3,8 +3,6 @@ void loadG18() {
 	G18x.Init();
 	G18x.AddTimeValue(0.0, 60);
 	G18x.AddTimeValue(10.0, 60);
-	G18x.AddTimeValue(9.375, 60);
-	G18x.AddTimeValue(8.75, 60);
 	G18x.AddTimeValue(8.125, 60);
 	G18x.AddTimeValue(7.5, 60);
 	G18x.AddTimeValue(6.875, 60);
@@ -22,8 +20,6 @@ void loadG18() {
 	G18z.Init();
 	G18z.AddTimeValue(0.0, -55);
 	G18z.AddTimeValue(10.0, -30);
-	G18z.AddTimeValue(9.375, -30);
-	G18z.AddTimeValue(8.75, -30);
 	G18z.AddTimeValue(8.125, -30);
 	G18z.AddTimeValue(7.5, -30);
 	G18z.AddTimeValue(6.875, -30);

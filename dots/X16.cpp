@@ -3,8 +3,6 @@ void loadX16() {
 	X16x.Init();
 	X16x.AddTimeValue(0.0, -62);
 	X16x.AddTimeValue(10.0, -66);
-	X16x.AddTimeValue(9.375, -66);
-	X16x.AddTimeValue(8.75, -66);
 	X16x.AddTimeValue(8.125, -66);
 	X16x.AddTimeValue(7.5, -66);
 	X16x.AddTimeValue(6.875, -69);
@@ -22,8 +20,6 @@ void loadX16() {
 	X16z.Init();
 	X16z.AddTimeValue(0.0, 42);
 	X16z.AddTimeValue(10.0, -0.5);
-	X16z.AddTimeValue(9.375, -0.5);
-	X16z.AddTimeValue(8.75, -0.5);
 	X16z.AddTimeValue(8.125, -0.5);
 	X16z.AddTimeValue(7.5, -0.5);
 	X16z.AddTimeValue(6.875, 0.25);

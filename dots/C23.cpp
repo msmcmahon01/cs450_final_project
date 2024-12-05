@@ -3,8 +3,6 @@ void loadC23() {
 	C23x.Init();
 	C23x.AddTimeValue(0.0, 54);
 	C23x.AddTimeValue(10.0, 53);
-	C23x.AddTimeValue(9.375, 53);
-	C23x.AddTimeValue(8.75, 53);
 	C23x.AddTimeValue(8.125, 53);
 	C23x.AddTimeValue(7.5, 53);
 	C23x.AddTimeValue(6.875, 53);
@@ -22,8 +20,6 @@ void loadC23() {
 	C23z.Init();
 	C23z.AddTimeValue(0.0, -47.75);
 	C23z.AddTimeValue(10.0, -16.25);
-	C23z.AddTimeValue(9.375, -16.25);
-	C23z.AddTimeValue(8.75, -16.25);
 	C23z.AddTimeValue(8.125, -16.25);
 	C23z.AddTimeValue(7.5, -16.25);
 	C23z.AddTimeValue(6.875, -16.25);

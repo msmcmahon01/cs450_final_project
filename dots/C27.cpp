@@ -3,8 +3,6 @@ void loadC27() {
 	C27x.Init();
 	C27x.AddTimeValue(0.0, 36);
 	C27x.AddTimeValue(10.0, 44);
-	C27x.AddTimeValue(9.375, 44);
-	C27x.AddTimeValue(8.75, 44);
 	C27x.AddTimeValue(8.125, 44);
 	C27x.AddTimeValue(7.5, 44);
 	C27x.AddTimeValue(6.875, 44);
@@ -22,8 +20,6 @@ void loadC27() {
 	C27z.Init();
 	C27z.AddTimeValue(0.0, -47.75);
 	C27z.AddTimeValue(10.0, -17);
-	C27z.AddTimeValue(9.375, -17);
-	C27z.AddTimeValue(8.75, -17);
 	C27z.AddTimeValue(8.125, -17);
 	C27z.AddTimeValue(7.5, -17);
 	C27z.AddTimeValue(6.875, -17);

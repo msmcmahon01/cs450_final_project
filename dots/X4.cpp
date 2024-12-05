@@ -3,8 +3,6 @@ void loadX4() {
 	X4x.Init();
 	X4x.AddTimeValue(0.0, -42);
 	X4x.AddTimeValue(10.0, -49.25);
-	X4x.AddTimeValue(9.375, -49.25);
-	X4x.AddTimeValue(8.75, -49.25);
 	X4x.AddTimeValue(8.125, -49.25);
 	X4x.AddTimeValue(7.5, -49.25);
 	X4x.AddTimeValue(6.875, -49.25);
@@ -22,8 +20,6 @@ void loadX4() {
 	X4z.Init();
 	X4z.AddTimeValue(0.0, -49.5);
 	X4z.AddTimeValue(10.0, -17.25);
-	X4z.AddTimeValue(9.375, -17.25);
-	X4z.AddTimeValue(8.75, -17.25);
 	X4z.AddTimeValue(8.125, -17.25);
 	X4z.AddTimeValue(7.5, -17.25);
 	X4z.AddTimeValue(6.875, -17.25);

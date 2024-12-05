@@ -3,8 +3,6 @@ void loadC13() {
 	C13x.Init();
 	C13x.AddTimeValue(0.0, 27.5);
 	C13x.AddTimeValue(10.0, 24);
-	C13x.AddTimeValue(9.375, 24);
-	C13x.AddTimeValue(8.75, 24);
 	C13x.AddTimeValue(8.125, 24);
 	C13x.AddTimeValue(7.5, 24);
 	C13x.AddTimeValue(6.875, 24);
@@ -22,8 +20,6 @@ void loadC13() {
 	C13z.Init();
 	C13z.AddTimeValue(0.0, -51.5);
 	C13z.AddTimeValue(10.0, -25);
-	C13z.AddTimeValue(9.375, -25);
-	C13z.AddTimeValue(8.75, -25);
 	C13z.AddTimeValue(8.125, -25);
 	C13z.AddTimeValue(7.5, -25);
 	C13z.AddTimeValue(6.875, -25);

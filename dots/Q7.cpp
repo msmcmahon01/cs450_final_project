@@ -3,8 +3,6 @@ void loadQ7() {
 	Q7x.Init();
 	Q7x.AddTimeValue(0.0, -12);
 	Q7x.AddTimeValue(10.0, -13.5);
-	Q7x.AddTimeValue(9.375, -13.5);
-	Q7x.AddTimeValue(8.75, -13.5);
 	Q7x.AddTimeValue(8.125, -13.5);
 	Q7x.AddTimeValue(7.5, -13.5);
 	Q7x.AddTimeValue(6.875, -13.5);
@@ -22,8 +20,6 @@ void loadQ7() {
 	Q7z.Init();
 	Q7z.AddTimeValue(0.0, -42);
 	Q7z.AddTimeValue(10.0, 4.75);
-	Q7z.AddTimeValue(9.375, 4.75);
-	Q7z.AddTimeValue(8.75, 4.75);
 	Q7z.AddTimeValue(8.125, 4.75);
 	Q7z.AddTimeValue(7.5, 4.75);
 	Q7z.AddTimeValue(6.875, 4.75);

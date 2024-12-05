@@ -3,8 +3,6 @@ void loadQ2() {
 	Q2x.Init();
 	Q2x.AddTimeValue(0.0, -34);
 	Q2x.AddTimeValue(10.0, -24.5);
-	Q2x.AddTimeValue(9.375, -24.5);
-	Q2x.AddTimeValue(8.75, -24.5);
 	Q2x.AddTimeValue(8.125, -24.5);
 	Q2x.AddTimeValue(7.5, -24.5);
 	Q2x.AddTimeValue(6.875, -24.5);
@@ -22,8 +20,6 @@ void loadQ2() {
 	Q2z.Init();
 	Q2z.AddTimeValue(0.0, -42);
 	Q2z.AddTimeValue(10.0, 6.5);
-	Q2z.AddTimeValue(9.375, 6.5);
-	Q2z.AddTimeValue(8.75, 6.5);
 	Q2z.AddTimeValue(8.125, 6.5);
 	Q2z.AddTimeValue(7.5, 6.5);
 	Q2z.AddTimeValue(6.875, 6.5);

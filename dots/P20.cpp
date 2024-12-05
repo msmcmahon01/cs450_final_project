@@ -3,8 +3,6 @@ void loadP20() {
 	P20x.Init();
 	P20x.AddTimeValue(0.0, -21);
 	P20x.AddTimeValue(10.0, -30);
-	P20x.AddTimeValue(9.375, -30);
-	P20x.AddTimeValue(8.75, -30);
 	P20x.AddTimeValue(8.125, -30);
 	P20x.AddTimeValue(7.5, -30);
 	P20x.AddTimeValue(6.875, -30);
@@ -22,8 +20,6 @@ void loadP20() {
 	P20z.Init();
 	P20z.AddTimeValue(0.0, -47.75);
 	P20z.AddTimeValue(10.0, -14);
-	P20z.AddTimeValue(9.375, -14);
-	P20z.AddTimeValue(8.75, -14);
 	P20z.AddTimeValue(8.125, -14);
 	P20z.AddTimeValue(7.5, -14);
 	P20z.AddTimeValue(6.875, -14);

@@ -3,8 +3,6 @@ void loadC19() {
 	C19x.Init();
 	C19x.AddTimeValue(0.0, 78);
 	C19x.AddTimeValue(10.0, 61);
-	C19x.AddTimeValue(9.375, 61);
-	C19x.AddTimeValue(8.75, 61);
 	C19x.AddTimeValue(8.125, 61);
 	C19x.AddTimeValue(7.5, 61);
 	C19x.AddTimeValue(6.875, 63.5);
@@ -22,8 +20,6 @@ void loadC19() {
 	C19z.Init();
 	C19z.AddTimeValue(0.0, -47.75);
 	C19z.AddTimeValue(10.0, -12.25);
-	C19z.AddTimeValue(9.375, -12.25);
-	C19z.AddTimeValue(8.75, -12.25);
 	C19z.AddTimeValue(8.125, -12.25);
 	C19z.AddTimeValue(7.5, -12.25);
 	C19z.AddTimeValue(6.875, -15.75);

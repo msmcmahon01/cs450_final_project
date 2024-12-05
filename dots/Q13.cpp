@@ -3,8 +3,6 @@ void loadQ13() {
 	Q13x.Init();
 	Q13x.AddTimeValue(0.0, -52);
 	Q13x.AddTimeValue(10.0, -57);
-	Q13x.AddTimeValue(9.375, -57);
-	Q13x.AddTimeValue(8.75, -57);
 	Q13x.AddTimeValue(8.125, -57);
 	Q13x.AddTimeValue(7.5, -56);
 	Q13x.AddTimeValue(6.875, -55);
@@ -22,8 +20,6 @@ void loadQ13() {
 	Q13z.Init();
 	Q13z.AddTimeValue(0.0, 42);
 	Q13z.AddTimeValue(10.0, 13.25);
-	Q13z.AddTimeValue(9.375, 13.25);
-	Q13z.AddTimeValue(8.75, 13.25);
 	Q13z.AddTimeValue(8.125, 13.25);
 	Q13z.AddTimeValue(7.5, 11.75);
 	Q13z.AddTimeValue(6.875, 10.5);

@@ -3,8 +3,6 @@ void loadB1() {
 	B1x.Init();
 	B1x.AddTimeValue(0.0, -14);
 	B1x.AddTimeValue(10.0, -27.5);
-	B1x.AddTimeValue(9.375, -27.5);
-	B1x.AddTimeValue(8.75, -27.5);
 	B1x.AddTimeValue(8.125, -27.5);
 	B1x.AddTimeValue(7.5, -27.5);
 	B1x.AddTimeValue(6.875, -25.75);
@@ -22,8 +20,6 @@ void loadB1() {
 	B1z.Init();
 	B1z.AddTimeValue(0.0, -48);
 	B1z.AddTimeValue(10.0, -11.25);
-	B1z.AddTimeValue(9.375, -11.25);
-	B1z.AddTimeValue(8.75, -11.25);
 	B1z.AddTimeValue(8.125, -11.25);
 	B1z.AddTimeValue(7.5, -11.25);
 	B1z.AddTimeValue(6.875, -12.5);

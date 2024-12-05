@@ -3,8 +3,6 @@ void loadD5() {
     D5x.Init();
     D5x.AddTimeValue(0.0, -1);
     D5x.AddTimeValue(10.0, -1.5);
-    D5x.AddTimeValue(9.375, -1.5);
-    D5x.AddTimeValue(8.75, -1.5);
     D5x.AddTimeValue(8.125, -1.5);
     D5x.AddTimeValue(7.5, -1.5);
     D5x.AddTimeValue(6.875, -1.5);
@@ -22,8 +20,6 @@ void loadD5() {
     D5z.Init();
     D5z.AddTimeValue(0.0, -46);
     D5z.AddTimeValue(10.0, -2.75);
-    D5z.AddTimeValue(9.375, -2.75);
-    D5z.AddTimeValue(8.75, -2.75);
     D5z.AddTimeValue(8.125, -2.75);
     D5z.AddTimeValue(7.5, -2.75);
     D5z.AddTimeValue(6.875, -2.75);

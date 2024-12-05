@@ -3,8 +3,6 @@ void loadU4() {
 	U4x.Init();
 	U4x.AddTimeValue(0.0, 10.5);
 	U4x.AddTimeValue(10.0, 9.5);
-	U4x.AddTimeValue(9.375, 9.5);
-	U4x.AddTimeValue(8.75, 9.5);
 	U4x.AddTimeValue(8.125, 9.5);
 	U4x.AddTimeValue(7.5, 9.5);
 	U4x.AddTimeValue(6.875, 9.5);
@@ -22,8 +20,6 @@ void loadU4() {
 	U4z.Init();
 	U4z.AddTimeValue(0.0, -51.5);
 	U4z.AddTimeValue(10.0, -26.5);
-	U4z.AddTimeValue(9.375, -26.5);
-	U4z.AddTimeValue(8.75, -26.5);
 	U4z.AddTimeValue(8.125, -26.5);
 	U4z.AddTimeValue(7.5, -26.5);
 	U4z.AddTimeValue(6.875, -26.5);

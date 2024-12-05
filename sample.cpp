@@ -208,7 +208,7 @@ int		Xmouse, Ymouse;			// mouse values
 float	Xrot, Yrot;				// rotation angles in degrees
 int		NowCameraPosition;
 bool	Freeze;
-float	TimeFrozen, TimeUnfrozen, TimeElapsed;
+int		PauseTime, StartTime;
 bool	isPlaying;
 ALuint	monoSource, monoSoundBuffer;
 ALCdevice	*device;
@@ -358,18 +358,8 @@ main(int argc, char *argv[]) {
     InitMenus();
 
 	// Setup sound
-	if (InitSound() != 0) {
-		fprintf(stderr, "Failed to initialize sound");
-		return -1;
-	}
-
-	// Play the mono sound
-	alSourcePlay(monoSource);
-	//ALint sourceState;
-	//alGetSourcei(monoSource, AL_SOURCE_STATE, &sourceState);
-	//while (sourceState == AL_PLAYING) {
-	//	alGetSourcei(monoSource, AL_SOURCE_STATE, &sourceState);
-	//}
+	InitSound();
+	StartTime = glutGet(GLUT_ELAPSED_TIME);
 
     // Draw the scene once and wait for some interaction
     glutSetWindow(MainWindow);
@@ -391,10 +381,16 @@ void
 Animate( )
 {
 	// put animation stuff in here -- change some global variables for Display( ) to find:
+	if ( Freeze ) return;
 
 	int ms = glutGet(GLUT_ELAPSED_TIME);
-	ms %= MS_PER_CYCLE;							// makes the value of ms between 0 and MS_PER_CYCLE-1
-	Time = (float)ms / (float)MS_PER_CYCLE;		// makes the value of Time between 0. and slightly less than 1.
+	//ms %= MS_PER_CYCLE;							// makes the value of ms between 0 and MS_PER_CYCLE-1
+	//Time = (float)ms / (float)MS_PER_CYCLE;		// makes the value of Time between 0. and slightly less than 1.
+	int elapsedTime = ms - StartTime - PauseTime;
+	int animationDuration = 87000;
+	Time = (float)elapsedTime / (float)animationDuration;
+
+	if (Time > 1.0f) Time = 1.0f;
 
 	// for example, if you wanted to spin an object in Display( ), you might call: glRotatef( 360.f*Time,   0., 1., 0. );
 
@@ -1002,7 +998,7 @@ InitMenus( )
 
 
 // initialize the sound
-
+// Credit due to OpenAL documentation, https://youtu.be/WvND0djMcfE?si=8bNrDh94uou5go60
 int
 InitSound() {
 	// Find the default audio device
@@ -1169,21 +1165,13 @@ Keyboard( unsigned char c, int x, int y )
 			Freeze = !Freeze;
 			if ( Freeze ) {
 				glutIdleFunc( NULL );
-				TimeFrozen = Time - TimeElapsed;
-				if ( TimeFrozen < 0. )
-					TimeFrozen = TimeFrozen + 1.f;
 				pauseAudio();
+				PauseTime += glutGet(GLUT_ELAPSED_TIME) - StartTime;
 			}
 			else {
 				glutIdleFunc( Animate );
-				int ms = glutGet( GLUT_ELAPSED_TIME );
-				ms %= MS_PER_CYCLE;
-				Time = (float)ms / (float)MS_PER_CYCLE;
-				TimeUnfrozen = Time;
-				TimeElapsed = TimeUnfrozen - TimeFrozen;
-				if ( TimeElapsed < 0. )
-					TimeElapsed = TimeElapsed + 1.f;
 				playAudio();
+				glutGet(GLUT_ELAPSED_TIME);
 			}
 			break;
 
@@ -1310,8 +1298,11 @@ Reset( )
 	NowColor = YELLOW;
 	NowProjection = PERSP;
 	Xrot = Yrot = 0.;
-	TimeElapsed = 0.f;
 	isPlaying = 1;
+	Freeze = 1;
+	Time = 0.f;
+	PauseTime = 0;
+	StartTime = 0;
 	NowCameraPosition = 2;
 }
 
@@ -1618,9 +1609,9 @@ Unit( float v[3] )
 //}
 
 void playAudio() {
-	alSourcePlay(source);
+	alSourcePlay(monoSource);
 }
 
 void pauseAudio() {
-	alSourcePause(source);
+	alSourcePause(monoSource);
 }

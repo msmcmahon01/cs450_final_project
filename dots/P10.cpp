@@ -3,8 +3,6 @@ void loadP10() {
 	P10x.Init();
 	P10x.AddTimeValue(0.0, -21.25);
 	P10x.AddTimeValue(10.0, -17.75);
-	P10x.AddTimeValue(9.375, -17.75);
-	P10x.AddTimeValue(8.75, -17.75);
 	P10x.AddTimeValue(8.125, -17.75);
 	P10x.AddTimeValue(7.5, -17.75);
 	P10x.AddTimeValue(6.875, -17.75);
@@ -22,8 +20,6 @@ void loadP10() {
 	P10z.Init();
 	P10z.AddTimeValue(0.0, -51.5);
 	P10z.AddTimeValue(10.0, -25);
-	P10z.AddTimeValue(9.375, -25);
-	P10z.AddTimeValue(8.75, -25);
 	P10z.AddTimeValue(8.125, -25);
 	P10z.AddTimeValue(7.5, -25);
 	P10z.AddTimeValue(6.875, -25);

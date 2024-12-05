@@ -3,8 +3,6 @@ void loadS5() {
 	S5x.Init();
 	S5x.AddTimeValue(0.0, 13);
 	S5x.AddTimeValue(10.0, 3.75);
-	S5x.AddTimeValue(9.375, 3.75);
-	S5x.AddTimeValue(8.75, 3.75);
 	S5x.AddTimeValue(8.125, 3.75);
 	S5x.AddTimeValue(7.5, 3.75);
 	S5x.AddTimeValue(6.875, 3.75);
@@ -22,8 +20,6 @@ void loadS5() {
 	S5z.Init();
 	S5z.AddTimeValue(0.0, -44);
 	S5z.AddTimeValue(10.0, -1.25);
-	S5z.AddTimeValue(9.375, -1.25);
-	S5z.AddTimeValue(8.75, -1.25);
 	S5z.AddTimeValue(8.125, -1.25);
 	S5z.AddTimeValue(7.5, -1.25);
 	S5z.AddTimeValue(6.875, -1.25);

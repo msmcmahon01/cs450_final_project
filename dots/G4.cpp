@@ -3,8 +3,6 @@ void loadG4() {
 	G4x.Init();
 	G4x.AddTimeValue(0.0, -52);
 	G4x.AddTimeValue(10.0, -52);
-	G4x.AddTimeValue(9.375, -52);
-	G4x.AddTimeValue(8.75, -52);
 	G4x.AddTimeValue(8.125, -52);
 	G4x.AddTimeValue(7.5, -52);
 	G4x.AddTimeValue(6.875, -52);
@@ -22,8 +20,6 @@ void loadG4() {
 	G4z.Init();
 	G4z.AddTimeValue(0.0, -55);
 	G4z.AddTimeValue(10.0, -34);
-	G4z.AddTimeValue(9.375, -34);
-	G4z.AddTimeValue(8.75, -34);
 	G4z.AddTimeValue(8.125, -34);
 	G4z.AddTimeValue(7.5, -34);
 	G4z.AddTimeValue(6.875, -34);

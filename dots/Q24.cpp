@@ -3,8 +3,6 @@ void loadQ24() {
 	Q24x.Init();
 	Q24x.AddTimeValue(0.0, -38);
 	Q24x.AddTimeValue(10.0, -33.5);
-	Q24x.AddTimeValue(9.375, -33.5);
-	Q24x.AddTimeValue(8.75, -33.5);
 	Q24x.AddTimeValue(8.125, -33.5);
 	Q24x.AddTimeValue(7.5, -33);
 	Q24x.AddTimeValue(6.875, -32.5);
@@ -22,8 +20,6 @@ void loadQ24() {
 	Q24z.Init();
 	Q24z.AddTimeValue(0.0, 44);
 	Q24z.AddTimeValue(10.0, 15);
-	Q24z.AddTimeValue(9.375, 15);
-	Q24z.AddTimeValue(8.75, 15);
 	Q24z.AddTimeValue(8.125, 15);
 	Q24z.AddTimeValue(7.5, 15.25);
 	Q24z.AddTimeValue(6.875, 15.75);

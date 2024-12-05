@@ -3,8 +3,6 @@ void loadQ30() {
 	Q30x.Init();
 	Q30x.AddTimeValue(0.0, -26);
 	Q30x.AddTimeValue(10.0, -20.75);
-	Q30x.AddTimeValue(9.375, -20.75);
-	Q30x.AddTimeValue(8.75, -20.75);
 	Q30x.AddTimeValue(8.125, -20.75);
 	Q30x.AddTimeValue(7.5, -20.75);
 	Q30x.AddTimeValue(6.875, -20.75);
@@ -22,8 +20,6 @@ void loadQ30() {
 	Q30z.Init();
 	Q30z.AddTimeValue(0.0, 42);
 	Q30z.AddTimeValue(10.0, 11.5);
-	Q30z.AddTimeValue(9.375, 11.5);
-	Q30z.AddTimeValue(8.75, 11.5);
 	Q30z.AddTimeValue(8.125, 11.5);
 	Q30z.AddTimeValue(7.5, 11.5);
 	Q30z.AddTimeValue(6.875, 11.5);

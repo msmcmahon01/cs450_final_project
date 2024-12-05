@@ -3,8 +3,6 @@ void loadQ10() {
 	Q10x.Init();
 	Q10x.AddTimeValue(0.0, -46);
 	Q10x.AddTimeValue(10.0, -62.5);
-	Q10x.AddTimeValue(9.375, -62.5);
-	Q10x.AddTimeValue(8.75, -62.5);
 	Q10x.AddTimeValue(8.125, -62.5);
 	Q10x.AddTimeValue(7.5, -60);
 	Q10x.AddTimeValue(6.875, -57.5);
@@ -22,8 +20,6 @@ void loadQ10() {
 	Q10z.Init();
 	Q10z.AddTimeValue(0.0, 42);
 	Q10z.AddTimeValue(10.0, 9.5);
-	Q10z.AddTimeValue(9.375, 9.5);
-	Q10z.AddTimeValue(8.75, 9.5);
 	Q10z.AddTimeValue(8.125, 9.5);
 	Q10z.AddTimeValue(7.5, 6.25);
 	Q10z.AddTimeValue(6.875, 3.25);

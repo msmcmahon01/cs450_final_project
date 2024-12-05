@@ -3,8 +3,6 @@ void loadC28() {
 	C28x.Init();
 	C28x.AddTimeValue(0.0, 30);
 	C28x.AddTimeValue(10.0, 41.75);
-	C28x.AddTimeValue(9.375, 41.75);
-	C28x.AddTimeValue(8.75, 41.75);
 	C28x.AddTimeValue(8.125, 41.75);
 	C28x.AddTimeValue(7.5, 41.75);
 	C28x.AddTimeValue(6.875, 41.75);
@@ -22,8 +20,6 @@ void loadC28() {
 	C28z.Init();
 	C28z.AddTimeValue(0.0, -49.5);
 	C28z.AddTimeValue(10.0, -16.75);
-	C28z.AddTimeValue(9.375, -16.75);
-	C28z.AddTimeValue(8.75, -16.75);
 	C28z.AddTimeValue(8.125, -16.75);
 	C28z.AddTimeValue(7.5, -16.75);
 	C28z.AddTimeValue(6.875, -16.75);

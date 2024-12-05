@@ -3,8 +3,6 @@ void loadU8() {
 	U8x.Init();
 	U8x.AddTimeValue(0.0, 4.25);
 	U8x.AddTimeValue(10.0, 1.75);
-	U8x.AddTimeValue(9.375, 1.75);
-	U8x.AddTimeValue(8.75, 1.75);
 	U8x.AddTimeValue(8.125, 1.75);
 	U8x.AddTimeValue(7.5, 1.75);
 	U8x.AddTimeValue(6.875, 1.75);
@@ -22,8 +20,6 @@ void loadU8() {
 	U8z.Init();
 	U8z.AddTimeValue(0.0, -51.5);
 	U8z.AddTimeValue(10.0, -30);
-	U8z.AddTimeValue(9.375, -30);
-	U8z.AddTimeValue(8.75, -30);
 	U8z.AddTimeValue(8.125, -30);
 	U8z.AddTimeValue(7.5, -30);
 	U8z.AddTimeValue(6.875, -30);

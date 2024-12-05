@@ -3,8 +3,6 @@ void loadQ4() {
 	Q4x.Init();
 	Q4x.AddTimeValue(0.0, -30);
 	Q4x.AddTimeValue(10.0, -23);
-	Q4x.AddTimeValue(9.375, -23);
-	Q4x.AddTimeValue(8.75, -23);
 	Q4x.AddTimeValue(8.125, -23);
 	Q4x.AddTimeValue(7.5, -23);
 	Q4x.AddTimeValue(6.875, -23);
@@ -22,8 +20,6 @@ void loadQ4() {
 	Q4z.Init();
 	Q4z.AddTimeValue(0.0, 42);
 	Q4z.AddTimeValue(10.0, 10.25);
-	Q4z.AddTimeValue(9.375, 10.25);
-	Q4z.AddTimeValue(8.75, 10.25);
 	Q4z.AddTimeValue(8.125, 10.25);
 	Q4z.AddTimeValue(7.5, 10.25);
 	Q4z.AddTimeValue(6.875, 10.25);

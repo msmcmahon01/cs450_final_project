@@ -3,8 +3,6 @@ void loadA6() {
 	A6x.Init();
 	A6x.AddTimeValue(0.0, 50);
 	A6x.AddTimeValue(10.0, 55.25);
-	A6x.AddTimeValue(9.375, 55.25);
-	A6x.AddTimeValue(8.75, 55.25);
 	A6x.AddTimeValue(8.125, 55.25);
 	A6x.AddTimeValue(7.5, 55);
 	A6x.AddTimeValue(6.875, 54.5);
@@ -22,8 +20,6 @@ void loadA6() {
 	A6z.Init();
 	A6z.AddTimeValue(0.0, 42);
 	A6z.AddTimeValue(10.0, 15.5);
-	A6z.AddTimeValue(9.375, 15.5);
-	A6z.AddTimeValue(8.75, 15.5);
 	A6z.AddTimeValue(8.125, 15.5);
 	A6z.AddTimeValue(7.5, 15);
 	A6z.AddTimeValue(6.875, 14.5);

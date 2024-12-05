@@ -3,8 +3,6 @@ void loadA15() {
 	A15x.Init();
 	A15x.AddTimeValue(0.0, 62);
 	A15x.AddTimeValue(10.0, 66);
-	A15x.AddTimeValue(9.375, 66);
-	A15x.AddTimeValue(8.75, 66);
 	A15x.AddTimeValue(8.125, 66);
 	A15x.AddTimeValue(7.5, 66);
 	A15x.AddTimeValue(6.875, 69);
@@ -22,8 +20,6 @@ void loadA15() {
 	A15z.Init();
 	A15z.AddTimeValue(0.0, 42);
 	A15z.AddTimeValue(10.0, -0.25);
-	A15z.AddTimeValue(9.375, -0.25);
-	A15z.AddTimeValue(8.75, -0.25);
 	A15z.AddTimeValue(8.125, -0.25);
 	A15z.AddTimeValue(7.5, -0.25);
 	A15z.AddTimeValue(6.875, 1.5);

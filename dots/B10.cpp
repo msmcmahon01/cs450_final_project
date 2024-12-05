@@ -3,8 +3,6 @@ void loadB10() {
 	B10x.Init();
 	B10x.AddTimeValue(0.0, -10);
 	B10x.AddTimeValue(10.0, -15);
-	B10x.AddTimeValue(9.375, -15);
-	B10x.AddTimeValue(8.75, -15);
 	B10x.AddTimeValue(8.125, -15);
 	B10x.AddTimeValue(7.5, -15);
 	B10x.AddTimeValue(6.875, -11.5);
@@ -22,8 +20,6 @@ void loadB10() {
 	B10z.Init();
 	B10z.AddTimeValue(0.0, -42);
 	B10z.AddTimeValue(10.0, -3.25);
-	B10z.AddTimeValue(9.375, -3.25);
-	B10z.AddTimeValue(8.75, -3.25);
 	B10z.AddTimeValue(8.125, -3.25);
 	B10z.AddTimeValue(7.5, -3.25);
 	B10z.AddTimeValue(6.875, -2);

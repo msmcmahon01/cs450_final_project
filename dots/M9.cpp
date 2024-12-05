@@ -3,8 +3,6 @@ void loadM9() {
 	M9x.Init();
 	M9x.AddTimeValue(0.0, 42);
 	M9x.AddTimeValue(10.0, 26.5);
-	M9x.AddTimeValue(9.375, 26.5);
-	M9x.AddTimeValue(8.75, 26.5);
 	M9x.AddTimeValue(8.125, 26.5);
 	M9x.AddTimeValue(7.5, 27);
 	M9x.AddTimeValue(6.875, 27.5);
@@ -22,8 +20,6 @@ void loadM9() {
 	M9z.Init();
 	M9z.AddTimeValue(0.0, 44);
 	M9z.AddTimeValue(10.0, 14.75);
-	M9z.AddTimeValue(9.375, 14.75);
-	M9z.AddTimeValue(8.75, 14.75);
 	M9z.AddTimeValue(8.125, 14.75);
 	M9z.AddTimeValue(7.5, 18.5);
 	M9z.AddTimeValue(6.875, 22.25);

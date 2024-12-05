@@ -3,8 +3,6 @@ void loadQ6() {
 	Q6x.Init();
 	Q6x.AddTimeValue(0.0, -22);
 	Q6x.AddTimeValue(10.0, -13);
-	Q6x.AddTimeValue(9.375, -13);
-	Q6x.AddTimeValue(8.75, -13);
 	Q6x.AddTimeValue(8.125, -13);
 	Q6x.AddTimeValue(7.5, -13);
 	Q6x.AddTimeValue(6.875, -13);
@@ -22,8 +20,6 @@ void loadQ6() {
 	Q6z.Init();
 	Q6z.AddTimeValue(0.0, 42);
 	Q6z.AddTimeValue(10.0, 6.75);
-	Q6z.AddTimeValue(9.375, 6.75);
-	Q6z.AddTimeValue(8.75, 6.75);
 	Q6z.AddTimeValue(8.125, 6.75);
 	Q6z.AddTimeValue(7.5, 6.75);
 	Q6z.AddTimeValue(6.875, 7);

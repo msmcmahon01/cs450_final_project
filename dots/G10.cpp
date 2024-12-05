@@ -3,8 +3,6 @@ void loadG10() {
 	G10x.Init();
 	G10x.AddTimeValue(0.0, -4);
 	G10x.AddTimeValue(10.0, -4);
-	G10x.AddTimeValue(9.375, -4);
-	G10x.AddTimeValue(8.75, -4);
 	G10x.AddTimeValue(8.125, -4);
 	G10x.AddTimeValue(7.5, -4);
 	G10x.AddTimeValue(6.875, -4);
@@ -22,8 +20,6 @@ void loadG10() {
 	G10z.Init();
 	G10z.AddTimeValue(0.0, -55);
 	G10z.AddTimeValue(10.0, -42);
-	G10z.AddTimeValue(9.375, -42);
-	G10z.AddTimeValue(8.75, -42);
 	G10z.AddTimeValue(8.125, -42);
 	G10z.AddTimeValue(7.5, -42);
 	G10z.AddTimeValue(6.875, -42);

@@ -3,8 +3,6 @@ void loadP19() {
 	P19x.Init();
 	P19x.AddTimeValue(0.0, -19.25);
 	P19x.AddTimeValue(10.0, -15.75);
-	P19x.AddTimeValue(9.375, -15.75);
-	P19x.AddTimeValue(8.75, -15.75);
 	P19x.AddTimeValue(8.125, -15.75);
 	P19x.AddTimeValue(7.5, -15.75);
 	P19x.AddTimeValue(6.875, -15.75);
@@ -22,8 +20,6 @@ void loadP19() {
 	P19z.Init();
 	P19z.AddTimeValue(0.0, -51.5);
 	P19z.AddTimeValue(10.0, -23.25);
-	P19z.AddTimeValue(9.375, -23.25);
-	P19z.AddTimeValue(8.75, -23.25);
 	P19z.AddTimeValue(8.125, -23.25);
 	P19z.AddTimeValue(7.5, -23.25);
 	P19z.AddTimeValue(6.875, -23.25);

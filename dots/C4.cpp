@@ -3,8 +3,6 @@ void loadC4() {
 	C4x.Init();
 	C4x.AddTimeValue(0.0, 18);
 	C4x.AddTimeValue(10.0, 27.5);
-	C4x.AddTimeValue(9.375, 27.5);
-	C4x.AddTimeValue(8.75, 27.5);
 	C4x.AddTimeValue(8.125, 27.5);
 	C4x.AddTimeValue(7.5, 27.5);
 	C4x.AddTimeValue(6.875, 27.5);
@@ -22,8 +20,6 @@ void loadC4() {
 	C4z.Init();
 	C4z.AddTimeValue(0.0, -47.75);
 	C4z.AddTimeValue(10.0, -17.25);
-	C4z.AddTimeValue(9.375, -17.25);
-	C4z.AddTimeValue(8.75, -17.25);
 	C4z.AddTimeValue(8.125, -17.25);
 	C4z.AddTimeValue(7.5, -17.25);
 	C4z.AddTimeValue(6.875, -17.25);

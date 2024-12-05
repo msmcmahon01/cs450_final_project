@@ -3,8 +3,6 @@ void loadX10() {
 	X10x.Init();
 	X10x.AddTimeValue(0.0, -60);
 	X10x.AddTimeValue(10.0, -61.25);
-	X10x.AddTimeValue(9.375, -61.25);
-	X10x.AddTimeValue(8.75, -61.25);
 	X10x.AddTimeValue(8.125, -61.25);
 	X10x.AddTimeValue(7.5, -61.25);
 	X10x.AddTimeValue(6.875, -61.5);
@@ -22,8 +20,6 @@ void loadX10() {
 	X10z.Init();
 	X10z.AddTimeValue(0.0, -47.75);
 	X10z.AddTimeValue(10.0, -12.25);
-	X10z.AddTimeValue(9.375, -12.25);
-	X10z.AddTimeValue(8.75, -12.25);
 	X10z.AddTimeValue(8.125, -12.25);
 	X10z.AddTimeValue(7.5, -12.25);
 	X10z.AddTimeValue(6.875, -15.25);

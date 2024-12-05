@@ -3,8 +3,6 @@ void loadC21() {
 	C21x.Init();
 	C21x.AddTimeValue(0.0, 60);
 	C21x.AddTimeValue(10.0, 57.25);
-	C21x.AddTimeValue(9.375, 57.25);
-	C21x.AddTimeValue(8.75, 57.25);
 	C21x.AddTimeValue(8.125, 57.25);
 	C21x.AddTimeValue(7.5, 57.25);
 	C21x.AddTimeValue(6.875, 57.25);
@@ -22,8 +20,6 @@ void loadC21() {
 	C21z.Init();
 	C21z.AddTimeValue(0.0, -47.75);
 	C21z.AddTimeValue(10.0, -14.75);
-	C21z.AddTimeValue(9.375, -14.75);
-	C21z.AddTimeValue(8.75, -14.75);
 	C21z.AddTimeValue(8.125, -14.75);
 	C21z.AddTimeValue(7.5, -14.75);
 	C21z.AddTimeValue(6.875, -14.75);

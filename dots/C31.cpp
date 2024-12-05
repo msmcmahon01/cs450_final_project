@@ -3,8 +3,6 @@ void loadC31() {
 	C31x.Init();
 	C31x.AddTimeValue(0.0, 27);
 	C31x.AddTimeValue(10.0, 35);
-	C31x.AddTimeValue(9.375, 35);
-	C31x.AddTimeValue(8.75, 35);
 	C31x.AddTimeValue(8.125, 35);
 	C31x.AddTimeValue(7.5, 35);
 	C31x.AddTimeValue(6.875, 35);
@@ -22,8 +20,6 @@ void loadC31() {
 	C31z.Init();
 	C31z.AddTimeValue(0.0, -47.75);
 	C31z.AddTimeValue(10.0, -15.5);
-	C31z.AddTimeValue(9.375, -15.5);
-	C31z.AddTimeValue(8.75, -15.5);
 	C31z.AddTimeValue(8.125, -15.5);
 	C31z.AddTimeValue(7.5, -15.5);
 	C31z.AddTimeValue(6.875, -15.5);

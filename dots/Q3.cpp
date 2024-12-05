@@ -3,8 +3,6 @@ void loadQ3() {
 	Q3x.Init();
 	Q3x.AddTimeValue(0.0, -28);
 	Q3x.AddTimeValue(10.0, -23.75);
-	Q3x.AddTimeValue(9.375, -23.75);
-	Q3x.AddTimeValue(8.75, -23.75);
 	Q3x.AddTimeValue(8.125, -23.75);
 	Q3x.AddTimeValue(7.5, -23.75);
 	Q3x.AddTimeValue(6.875, -23.75);
@@ -22,8 +20,6 @@ void loadQ3() {
 	Q3z.Init();
 	Q3z.AddTimeValue(0.0, -42);
 	Q3z.AddTimeValue(10.0, 8.25);
-	Q3z.AddTimeValue(9.375, 8.25);
-	Q3z.AddTimeValue(8.75, 8.25);
 	Q3z.AddTimeValue(8.125, 8.25);
 	Q3z.AddTimeValue(7.5, 8.25);
 	Q3z.AddTimeValue(6.875, 8.25);

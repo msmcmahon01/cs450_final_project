@@ -3,8 +3,6 @@ void loadU11() {
 	U11x.Init();
 	U11x.AddTimeValue(0.0, 0);
 	U11x.AddTimeValue(10.0, -3.5);
-	U11x.AddTimeValue(9.375, -3.5);
-	U11x.AddTimeValue(8.75, -3.5);
 	U11x.AddTimeValue(8.125, -3.5);
 	U11x.AddTimeValue(7.5, -3.5);
 	U11x.AddTimeValue(6.875, -3.5);
@@ -22,8 +20,6 @@ void loadU11() {
 	U11z.Init();
 	U11z.AddTimeValue(0.0, -51.5);
 	U11z.AddTimeValue(10.0, -28.75);
-	U11z.AddTimeValue(9.375, -28.75);
-	U11z.AddTimeValue(8.75, -28.75);
 	U11z.AddTimeValue(8.125, -28.75);
 	U11z.AddTimeValue(7.5, -28.75);
 	U11z.AddTimeValue(6.875, -28.75);

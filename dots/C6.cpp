@@ -3,8 +3,6 @@ void loadC6() {
 	C6x.Init();
 	C6x.AddTimeValue(0.0, 30);
 	C6x.AddTimeValue(10.0, 27.5);
-	C6x.AddTimeValue(9.375, 27.5);
-	C6x.AddTimeValue(8.75, 27.5);
 	C6x.AddTimeValue(8.125, 27.5);
 	C6x.AddTimeValue(7.5, 27.5);
 	C6x.AddTimeValue(6.875, 27.25);
@@ -22,8 +20,6 @@ void loadC6() {
 	C6z.Init();
 	C6z.AddTimeValue(0.0, -47.75);
 	C6z.AddTimeValue(10.0, -11.25);
-	C6z.AddTimeValue(9.375, -11.25);
-	C6z.AddTimeValue(8.75, -11.25);
 	C6z.AddTimeValue(8.125, -11.25);
 	C6z.AddTimeValue(7.5, -11.25);
 	C6z.AddTimeValue(6.875, -11.5);

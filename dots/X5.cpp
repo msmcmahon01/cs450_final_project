@@ -3,8 +3,6 @@ void loadX5() {
 	X5x.Init();
 	X5x.AddTimeValue(0.0, -45);
 	X5x.AddTimeValue(10.0, -51.25);
-	X5x.AddTimeValue(9.375, -51.25);
-	X5x.AddTimeValue(8.75, -51.25);
 	X5x.AddTimeValue(8.125, -51.25);
 	X5x.AddTimeValue(7.5, -51.25);
 	X5x.AddTimeValue(6.875, -51.25);
@@ -22,8 +20,6 @@ void loadX5() {
 	X5z.Init();
 	X5z.AddTimeValue(0.0, -47.75);
 	X5z.AddTimeValue(10.0, -16.75);
-	X5z.AddTimeValue(9.375, -16.75);
-	X5z.AddTimeValue(8.75, -16.75);
 	X5z.AddTimeValue(8.125, -16.75);
 	X5z.AddTimeValue(7.5, -16.75);
 	X5z.AddTimeValue(6.875, -16.75);

@@ -3,8 +3,6 @@ void loadU13() {
 	U13x.Init();
 	U13x.AddTimeValue(0.0, -6.5);
 	U13x.AddTimeValue(10.0, -7.5);
-	U13x.AddTimeValue(9.375, -7.5);
-	U13x.AddTimeValue(8.75, -7.5);
 	U13x.AddTimeValue(8.125, -7.5);
 	U13x.AddTimeValue(7.5, -7.5);
 	U13x.AddTimeValue(6.875, -7.5);
@@ -22,8 +20,6 @@ void loadU13() {
 	U13z.Init();
 	U13z.AddTimeValue(0.0, -51.5);
 	U13z.AddTimeValue(10.0, -27.25);
-	U13z.AddTimeValue(9.375, -27.25);
-	U13z.AddTimeValue(8.75, -27.25);
 	U13z.AddTimeValue(8.125, -27.25);
 	U13z.AddTimeValue(7.5, -27.25);
 	U13z.AddTimeValue(6.875, -27.25);

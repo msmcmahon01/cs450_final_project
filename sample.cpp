@@ -20,6 +20,8 @@
 #include <windows.h>
 #pragma warning(disable:4996)
 #pragma warning(disable:4244)
+#pragma warning(disable:4305)
+#pragma warning(disable:4003)
 #endif
 
 
@@ -378,26 +380,23 @@ main(int argc, char *argv[]) {
 // do not call Display( ) from here -- let glutPostRedisplay( ) do it
 
 void
-Animate( )
-{
-	// put animation stuff in here -- change some global variables for Display( ) to find:
-	if ( Freeze ) return;
+Animate() {
+	if (Freeze) return;
 
 	int ms = glutGet(GLUT_ELAPSED_TIME);
-	//ms %= MS_PER_CYCLE;							// makes the value of ms between 0 and MS_PER_CYCLE-1
-	//Time = (float)ms / (float)MS_PER_CYCLE;		// makes the value of Time between 0. and slightly less than 1.
 	int elapsedTime = ms - StartTime - PauseTime;
-	int animationDuration = 87000;
+	int animationDuration = 87000; // Duration in milliseconds
+
+	// Normalize Time between 0 and 1
 	Time = (float)elapsedTime / (float)animationDuration;
+	if (Time > 1.0f) {
+		Time -= 1.0f;
+		StartTime = ms - PauseTime; // Reset StartTime to handle the wrap-around
+	}
 
-	if (Time > 1.0f) Time = 1.0f;
-
-	// for example, if you wanted to spin an object in Display( ), you might call: glRotatef( 360.f*Time,   0., 1., 0. );
-
-	// force a call to Display( ) next time it is convenient:
-
-	glutSetWindow( MainWindow );
-	glutPostRedisplay( );
+	// Force a call to Display() next time it is convenient
+	glutSetWindow(MainWindow);
+	glutPostRedisplay();
 }
 
 
@@ -565,6 +564,14 @@ Display( )
 	glLoadIdentity( );
 	glColor3f( 1.f, 1.f, 1.f );
 	//DoRasterString( 5.f, 5.f, 0.f, (char *)"Text That Doesn't" );
+
+	float currentTime = Time * 87;
+	float A1xValue = A1x.GetValue(currentTime);
+	float A1zValue = A1z.GetValue(currentTime);
+
+	char buffer[100];
+	sprintf(buffer, "A1x: %.2f, A1z: %.2f, Time: %.2f", A1xValue, A1zValue, currentTime);
+	DoRasterString(5.0f, 5.0f, 0.0f, buffer);
 
 	// swap the double-buffered framebuffers:
 
@@ -1162,16 +1169,19 @@ Keyboard( unsigned char c, int x, int y )
 
 		case 'f':
 		case 'F':
+		case ' ':
 			Freeze = !Freeze;
 			if ( Freeze ) {
 				glutIdleFunc( NULL );
 				pauseAudio();
 				PauseTime += glutGet(GLUT_ELAPSED_TIME) - StartTime;
+				std::cout << "Paused" << std::endl;
 			}
 			else {
 				glutIdleFunc( Animate );
 				playAudio();
 				glutGet(GLUT_ELAPSED_TIME);
+				std::cout << "Unpaused" << std::endl;
 			}
 			break;
 

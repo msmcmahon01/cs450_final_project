@@ -42,23 +42,26 @@
 
 
 
-//	This is a sample OpenGL / GLUT program
-//
-//	The objective is to draw a 3d object and change the color of the axes
-//		with a glut menu
+//	This is a 3D marching band simulator,
+//		used as my final project for CS 450 at
+//		Oregon State University.
+// 
+//	The objective is to draw 3D objects simulating 
+//		the Oregon State University Marching Band's
+//		Take the Field 2024 show, performed prior
+//		to every halftime show.
 //
 //	The left mouse button does rotation
 //	The middle mouse button does scaling
-//	The user interface allows:
-//		1. The axes to be turned on and off
-//		2. The color of the axes to be changed
-//		3. Debugging to be turned on and off
-//		4. Depth cueing to be turned on and off
-//		5. The projection to be changed
-//		6. The transformations to be reset
-//		7. The program to quit
+//	Additional features added onto the sample code include:
+//		0: Switch to camera focusing on the center of the field
+//		1: Switch to camera focusing on the field from the front sideline
+//		2: Switch to camera focusing on the field from a birds-eye view
+//		3: Switch to camera focusing on the field from the box
+//			(the "box" is a term used for the uppermost part of the stands)
+//		F/Space: Pause/Unpause the animation
 //
-//	Author:			Joe Graphics
+//	Author:	Matthew McMahon
 
 // title of these windows:
 

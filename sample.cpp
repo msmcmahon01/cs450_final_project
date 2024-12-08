@@ -566,11 +566,9 @@ Display( )
 	//DoRasterString( 5.f, 5.f, 0.f, (char *)"Text That Doesn't" );
 
 	float currentTime = Time * 87;
-	float A1xValue = A1x.GetValue(currentTime);
-	float A1zValue = A1z.GetValue(currentTime);
 
 	char buffer[100];
-	sprintf(buffer, "A1x: %.2f, A1z: %.2f, Time: %.2f", A1xValue, A1zValue, currentTime);
+	sprintf(buffer, "Time: %.2f", currentTime);
 	DoRasterString(5.0f, 5.0f, 0.0f, buffer);
 
 	// swap the double-buffered framebuffers:

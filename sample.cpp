@@ -205,7 +205,7 @@ int		DepthBufferOn;			// != 0 means to use the z-buffer
 int		DepthFightingOn;		// != 0 means to force the creation of z-fighting
 int		MainWindow;				// window id for main graphics window
 int		NowColor;				// index into Colors[ ]
-int		NowProjection;		// ORTHO or PERSP
+int		NowProjection;			// ORTHO or PERSP
 float	Scale;					// scaling factor
 int		ShadowsOn;				// != 0 means to turn shadows on
 float	Time;					// used for animation, this has a value between 0. and 1.
@@ -214,11 +214,9 @@ float	Xrot, Yrot;				// rotation angles in degrees
 int		NowCameraPosition;
 bool	Freeze;
 int		PauseTime, StartTime;
-bool	isPlaying;
 ALuint	monoSource, monoSoundBuffer;
 ALCdevice	*device;
 ALCcontext	*context;
-ALuint		buffer, source;
 
 
 // function prototypes:
@@ -388,13 +386,13 @@ Animate() {
 
 	int ms = glutGet(GLUT_ELAPSED_TIME);
 	int elapsedTime = ms - StartTime - PauseTime;
-	int animationDuration = 87000; // Duration in milliseconds
+	int animationDuration = 87000;
 
 	// Normalize Time between 0 and 1
 	Time = (float)elapsedTime / (float)animationDuration;
 	if (Time > 1.0f) {
 		Time -= 1.0f;
-		StartTime = ms - PauseTime; // Reset StartTime to handle the wrap-around
+		StartTime = ms - PauseTime;
 	}
 	else if (Time < 0.f) {
 		Time = 0.f;
@@ -529,6 +527,7 @@ Display( )
 	glDisable( GL_TEXTURE_2D );
 	glDisable( GL_LIGHTING );
 
+	// draw the dots
 	loadMatricies();
 
 
@@ -572,6 +571,7 @@ Display( )
 	glColor3f( 1.f, 1.f, 1.f );
 	//DoRasterString( 5.f, 5.f, 0.f, (char *)"Text That Doesn't" );
 
+	// display the time (0-87 seconds) of animation
 	float currentTime = Time * 87;
 
 	char buffer[100];
@@ -855,6 +855,8 @@ InitGraphics( )
 #endif
 
 	// all other setups go here, such as GLSLProgram and KeyTime setups:
+
+	// setup field
 	int width, height;
 	char *file = (char*)"bmps/udbapp_field.bmp";
 	unsigned char *texture = BmpToTexture( file, &width, &height );
@@ -874,6 +876,7 @@ InitGraphics( )
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 	glTexImage2D(GL_TEXTURE_2D, 0, 3, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, texture);
 
+	// setup dots
 	loadDots();
 }
 
@@ -891,12 +894,13 @@ InitLists( )
 
 	glutSetWindow( MainWindow );
 
-	// create the object:
+	// create sphere object
 	SphereDL = glGenLists(1);
 	glNewList(SphereDL, GL_COMPILE);
 	OsuSphere(1.f, 20.f, 20.f);
 	glEndList();
 
+	// create field object
 #define XSIDE		160
 #define X0			(-XSIDE / 2.f)
 #define NX			80
@@ -1010,7 +1014,9 @@ InitMenus( )
 
 
 // initialize the sound
-// Credit due to OpenAL documentation, https://youtu.be/WvND0djMcfE?si=8bNrDh94uou5go60
+// Credit due to OpenAL documentation & https://youtu.be/WvND0djMcfE?si=8bNrDh94uou5go60
+
+
 int
 InitSound() {
 	// Find the default audio device
@@ -1054,20 +1060,6 @@ InitSound() {
 	alGenBuffers(1, &monoSoundBuffer);
 	alBufferData(monoSoundBuffer, convertFileToOpenALFormat(monoSoundFile), monoPCMDataBytes.data(), monoPCMDataBytes.size(), monoSoundFile.getSampleRate());
 
-	//AudioFile<float> stereoSoundFile;
-	//if (!stereoSoundFile.load("wavs/TakeTheField2024FullAudio.wav")) {
-	//	fprintf(stderr, "Failed to load the audio file");
-	//	return -1;
-	//}
-	//else {
-	//	std::cout << "File loaded correctly" << std::endl;
-	//}
-	//std::vector<uint8_t> stereoPCMDataBytes;
-	//stereoSoundFile.writePCMToBuffer(stereoPCMDataBytes);
-	//ALuint stereoSoundBuffer;
-	//alGenBuffers(1, &stereoSoundBuffer);
-	//alBufferData(stereoSoundBuffer, convertFileToOpenALFormat(stereoSoundFile), stereoPCMDataBytes.data(), stereoPCMDataBytes.size(), stereoSoundFile.getSampleRate());
-
 	// Check for OpenAL errors
 	ALenum error = alGetError();
 	if (error != AL_NO_ERROR) {
@@ -1084,14 +1076,6 @@ InitSound() {
 	alSourcei(monoSource, AL_LOOPING, AL_FALSE);
 	alSourcei(monoSource, AL_BUFFER, monoSoundBuffer);
 
-	// Create a sound source that plays the stereo sound
-	//ALuint stereoSource;
-	//alGenSources(1, &stereoSource);
-	//alSourcef(stereoSource, AL_PITCH, 1.f);
-	//alSourcef(stereoSource, AL_GAIN, 1.f);
-	//alSourcef(stereoSource, AL_LOOPING, AL_FALSE);
-	//alSourcef(stereoSource, AL_BUFFER, stereoSoundBuffer);
-
 	// Check for OpenAL errors
 	error = alGetError();
 	if (error != AL_NO_ERROR) {
@@ -1100,21 +1084,6 @@ InitSound() {
 	}
 
 	return 0;
-
-	// Play the mono sound
-	alSourcePlay(monoSource);
-	ALint sourceState;
-	alGetSourcei(monoSource, AL_SOURCE_STATE, &sourceState);
-	while (sourceState == AL_PLAYING) {
-		alGetSourcei(monoSource, AL_SOURCE_STATE, &sourceState);
-	}
-
-	// Play the stereo sound
-	//alSourcePlay(stereoSource);
-	//alGetSourcei(stereoSource, AL_SOURCE_STATE, &sourceState);
-	//while (sourceState = AL_PLAYING) {
-	//	alGetSourcei(stereoSource, AL_SOURCE_STATE, &sourceState);
-	//}
 }
 
 
@@ -1143,12 +1112,11 @@ Keyboard( unsigned char c, int x, int y )
 		case ESCAPE:
 			// Cleanup OpenAL resources
 			alDeleteSources(1, &monoSource);
-			//alDeleteSources(1, &stereoSource);
 			alDeleteBuffers(1, &monoSoundBuffer);
-			//alDeleteBuffers(1, &stereoSoundBuffer);
 			alcMakeContextCurrent(nullptr);
 			alcDestroyContext(context);
 			alcCloseDevice(device);
+
 			DoMainMenu( QUIT );	// will not return here
 			break;				// happy compiler
 
@@ -1303,7 +1271,7 @@ void
 Reset( )
 {
 	ActiveButton = 0;
-	AxesOn = 1;
+	AxesOn = 0;
 	DebugOn = 0;
 	DepthBufferOn = 1;
 	DepthFightingOn = 0;
@@ -1313,12 +1281,11 @@ Reset( )
 	NowColor = YELLOW;
 	NowProjection = PERSP;
 	Xrot = Yrot = 0.;
-	isPlaying = 1;
 	Freeze = 1;
 	Time = 0.f;
 	PauseTime = 0;
 	StartTime = 0;
-	NowCameraPosition = 2;
+	NowCameraPosition = 0;
 }
 
 
@@ -1589,44 +1556,15 @@ Unit( float v[3] )
 }
 
 
-// OpenAL functions
+// play and pause audio functions
 
-//void initOpenAL() {
-//	device = alcOpenDevice(NULL);
-//	context = alcCreateContext(device, NULL);
-//	alcMakeContextCurrent(context);
-//	alGenBuffers(1, &buffer);
-//	alGenSources(1, &source);
-//}
-//
-//bool loadWavFile(const std::string& filename, std::vector<char>& bufferData, ALenum& format, ALsizei& freq) {
-//	std::ifstream file(filename, std::ios::binary);
-//	if (!file.is_open()) return false;
-//
-//	char chunkId[4];
-//	file.read(chunkId, 4);
-//	if (std::strncmp(chunkId, "RIFF", 4) != 0) return false;
-//
-//	file.seekg(20);
-//	file.read(reinterpret_cast<char*>(&format), 2);
-//
-//	file.seekg(24);
-//	file.read(reinterpret_cast<char*>(&freq), 4);
-//
-//	file.seekg(40);
-//	int dataSize;
-//	file.read(reinterpret_cast<char*>(&dataSize), 4);
-//
-//	bufferData.resize(dataSize);
-//	file.read(bufferData.data(), dataSize);
-//
-//	return true;
-//}
-
-void playAudio() {
+void
+playAudio() {
 	alSourcePlay(monoSource);
 }
 
-void pauseAudio() {
+
+void
+pauseAudio() {
 	alSourcePause(monoSource);
 }

@@ -396,6 +396,10 @@ Animate() {
 		Time -= 1.0f;
 		StartTime = ms - PauseTime; // Reset StartTime to handle the wrap-around
 	}
+	else if (Time < 0.f) {
+		Time = 0.f;
+		StartTime = glutGet(GLUT_ELAPSED_TIME);
+	}
 
 	// Force a call to Display() next time it is convenient
 	glutSetWindow(MainWindow);

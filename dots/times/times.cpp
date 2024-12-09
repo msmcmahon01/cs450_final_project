@@ -9,7 +9,7 @@
 #define t8  56.0
 #define t9  59.2
 #define t10 65.6
-#define t11 69
-#define t12 70.4
-#define t13 72.8
-#define t14 73.6
+#define t11 69.0
+#define t12 70.3
+#define t13 71.6
+#define t14 73.0

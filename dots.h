@@ -1320,7 +1320,7 @@ void loadTMatricies() {
 	glCallList(SphereDL);
 	glPopMatrix();
 	glPushMatrix();
-	glColor3f(1, 0, 0);																// TO FIX
+	glColor3f(0.8431372549019608, 0.24705882352941178, 0.03529411764705882);
 	glTranslatef(T28x.GetValue(Time * 87), 0, T28z.GetValue(Time * 87));
 	glCallList(SphereDL);
 	glPopMatrix();
@@ -1390,12 +1390,12 @@ void loadTMatricies() {
 	glCallList(SphereDL);
 	glPopMatrix();
 	glPushMatrix();
-	glColor3f(0.8431372549019608, 0.24705882352941178, 0.03529411764705882);																// TO FIX
+	glColor3f(0.8431372549019608, 0.24705882352941178, 0.03529411764705882);
 	glTranslatef(T42x.GetValue(Time * 87), 0, T42z.GetValue(Time * 87));
 	glCallList(SphereDL);
 	glPopMatrix();
 	glPushMatrix();
-	glColor3f(0.8431372549019608, 0.24705882352941178, 0.03529411764705882);																// TO FIX
+	glColor3f(0.8431372549019608, 0.24705882352941178, 0.03529411764705882);
 	glTranslatef(T43x.GetValue(Time * 87), 0,T43z.GetValue(Time * 87));
 	glCallList(SphereDL);
 	glPopMatrix();

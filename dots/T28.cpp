@@ -19,7 +19,7 @@ void loadT28() {
 
 	T28z.Init();
 	T28z.AddTimeValue(t0, 44);
-	T28z.AddTimeValue(t14, 3.5);
+	T28z.AddTimeValue(t14, 32.5);
 	T28z.AddTimeValue(t13, 33);
 	T28z.AddTimeValue(t12, 33.75);
 	T28z.AddTimeValue(t11, 34.25);

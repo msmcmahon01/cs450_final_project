@@ -3,11 +3,11 @@ void loadT43() {
 	T43x.Init();
 	T43x.AddTimeValue(t0, 16);
 	T43x.AddTimeValue(t14, -11.75);
-	T43x.AddTimeValue(t13, -4);
+	T43x.AddTimeValue(t13, -8);
 	T43x.AddTimeValue(t12, -4.5);
 	T43x.AddTimeValue(t11, -0.75);
-	T43x.AddTimeValue(t10, -3);
-	T43x.AddTimeValue(t9, -3);
+	T43x.AddTimeValue(t10, 3);
+	T43x.AddTimeValue(t9, 3);
 	T43x.AddTimeValue(t8, 0);
 	T43x.AddTimeValue(t7, 4);
 	T43x.AddTimeValue(t6, 4);

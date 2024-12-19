@@ -1,4 +1,5 @@
 This project was made by @msmcmahon01 as a final project for CS450 at Oregon State University
+
 9/12/2024 | msmcmahon01@gmail.com | mcmahoma@oregonstate.edu
 
 The following program is a 3D marching band simulator, used as my final project for CS 450 at

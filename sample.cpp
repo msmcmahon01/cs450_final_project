@@ -20,6 +20,7 @@
 #include <windows.h>
 #pragma warning(disable:4996)
 #pragma warning(disable:4244)
+#pragma warning(disable:4305)
 #endif
 
 

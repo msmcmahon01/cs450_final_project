@@ -1,4 +1,4 @@
-ppKeytimes P17x, P17z;
+Keytimes P17x, P17z;
 void loadP17() {
 	P17x.Init();
 	P17x.AddTimeValue(t0, 12);

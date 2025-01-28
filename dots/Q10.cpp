@@ -5,7 +5,7 @@ void loadQ10() {
 	Q10x.AddTimeValue(t14, -62.5);
 	Q10x.AddTimeValue(t13, -62.5);
 	Q10x.AddTimeValue(t12, -60);
-	Q10x.AddTimeValue(t11, -5t12);
+	Q10x.AddTimeValue(t11, -57.5);
 	Q10x.AddTimeValue(t10, -55);
 	Q10x.AddTimeValue(t9, -55);
 	Q10x.AddTimeValue(t8, -48);

@@ -1,4 +1,4 @@
-pKeytimes B14x, B14z;
+Keytimes B14x, B14z;
 void loadB14() {
 	B14x.Init();
 	B14x.AddTimeValue(t0, -14);
